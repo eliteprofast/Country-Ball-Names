@@ -15,11 +15,11 @@
       <h1 class="mb-4 text-center display-4 fw-bold text-primary">Country Name Hunt</h1>
       <div id="emoji" class="mb-4 text-center" style="font-size: 5rem;"></div>
       <form class="row g-2 w-100 justify-content-center align-items-center mb-3" onsubmit="checkGuess(); return false;">
-        <div class="col-12 col-sm-8">
+        <div class="col-12">
           <input id="guess" type="text" class="form-control fs-2 text-center" placeholder="Enter country name"
             onkeydown="if(event.key==='Escape'){skipCountry();}" autocomplete="off" />
         </div>
-        <div class="col-12 col-sm-4 d-flex flex-column gap-2 mt-2 mt-sm-0 mt-4">
+        <div class="col-12 d-flex flex-column gap-2 mt-4">
           <button type="submit" class="btn btn-primary flex-fill">Guess</button>
           <button type="button" onclick="skipCountry()" class="btn btn-secondary flex-fill">Skip</button>
         </div>
