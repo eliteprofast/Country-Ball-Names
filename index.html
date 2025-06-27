@@ -30,7 +30,7 @@
   <div id="score"
     class="position-fixed top-0 start-0 m-3 px-3 py-2 bg-white bg-opacity-75 rounded shadow fw-bold text-primary"
     style="z-index:10;">
-    Score: 0
+    Coins: 0
   </div>
   <script>
     let countryballs = [];
@@ -42,7 +42,7 @@
       });
 
     let currentCountry = {};
-    let score = 0;
+    let coins = Number(localStorage.getItem('coins') || 0);
     let totalGuesses = 0;
 
     function getCountryCode(name) {
@@ -89,8 +89,9 @@
       return codes[name] || '';
     }
 
-    function updateScore() {
-      document.getElementById("score").innerText = `Score: ${score}`;
+    function updateCoins() {
+      document.getElementById("score").innerText = `Coins: ${coins}`;
+      localStorage.setItem('coins', coins);
     }
 
     function pickRandomCountry() {
@@ -101,15 +102,15 @@
       document.getElementById("emoji").innerHTML = flagImg + currentCountry.emoji;
       document.getElementById("result").innerText = "";
       document.getElementById("guess").value = "";
-      updateScore();
+      updateCoins();
     }
 
     function checkGuess() {
       const userGuess = document.getElementById("guess").value.trim();
       totalGuesses++;
       if (userGuess.toLowerCase() === currentCountry.name.toLowerCase()) {
-        score++;
-        updateScore();
+        coins++;
+        updateCoins();
         document.getElementById("result").innerText = `Correct!`;
         setTimeout(pickRandomCountry, 1000);
       } else {
