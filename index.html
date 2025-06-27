@@ -86,11 +86,27 @@
       box-shadow: 0 2px 8px #b0c4de;
       z-index: 10;
     }
+
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 3rem;
+      background: #2d3a4b;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      z-index: 100;
+    }
   </style>
 </head>
 
 <body>
-  <h1>CountryNameHunt</h1>
+  <h1>Country Name Hunt</h1>
   <div id="emoji" style="font-size: 5rem;"></div>
   <input id="guess" type="text" placeholder="Enter country name" onkeydown="if(event.key==='Enter'||event.key===' '){checkGuess();}else if(event.key==='Escape'){skipCountry();}" />
   <button onclick="checkGuess()">Guess</button>
@@ -188,7 +204,28 @@
       document.getElementById("result").innerText = `Skipped! The answer was: ${currentCountry.name}.`;
       setTimeout(pickRandomCountry, 1200);
     }
+
+    // Set footer year dynamically
+    document.getElementById('footer-year').innerText = new Date().getFullYear();
   </script>
+  <footer style="
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 3rem;
+    background: #2d3a4b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    z-index: 100;
+  ">
+    <span style="margin-right: 0.5rem;">&copy;</span>
+    <span id="footer-year"></span> Muhammad Ali Attari
+  </footer>
 </body>
 
 </html>
