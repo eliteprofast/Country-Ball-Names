@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Countryballs Name Hunt</title>
+  <title>Country Name Hunt</title>
+  <link rel="icon" type="image/png" href="pakistan-ball.png">
   <style>
     body {
       min-height: 100vh;
@@ -65,15 +66,37 @@
       min-height: 2rem;
       font-weight: 500;
     }
+
+    .skip-button {
+      background: #b0c4de;
+      color: #2d3a4b;
+      margin-left: 0.5rem;
+    }
+
+    #score {
+      position: fixed;
+      top: 1.5rem;
+      left: 2rem;
+      font-size: 1.3rem;
+      color: #2d3a4b;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 0.5rem 1.2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #b0c4de;
+      z-index: 10;
+    }
   </style>
 </head>
 
 <body>
-  <h1>Countryballs Name Hunt</h1>
+  <h1>CountryNameHunt</h1>
   <div id="emoji" style="font-size: 5rem;"></div>
-  <input id="guess" type="text" placeholder="Enter country name" />
+  <input id="guess" type="text" placeholder="Enter country name" onkeydown="if(event.key==='Enter'||event.key===' '){checkGuess();}else if(event.key==='Escape'){skipCountry();}" />
   <button onclick="checkGuess()">Guess</button>
+  <button onclick="skipCountry()" class="skip-button">Skip</button>
   <div id="result"></div>
+  <div id="score">Score: 0</div>
   <script>
     let countryballs = [];
     fetch('countryballs.json')
@@ -87,12 +110,65 @@
     let score = 0;
     let totalGuesses = 0;
 
+    function getCountryCode(name) {
+      // Map country names to ISO 3166-1 alpha-2 codes (lowercase)
+      // This is a minimal example, you should expand this for all countries in your JSON
+      const codes = {
+        "Afghanistan": "af", "Albania": "al", "Algeria": "dz", "Andorra": "ad", "Angola": "ao",
+        "Argentina": "ar", "Armenia": "am", "Australia": "au", "Austria": "at", "Azerbaijan": "az",
+        "Bahamas": "bs", "Bahrain": "bh", "Bangladesh": "bd", "Barbados": "bb", "Belarus": "by",
+        "Belgium": "be", "Belize": "bz", "Benin": "bj", "Bhutan": "bt", "Bolivia": "bo",
+        "Bosnia and Herzegovina": "ba", "Botswana": "bw", "Brazil": "br", "Brunei": "bn", "Bulgaria": "bg",
+        "Burkina Faso": "bf", "Burundi": "bi", "Cabo Verde": "cv", "Cambodia": "kh", "Cameroon": "cm",
+        "Canada": "ca", "Central African Republic": "cf", "Chad": "td", "Chile": "cl", "China": "cn",
+        "Colombia": "co", "Comoros": "km", "Congo": "cg", "Costa Rica": "cr", "Croatia": "hr",
+        "Cuba": "cu", "Cyprus": "cy", "Czechia": "cz", "Denmark": "dk", "Djibouti": "dj",
+        "Dominica": "dm", "Dominican Republic": "do", "Ecuador": "ec", "Egypt": "eg", "El Salvador": "sv",
+        "Equatorial Guinea": "gq", "Eritrea": "er", "Estonia": "ee", "Eswatini": "sz", "Ethiopia": "et",
+        "Fiji": "fj", "Finland": "fi", "France": "fr", "Gabon": "ga", "Gambia": "gm", "Georgia": "ge",
+        "Germany": "de", "Ghana": "gh", "Greece": "gr", "Grenada": "gd", "Guatemala": "gt",
+        "Guinea": "gn", "Guinea-Bissau": "gw", "Guyana": "gy", "Haiti": "ht", "Honduras": "hn",
+        "Hungary": "hu", "Iceland": "is", "India": "in", "Indonesia": "id", "Iran": "ir", "Iraq": "iq",
+        "Ireland": "ie", "Israel": "il", "Italy": "it", "Jamaica": "jm", "Japan": "jp", "Jordan": "jo",
+        "Kazakhstan": "kz", "Kenya": "ke", "Kiribati": "ki", "Kuwait": "kw", "Kyrgyzstan": "kg",
+        "Laos": "la", "Latvia": "lv", "Lebanon": "lb", "Lesotho": "ls", "Liberia": "lr", "Libya": "ly",
+        "Liechtenstein": "li", "Lithuania": "lt", "Luxembourg": "lu", "Madagascar": "mg", "Malawi": "mw",
+        "Malaysia": "my", "Maldives": "mv", "Mali": "ml", "Malta": "mt", "Marshall Islands": "mh",
+        "Mauritania": "mr", "Mauritius": "mu", "Mexico": "mx", "Micronesia": "fm", "Moldova": "md",
+        "Monaco": "mc", "Mongolia": "mn", "Montenegro": "me", "Morocco": "ma", "Mozambique": "mz",
+        "Myanmar": "mm", "Namibia": "na", "Nauru": "nr", "Nepal": "np", "Netherlands": "nl",
+        "New Zealand": "nz", "Nicaragua": "ni", "Niger": "ne", "Nigeria": "ng", "North Korea": "kp",
+        "North Macedonia": "mk", "Norway": "no", "Oman": "om", "Pakistan": "pk", "Palau": "pw",
+        "Palestine": "ps", "Panama": "pa", "Papua New Guinea": "pg", "Paraguay": "py", "Peru": "pe",
+        "Philippines": "ph", "Poland": "pl", "Portugal": "pt", "Qatar": "qa", "Romania": "ro",
+        "Russia": "ru", "Rwanda": "rw", "Saint Kitts and Nevis": "kn", "Saint Lucia": "lc",
+        "Saint Vincent and the Grenadines": "vc", "Samoa": "ws", "San Marino": "sm", "Sao Tome and Principe": "st",
+        "Saudi Arabia": "sa", "Senegal": "sn", "Serbia": "rs", "Seychelles": "sc", "Sierra Leone": "sl",
+        "Singapore": "sg", "Slovakia": "sk", "Slovenia": "si", "Solomon Islands": "sb", "Somalia": "so",
+        "South Africa": "za", "South Korea": "kr", "South Sudan": "ss", "Spain": "es", "Sri Lanka": "lk",
+        "Sudan": "sd", "Suriname": "sr", "Sweden": "se", "Switzerland": "ch", "Syria": "sy",
+        "Taiwan": "tw", "Tajikistan": "tj", "Tanzania": "tz", "Thailand": "th", "Timor-Leste": "tl",
+        "Togo": "tg", "Tonga": "to", "Trinidad and Tobago": "tt", "Tunisia": "tn", "Turkey": "tr",
+        "Turkmenistan": "tm", "Tuvalu": "tv", "Uganda": "ug", "Ukraine": "ua", "United Arab Emirates": "ae",
+        "United Kingdom": "gb", "United States": "us", "Uruguay": "uy", "Uzbekistan": "uz", "Vanuatu": "vu",
+        "Vatican City": "va", "Venezuela": "ve", "Vietnam": "vn", "Yemen": "ye", "Zambia": "zm", "Zimbabwe": "zw"
+      };
+      return codes[name] || '';
+    }
+
+    function updateScore() {
+      document.getElementById("score").innerText = `Score: ${score}`;
+    }
+
     function pickRandomCountry() {
       const randomIndex = Math.floor(Math.random() * countryballs.length);
       currentCountry = countryballs[randomIndex];
-      document.getElementById("emoji").innerText = currentCountry.emoji;
+      const code = getCountryCode(currentCountry.name);
+      const flagImg = code ? `<img src="https://flagcdn.com/64x48/${code}.png" alt="flag" style="height:2.5rem;vertical-align:middle;margin-right:0.5rem;border-radius:4px;box-shadow:0 2px 8px #b0c4de;">` : '';
+      document.getElementById("emoji").innerHTML = flagImg + currentCountry.emoji;
       document.getElementById("result").innerText = "";
       document.getElementById("guess").value = "";
+      updateScore();
     }
 
     function checkGuess() {
@@ -100,11 +176,17 @@
       totalGuesses++;
       if (userGuess.toLowerCase() === currentCountry.name.toLowerCase()) {
         score++;
-        document.getElementById("result").innerText = `Correct! Your score is ${score}.`;
+        updateScore();
+        document.getElementById("result").innerText = `Correct!`;
         setTimeout(pickRandomCountry, 1000);
       } else {
         document.getElementById("result").innerText = `Wrong! Try again.`;
       }
+    }
+
+    function skipCountry() {
+      document.getElementById("result").innerText = `Skipped! The answer was: ${currentCountry.name}.`;
+      setTimeout(pickRandomCountry, 1200);
     }
   </script>
 </body>
