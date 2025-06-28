@@ -13,6 +13,17 @@
     </style>
 </head>
 <body>
+    <button id="stickerLibraryBtn" style="position:absolute;top:18px;right:18px;background:#fffbe6;color:#10b981;font-weight:bold;border:2px solid #10b981;border-radius:18px;padding:8px 18px;box-shadow:0 2px 8px #f59e4222;cursor:pointer;z-index:10;">Your-Sticker-Library</button>
+        <div id="stickerLibraryModal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.25);z-index:100;align-items:center;justify-content:center;">
+          <div id="stickerLibraryContent" style="background:#fffbe6;padding:24px 32px;border-radius:16px;box-shadow:0 2px 16px #f59e4222;min-width:220px;max-width:90vw;position:relative;display:flex;flex-direction:column;align-items:center;">
+            <button id="closeStickerLibrary" style="position:absolute;top:8px;right:12px;background:none;border:none;font-size:1.5em;color:#10b981;cursor:pointer;">&times;</button>
+            <div style="font-weight:bold;font-size:1.2em;color:#10b981;margin-bottom:12px;">Your Equipped Sticker</div>
+            <div id="equippedStickerDisplay" style="font-size:2.5em;margin-bottom:8px;"></div>
+            <div id="equippedStickerName" style="font-size:1.1em;color:#555;"></div>
+            <div style="font-weight:bold;font-size:1.1em;color:#10b981;margin:18px 0 8px 0;">Pick a Sticker</div>
+            <div id="libraryStickerOptions" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;"></div>
+          </div>
+        </div>
     <div id="game-container">
         <div id="question"></div>
         <div style="display:flex;gap:10px;justify-content:center;align-items:center;margin-bottom:10px;">
@@ -24,6 +35,10 @@
         <div id="coins" style="margin:16px 0 0 0;font-size:1.18em;color:#f59e42;font-weight:bold;display:flex;align-items:center;justify-content:center;gap:0.5em;background:#fffbe6;padding:8px 18px;border-radius:18px;box-shadow:0 2px 8px #f59e4222;max-width:180px;margin-left:auto;margin-right:auto;">
           <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fa99.png" alt="coin" style="height:1.4em;width:1.4em;vertical-align:middle;"> 
           <span id="coinCount">0</span>
+        </div>
+        <div id="rewardList" style="margin:18px 0 0 0; display:none; flex-direction:column; align-items:center; background:#fffbe6; border-radius:12px; box-shadow:0 2px 8px #f59e4222; padding:12px 18px; max-width:260px; margin-left:auto; margin-right:auto;">
+          <div style="font-weight:bold; color:#10b981; margin-bottom:8px;">🎁 Reward! Pick a sticker:</div>
+          <div id="rewardOptions" style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;"></div>
         </div>
 
     </div>
@@ -52,14 +67,22 @@
         }
 
         function generateQuestion() {
-            const ops = ['+', '-', 'x'];
-            num1 = randomInt(1, 20);
-            num2 = randomInt(1, 20);
+            // Show sticker library only once (first time coins >= 2 or coins % 5 === 0 and not shown before)
+            if (!localStorage.getItem('stickerRewardShown')) {
+                if ((coins === 2 || coins % 5 === 0) && coins > 0) {
+                    localStorage.setItem('stickerRewardShown', '1');
+                    showRewardList();
+                    return;
+                }
+            }
+            // Easier questions: only + and - operators, numbers 1-10
+            const ops = ['+', '-'];
+            num1 = randomInt(1, 10);
+            num2 = randomInt(1, 10);
             operator = ops[randomInt(0, ops.length - 1)];
             if (operator === '-' && num2 > num1) [num1, num2] = [num2, num1];
-            // Use x for display, * for calculation
-            let displayOperator = operator === 'x' ? '×' : operator;
-            correctAnswer = operator === 'x' ? num1 * num2 : eval(`${num1} ${operator} ${num2}`);
+            let displayOperator = operator;
+            correctAnswer = eval(`${num1} ${operator} ${num2}`);
             document.getElementById('question').textContent = `What is ${num1} ${displayOperator} ${num2}?`;
             document.getElementById('answer').value = '';
             document.getElementById('answer').focus();
@@ -75,12 +98,120 @@
                 animateCoin();
                 document.getElementById('result').textContent = 'Correct!';
                 document.getElementById('result').style.color = 'green';
+                // Only show sticker reward if not already shown
+                if (!localStorage.getItem('stickerRewardShown')) {
+                    if (coins === 1 || coins % 5 === 0) {
+                        localStorage.setItem('stickerRewardShown', '1');
+                        showRewardList();
+                        return;
+                    }
+                }
             } else {
                 document.getElementById('result').textContent = `Wrong! The answer was ${correctAnswer}.`;
                 document.getElementById('result').style.color = 'red';
             }
             setTimeout(generateQuestion, 2000);
         }
+
+        // Sticker list (global, so both reward and library can use)
+        const stickers = [
+            { label: '🐶', name: 'Dog' },
+            { label: '🐱', name: 'Cat' },
+            { label: '🦄', name: 'Unicorn' },
+            { label: '🐼', name: 'Panda' },
+            { label: '🐧', name: 'Penguin' },
+            { label: '🦊', name: 'Fox' },
+            { label: '🐸', name: 'Frog' },
+            { label: '🐵', name: 'Monkey' },
+            { label: '🐯', name: 'Tiger' },
+            { label: '🦁', name: 'Lion' }
+        ];
+
+        function showRewardList() {
+            const rewardList = document.getElementById('rewardList');
+            const rewardOptions = document.getElementById('rewardOptions');
+            rewardOptions.innerHTML = '';
+            stickers.forEach(sticker => {
+                const btn = document.createElement('button');
+                btn.innerHTML = `<span style="font-size:2em;">${sticker.label}</span><br><span style="font-size:0.9em;">${sticker.name}</span>`;
+                btn.style.background = '#fff';
+                btn.style.color = '#10b981';
+                btn.style.border = '2px solid #10b981';
+                btn.style.borderRadius = '10px';
+                btn.style.padding = '8px 10px';
+                btn.style.fontSize = '1em';
+                btn.style.cursor = 'pointer';
+                btn.style.display = 'flex';
+                btn.style.flexDirection = 'column';
+                btn.style.alignItems = 'center';
+                btn.style.justifyContent = 'center';
+                btn.style.minWidth = '54px';
+                btn.style.margin = '2px';
+                btn.onclick = function() {
+                    rewardList.style.display = 'none';
+                    // Save equipped sticker to localStorage
+                    localStorage.setItem('equippedSticker', JSON.stringify(sticker));
+                    document.getElementById('result').textContent = `You picked: ${sticker.label} ${sticker.name}`;
+                    document.getElementById('result').style.color = '#10b981';
+                    setTimeout(generateQuestion, 2000);
+                };
+                rewardOptions.appendChild(btn);
+            });
+            rewardList.style.display = 'flex';
+            document.getElementById('answer').blur();
+        }
+        // Sticker Library Modal logic
+        document.getElementById('stickerLibraryBtn').onclick = function() {
+            const modal = document.getElementById('stickerLibraryModal');
+            const equipped = JSON.parse(localStorage.getItem('equippedSticker') || 'null');
+            const display = document.getElementById('equippedStickerDisplay');
+            const name = document.getElementById('equippedStickerName');
+            if (equipped) {
+                display.textContent = equipped.label;
+                name.textContent = equipped.name;
+            } else {
+                display.textContent = '❓';
+                name.textContent = 'No sticker equipped yet!';
+            }
+            // Show all stickers to pick from
+            const options = document.getElementById('libraryStickerOptions');
+            options.innerHTML = '';
+            stickers.forEach(sticker => {
+                const btn = document.createElement('button');
+                btn.innerHTML = `<span style="font-size:2em;">${sticker.label}</span><br><span style="font-size:0.9em;">${sticker.name}</span>`;
+                btn.style.background = '#fff';
+                btn.style.color = '#10b981';
+                btn.style.border = '2px solid #10b981';
+                btn.style.borderRadius = '10px';
+                btn.style.padding = '8px 10px';
+                btn.style.fontSize = '1em';
+                btn.style.cursor = 'pointer';
+                btn.style.display = 'flex';
+                btn.style.flexDirection = 'column';
+                btn.style.alignItems = 'center';
+                btn.style.justifyContent = 'center';
+                btn.style.minWidth = '54px';
+                btn.style.margin = '2px';
+                btn.onclick = function() {
+                    localStorage.setItem('equippedSticker', JSON.stringify(sticker));
+                    display.textContent = sticker.label;
+                    name.textContent = sticker.name;
+                };
+                options.appendChild(btn);
+            });
+            modal.style.display = 'flex';
+        };
+
+        document.getElementById('closeStickerLibrary').onclick = function() {
+            document.getElementById('stickerLibraryModal').style.display = 'none';
+        };
+
+        // Also close modal if user clicks outside the modal content
+        document.getElementById('stickerLibraryModal').addEventListener('mousedown', function(e) {
+            if (e.target === this) {
+                this.style.display = 'none';
+            }
+        });
 
         document.getElementById('answer').addEventListener('keydown', function(e) {
             if (e.key === 'Enter' && !document.getElementById('submitBtn').disabled) {
@@ -89,6 +220,15 @@
             } else if ((e.key === 'Escape' || e.key === 'Esc') && !document.getElementById('skipBtn').disabled) {
                 e.preventDefault();
                 skipQuestion();
+            }
+        });
+
+        // Hide reward list and continue if user clicks outside
+        document.addEventListener('mousedown', function(e) {
+            const rewardList = document.getElementById('rewardList');
+            if (rewardList.style.display === 'flex' && !rewardList.contains(e.target)) {
+                rewardList.style.display = 'none';
+                setTimeout(generateQuestion, 200);
             }
         });
 
