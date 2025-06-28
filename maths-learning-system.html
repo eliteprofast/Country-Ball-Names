@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maths Learning Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f0f0; text-align: center; }
+        #game-container { background: #fff; padding: 30px; margin: 50px auto; width: 350px; border-radius: 10px; box-shadow: 0 2px 8px #ccc; }
+        #question { font-size: 1.5em; margin-bottom: 20px; }
+        #result { margin-top: 15px; font-weight: bold; }
+        input[type="number"] { font-size: 1em; padding: 5px; width: 80px; }
+        button { font-size: 1em; padding: 7px 20px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div id="question"></div>
+        <input type="number" id="answer" autocomplete="off" />
+        <button onclick="submitAnswer()">Submit</button>
+        <div id="result"></div>
+        <div id="score"></div>
+    </div>
+    <script>
+        let num1, num2, operator, correctAnswer, score = 0, total = 0;
+
+        function randomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function generateQuestion() {
+            const ops = ['+', '-', '*'];
+            num1 = randomInt(1, 20);
+            num2 = randomInt(1, 20);
+            operator = ops[randomInt(0, ops.length - 1)];
+            if (operator === '-' && num2 > num1) [num1, num2] = [num2, num1];
+            correctAnswer = eval(`${num1} ${operator} ${num2}`);
+            document.getElementById('question').textContent = `What is ${num1} ${operator} ${num2}?`;
+            document.getElementById('answer').value = '';
+            document.getElementById('answer').focus();
+            document.getElementById('result').textContent = '';
+        }
+
+        function submitAnswer() {
+            const userAnswer = Number(document.getElementById('answer').value);
+            total++;
+            if (userAnswer === correctAnswer) {
+                score++;
+                document.getElementById('result').textContent = 'Correct!';
+                document.getElementById('result').style.color = 'green';
+            } else {
+                document.getElementById('result').textContent = `Wrong! The answer was ${correctAnswer}.`;
+                document.getElementById('result').style.color = 'red';
+            }
+            document.getElementById('score').textContent = `Score: ${score} / ${total}`;
+            setTimeout(generateQuestion, 1200);
+        }
+
+        document.getElementById('answer').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') submitAnswer();
+        });
+
+        generateQuestion();
+    </script>
+</body>
+</html>
