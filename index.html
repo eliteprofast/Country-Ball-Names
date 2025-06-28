@@ -10,12 +10,16 @@
 </head>
 
 <body class="bg-light d-flex flex-column min-vh-100">
+  <nav style="width:100vw;position:fixed;top:0;left:0;z-index:1000;background:#10b981;color:#fff;box-shadow:0 2px 8px #10b98122;display:flex;align-items:center;justify-content:center;height:54px;">
+    <a href="index.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Country Name Hunt</a>
+    <a href="logo-guess.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Logo Guess Game</a>
+    <a href="maths-learning-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Maths Learning</a>
+  </nav>
+  <div style="height:54px;"></div>
   <div class="container d-flex flex-column align-items-center justify-content-center flex-grow-1">
     <div class="card shadow-lg p-4 mt-5 mb-5 w-100" style="max-width: 420px;">
       <h1 class="mb-4 text-center display-4 fw-bold text-primary">Country Name Hunt</h1>
-      <div class="mb-3 text-center">
-        <a href="logo-guess.html" class="btn btn-outline-primary" target="_blank">Play Logo Guess Game</a>
-      </div>
+      <!-- Removed Play Logo Guess Game button -->
       <div id="emoji" class="mb-4 text-center" style="font-size: 5rem;"></div>
       <form class="row g-2 w-100 justify-content-center align-items-center mb-3" onsubmit="checkGuess(); return false;">
         <div class="col-12">
