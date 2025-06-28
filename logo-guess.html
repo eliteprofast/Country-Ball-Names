@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess the Logo Game</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: center;
+      margin-top: 30px;
+      background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
+      min-height: 100vh;
+    }
+    img {
+      width: 180px;
+      height: auto;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 2px 8px #0002);
+      background: #fff;
+      border-radius: 12px;
+      padding: 8px;
+    }
+    input {
+      padding: 12px;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 1.5px solid #b3b3b3;
+      outline: none;
+      transition: border 0.2s;
+    }
+    input:focus {
+      border: 1.5px solid #6366f1;
+      box-shadow: 0 0 0 2px #6366f133;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 18px;
+      margin-left: 10px;
+      border-radius: 8px;
+      border: none;
+      background: #6366f1;
+      color: #fff;
+      font-weight: 500;
+      box-shadow: 0 2px 8px #6366f122;
+      transition: background 0.2s, color 0.2s;
+      cursor: pointer;
+    }
+    button:disabled {
+      background: #b3b3b3;
+      color: #eee;
+      cursor: not-allowed;
+    }
+    #skipBtn {
+      background: #f59e42;
+      color: #fff;
+    }
+    #skipBtn:disabled {
+      background: #f3d1a2;
+      color: #fff;
+    }
+    #restartBtn {
+      background: #10b981;
+      color: #fff;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: bold;
+      min-height: 32px;
+      letter-spacing: 0.5px;
+      transition: color 0.2s;
+    }
+    #game-container {
+      display: inline-block;
+      background: #fff;
+      padding: 32px 40px 40px 40px;
+      border-radius: 22px;
+      box-shadow: 0 6px 32px #6366f133;
+      margin-top: 30px;
+      min-width: 320px;
+      max-width: 95vw;
+    }
+    #scoreDisplay {
+      margin-top: 10px;
+      color: #6366f1;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    @media (max-width: 600px) {
+      #game-container {
+        padding: 18px 4vw 24px 4vw;
+        min-width: unset;
+      }
+      img {
+        width: 120px;
+        padding: 4px;
+      }
+      input, button {
+        font-size: 16px;
+        padding: 10px 12px;
+      }
+      #result {
+        font-size: 18px;
+      }
+      #scoreDisplay {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 style="font-size:2.2rem; color:#6366f1; margin-bottom:18px; letter-spacing:1px; font-weight:800;">Guess the Logo</h1>
+  <div id="game-container">
+    <img id="logo" src="" alt="Logo" style="display:none; margin-bottom:24px;"><br>
+    <input type="text" id="userGuess" placeholder="Type your guess here" autocomplete="off" disabled style="width:220px; margin-bottom:10px;">
+    <button id="submitBtn" onclick="checkAnswer()" disabled style="margin-left:10px;">Submit</button>
+    <button id="skipBtn" onclick="skipLogo()" style="margin-left:10px;">Skip</button>
+    <p id="result"></p>
+    <button id="restartBtn" style="display:none;margin-top:20px;" onclick="restartGame()">Restart</button>
+    <div id="scoreDisplay"></div>
+    <!-- Speed display removed -->
+    <div style="margin-top:18px; color:#888; font-size:14px;">Can you guess all the logos? Good luck!</div>
+  </div>
+
+  <script>
+    const logos = [
+      { image: "logos/nike.png", answer: "Nike", url: "https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo.png" },
+      { image: "logos/apple.png", answer: "Apple" },
+      { image: "logos/mcdonalds.png", answer: "McDonald" },
+      { image: "logos/google.png", answer: "Google" },
+      { image: "logos/twitter.png", answer: "Twitter" },
+      { image: "logos/minecraft.png", answer: "Minecraft" },
+      { image: "logos/roblox.png", answer: "Roblox" },
+      { image: "logos/youtube.png", answer: "YouTube" },
+      { image: "logos/facebook.png", answer: "Facebook" },
+      { image: "logos/instagram.png", answer: "Instagram" },
+      { image: "logos/whatsapp.png", answer: "WhatsApp" },
+      { image: "logos/discord.png", answer: "Discord" },
+      { image: "logos/spotify.png", answer: "Spotify" },
+      { image: "logos/netflix.png", answer: "Netflix" }
+    ];
+
+    let current = 0;
+    let score = 0;
+    let streak = 0;
+    let bestStreak = Number(localStorage.getItem('logoBestStreak') || 0);
+    // Speed variables removed
+
+    function startGame() {
+      current = 0;
+      score = 0;
+      streak = 0;
+      document.getElementById("logo").style.display = "inline";
+      document.getElementById("userGuess").style.display = "inline";
+      document.getElementById("userGuess").disabled = false;
+      document.getElementById("userGuess").value = "";
+      document.getElementById("submitBtn").disabled = false;
+      document.getElementById("skipBtn").disabled = false;
+      document.getElementById("result").textContent = "";
+      document.getElementById("restartBtn").style.display = "none";
+      updateScoreDisplay();
+      shuffle(logos);
+      showLogo();
+    }
+
+    function showLogo() {
+      const logoImg = document.getElementById("logo");
+      logoImg.src = logos[current].image;
+      logoImg.alt = logos[current].answer + " logo";
+      logoImg.style.display = "inline";
+      document.getElementById("userGuess").value = "";
+      document.getElementById("userGuess").focus();
+      updateScoreDisplay();
+      // Remove max speed info if present
+      let extra = document.getElementById('extraInfo');
+      if (extra) extra.remove();
+    }
+
+    function checkAnswer() {
+      const guess = document.getElementById("userGuess").value.trim().toLowerCase();
+      const correct = logos[current].answer.toLowerCase();
+      const result = document.getElementById("result");
+
+      if (!guess) {
+        result.textContent = "Please enter your guess.";
+        result.style.color = "#f59e42";
+        return;
+      }
+
+      if (guess === correct) {
+        result.textContent = "✅ Correct!";
+        result.style.color = "#10b981";
+        score++;
+        streak++;
+        if (streak > bestStreak) {
+          bestStreak = streak;
+          localStorage.setItem('logoBestStreak', bestStreak);
+        }
+        updateScoreDisplay();
+        current++;
+        if (current < logos.length) {
+          setTimeout(() => {
+            result.textContent = "";
+            showLogo();
+          }, 900);
+        } else {
+          result.textContent = `🎉 You guessed all logos! Final Score: ${score}/${logos.length}`;
+          result.style.color = "#6366f1";
+          document.getElementById("logo").style.display = "none";
+          document.getElementById("userGuess").style.display = "none";
+          document.getElementById("submitBtn").disabled = true;
+          document.getElementById("skipBtn").disabled = true;
+          document.getElementById("restartBtn").style.display = "inline-block";
+          if (score === logos.length) {
+            setTimeout(() => {
+              window.location.href = "index.html";
+            }, 1800);
+          }
+        }
+      } else {
+        result.textContent = "❌ Try again!";
+        result.style.color = "#ef4444";
+        streak = 0;
+        updateScoreDisplay();
+      }
+    }
+
+    function skipLogo() {
+      const result = document.getElementById("result");
+      result.textContent = `⏭️ Skipped! The answer was: ${logos[current].answer}`;
+      result.style.color = "#f59e42";
+      streak = 0;
+      updateScoreDisplay();
+      current++;
+      if (current < logos.length) {
+        setTimeout(() => {
+          result.textContent = "";
+          showLogo();
+        }, 1200);
+      } else {
+        result.textContent = `🎉 You finished all logos! Final Score: ${score}/${logos.length}`;
+        result.style.color = "#6366f1";
+        document.getElementById("logo").style.display = "none";
+        document.getElementById("userGuess").style.display = "none";
+        document.getElementById("submitBtn").disabled = true;
+        document.getElementById("skipBtn").disabled = true;
+        document.getElementById("restartBtn").style.display = "inline-block";
+      }
+    }
+    function updateScoreDisplay() {
+      document.getElementById("scoreDisplay").innerHTML = `Score: <b>${score}</b>/${logos.length} &nbsp;|&nbsp; <span style="color:#10b981">Streak: ${streak}</span> &nbsp;|&nbsp; <span style="color:#f59e42">Best: ${bestStreak}</span>`;
+    }
+
+    function restartGame() {
+      startGame();
+    }
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    // Allow pressing Enter to submit
+    document.addEventListener('DOMContentLoaded', () => {
+      startGame();
+      document.getElementById("userGuess").addEventListener("keyup", function(event) {
+        if (event.key === "Enter" && !document.getElementById("submitBtn").disabled) {
+          checkAnswer();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
