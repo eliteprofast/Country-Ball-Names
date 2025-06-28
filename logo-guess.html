@@ -111,6 +111,7 @@
 </head>
 <body>
   <h1 style="font-size:2.2rem; color:#6366f1; margin-bottom:18px; letter-spacing:1px; font-weight:800;">Guess the Logo</h1>
+  <!-- Coin display removed -->
   <div id="game-container">
     <img id="logo" src="" alt="Logo" style="display:none; margin-bottom:24px;"><br>
     <input type="text" id="userGuess" placeholder="Type your guess here" autocomplete="off" disabled style="width:220px; margin-bottom:10px;">
@@ -205,6 +206,7 @@
         result.textContent = "✅ Correct!";
         result.style.color = "#10b981";
         score++;
+        // coins logic removed
         streak++;
         if (streak > bestStreak) {
           bestStreak = streak;
@@ -242,7 +244,7 @@
 
     function skipLogo() {
       const result = document.getElementById("result");
-      result.textContent = `⏭️ Skipped! The answer was: ${logos[current].answer}`;
+      result.textContent = `😅 Skipped! The answer was: ${logos[current].answer}`;
       result.style.color = "#f59e42";
       streak = 0;
       updateScoreDisplay();
