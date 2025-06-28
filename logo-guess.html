@@ -119,8 +119,9 @@
     <p id="result"></p>
     <button id="restartBtn" style="display:none;margin-top:20px;" onclick="restartGame()">Restart</button>
     <div id="scoreDisplay"></div>
-    <!-- Speed display removed -->
+    <!-- Timer display removed -->
     <div style="margin-top:18px; color:#888; font-size:14px;">Can you guess all the logos? Good luck!</div>
+    
   </div>
 
   <script>
@@ -162,6 +163,7 @@
       current = 0;
       score = 0;
       streak = 0;
+      // Timer logic removed
       document.getElementById("logo").style.display = "inline";
       document.getElementById("userGuess").style.display = "inline";
       document.getElementById("userGuess").disabled = false;
@@ -216,6 +218,7 @@
             showLogo();
           }, 900);
         } else {
+          // Timer logic removed
           result.textContent = `🎉 You guessed all logos! Final Score: ${score}/${logos.length}`;
           result.style.color = "#6366f1";
           document.getElementById("logo").style.display = "none";
@@ -250,6 +253,7 @@
           showLogo();
         }, 1200);
       } else {
+        // Timer logic removed
         result.textContent = `🎉 You finished all logos! Final Score: ${score}/${logos.length}`;
         result.style.color = "#6366f1";
         document.getElementById("logo").style.display = "none";
@@ -258,6 +262,7 @@
         document.getElementById("skipBtn").disabled = true;
         document.getElementById("restartBtn").style.display = "inline-block";
       }
+    // Timer display function removed
     }
     function updateScoreDisplay() {
       document.getElementById("scoreDisplay").innerHTML = `Score: <b>${score}</b>/${logos.length} &nbsp;|&nbsp; <span style="color:#10b981">Streak: ${streak}</span> &nbsp;|&nbsp; <span style="color:#f59e42">Best: ${bestStreak}</span>`;
@@ -280,6 +285,8 @@
       document.getElementById("userGuess").addEventListener("keyup", function(event) {
         if (event.key === "Enter" && !document.getElementById("submitBtn").disabled) {
           checkAnswer();
+        } else if (event.key === "Escape" && !document.getElementById("skipBtn").disabled) {
+          skipLogo();
         }
       });
     });
