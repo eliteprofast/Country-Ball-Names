@@ -1,9 +1,0 @@
-[ Log | 3:39:57 PM ] [Medal Launcher Log Init] 1.0.0.1 - 6/4/2025 3:39:57 PM
-
-[ Log | 3:39:57 PM ] Launching recorder C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalEncoder.exe
-[ Log | 3:39:57 PM ] No other MedalEncoder instances running
-[ Log | 3:39:58 PM ] Launched recorder C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalEncoder.exe
-[ Log | 3:40:13 PM ] Init OverlayInterface
-[ Log | 3:40:28 PM ] Starting suicide lock interval
-[ Log | 4:51:52 PM ] Recorder exited. ExitCode: 1073807364
-[ Log | 4:51:52 PM ] Exiting Launcher
