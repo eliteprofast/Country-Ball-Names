@@ -1,0 +1,1377 @@
+[Info | 3:40:01 PM | 1] [Medal Log Init] 3.1020.0.0 - 6/4/2025 3:40:01 PM
+
+[Info | 3:40:01 PM | 1] Remote config saved
+[Debug | 3:40:01 PM | 1] Initialising Sentry with environment production and URL sentry.medal.tv
+[Info | 3:40:01 PM | 1] 1 old log files were deleted
+[Info | 3:40:03 PM | 1] Honeycomb init successful, environment production and sample rate 30
+[Debug | 3:40:03 PM | 1] [Scope] [15:40:03.735741] [000001] trying to load Scope native library with default paths
+[Debug | 3:40:05 PM | 1] [Scope] [15:40:05.182434] [000001] Scope native library loaded (runtime 15.0, ScopeSharp 15.0)
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.249926] [003FD8] Scope context initialising (API 15.0)
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.250063] [003FD8] machine GUID: 8ea5b097-ddec-4ca3-8159-e1622c64760a
+[Info | 3:40:05 PM | 15] [Scope] [15:40:05.612727] [003FD8] sentry initialized successfully
+[Info | 3:40:05 PM | 15] [Scope] [15:40:05.613540] [003FD8] running on OS: Windows 10.0.19045.0
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.613602] [003FD8] initialising DX device manager
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.613654] [003FD8] initialising DX factories (iteration 1)
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.625786] [003FD8] created DXGI factory at feature level 2
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.625892] [003FD8] created D2D factory at feature level 7
+[Debug | 3:40:05 PM | 15] [Scope] [15:40:05.731174] [003FD8] created D3D9Ex factory
+[Debug | 3:40:10 PM | 15] [Scope] [15:40:09.999918] [003FD8] DXDeviceManager got default adapter LUID: 81152
+[Info | 3:40:10 PM | 1] Listening on http://localhost:10604/
+[Debug | 3:40:10 PM | 16] Window thread message loop starting: Common
+[Info | 3:40:10 PM | 1] User saved as 370958739 - Elite_Stealer1112
+[Debug | 3:40:10 PM | 15] [Scope] [15:40:10.256823] [003FD8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:40:10 PM | 15] [Scope] [15:40:10.265535] [003FD8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 3:40:10 PM | 1] Initial app settings - Advanced Window Capture is False - Aspect Ratio is Custom - Auth Key is <hidden> - Bitrate is 15 - Clip Folder is C:\Medal\ - Codec is H264 - Detect All Games is False - Development Mode Enabled is False - Discord Audio Enabled is False - Encoder is GPU - Environment is production - Experimental Capture is False - External File Sources is {
+  "nativeOptions": [
+    {
+      "label": "NVIDIA ShadowPlay",
+      "value": "shadowplay",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "AMD ReLive",
+      "value": "relive",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "OBS",
+      "value": "obs",
+      "enabled": false,
+      "freeUpSpace": false
+    }
+  ],
+  "folders": []
+} - Force Window Capture is False - Full Session Mode Enabled is True - Game Audio Only Enabled is True - Game Controls Collection Enabled is True - Clip Saved Sound Alerts is True - Bookmark Saved Sound Alerts is True - Session Toggle Sound Alerts is True - Auto Clipping Sound Alerts is True - Disk Full Sound Alerts is True - Screenshot Sound Alerts is True - Global Sound Alerts is True - Clip Sound is default - Game Sound Gain is 0.5 - HDR Compatibility is False - Hotkeys is [clip;length=1200: short_press of keyboard:F8, segment_toggle: long_press of keyboard:F8, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v] - ICYMI Clip Length is 0 - ICYMI Enabled is False - ICYMI Event Settings is <hidden> - In Memory Buffer is True - JWT is <hidden> - Low Disk Space Backup Clip Folder is C:\Medal - Manual Recording Enabled is False - Mic Enabled is True - Mic Noise Gate Enabled is False - Mic Noise Gate Threshold is -100 - Mic Noise Suppression Enabled is False - Mic Sound Gain is 0.5 - Monitor Device Name is \\.\DISPLAY1 - Mono Mic Audio is False - Multiple Audio Tracks is True - Overlay Current Injected Mode is False - Passive Game Switching Enabled is True - Prefer Game Capture is True - Push To Talk Enabled is False - Recording Enabled is True - Resolution is {Width=1920, Height=1080} - Screen Capture Enabled is False - SDK Mode Enabled is False - Selected Audio Devices is [Auto] - Selected GPU Device is Auto - Selected Mic Device is Auto - Selected Webcam Device is {
+  "id": "<None>",
+  "label": "<None>",
+  "value": "<None>"
+} - Show Cursor is False - Show Overlay is True - Target FPS is 60 - User ID is 370958739 - Username is Elite_Stealer1112 - Voice Clipping Enabled is False - Voice Clipping Phrases is [] - Webcam Overlay Enabled is False - Webcam Overlay Position is 1
+[Info | 3:40:10 PM | 1] request user
+[Info | 3:40:10 PM | 1] request environment
+[Debug | 3:40:10 PM | 15] [Scope] [15:40:10.999545] [003FD8] DXDeviceManager created DXDevice for adapter NVIDIA GeForce GTX 970 (LUID 81152) with usage 0
+[Debug | 3:40:11 PM | 11] Executing Request: set.sdkmode
+[Info | 3:40:11 PM | 11] job.respond ba4b5855-6233-43ca-8254-fcf226539199
+[Debug | 3:40:11 PM | 11] Executing Request: get.hardwareId
+[Debug | 3:40:11 PM | 14] job.respond "ok"
+[Info | 3:40:12 PM | 1] Found 1 adapters:
+[Info | 3:40:12 PM | 1]     81152: NVIDIA GeForce GTX 970 (10DE:13C2), VRAM: 4030 MiB, codecs: H.264 (BGRA32), H.265 (BGRA32)
+[Info | 3:40:12 PM | 1] Supported video encoder options: NVIDIA GeForce GTX 970
+[Info | 3:40:12 PM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Info | 3:40:12 PM | 1] Clip folder: C:\Medal\
+[Info | 3:40:12 PM | 1] Set process priority to High
+[Debug | 3:40:12 PM | 17] Window thread message loop starting: InputManager
+[Info | 3:40:12 PM | 1] Recorder running elevated: no
+[Info | 3:40:12 PM | 1] No other MedalEncoder instances running
+[Info | 3:40:12 PM | 1] Found 1 adapters:
+[Info | 3:40:12 PM | 1]     81152: NVIDIA GeForce GTX 970 (10DE:13C2), VRAM: 4030 MiB, codecs: H.264 (BGRA32), H.265 (BGRA32)
+[Info | 3:40:12 PM | 1] Supported video encoder options: NVIDIA GeForce GTX 970
+[Info | 3:40:12 PM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Info | 3:40:12 PM | 1] Sending available web cam devices {"availableDevices":[{"id":"\\\\?\\usb#vid_1b3f&pid_2247&mi_00#7&18ac11e6&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"GENERAL WEBCAM","value":"GENERAL WEBCAM"}],"selectedDevice":{"id":"<None>","label":"<None>","value":"<None>"}}
+[Warning | 3:40:12 PM | 4] GPU info collection error: System.IO.IOException: The specified registry key does not exist.
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.GetValueKind(String name)
+   at MedalEncoder.HardwareInfo.HardwareChecker.GPU()
+[Info | 3:40:12 PM | 1] Sending available GPU devices NVIDIA GeForce GTX 970
+[Info | 3:40:12 PM | 1] Sending available GPU Codecs NVIDIA GeForce GTX 970: H264, H265
+[Info | 3:40:13 PM | 1] GPUPreference: no existing preference found
+[Debug | 3:40:13 PM | 4] [HAGS] Status for NVIDIA GeForce GTX 970 (81152): disabled (default disabled), driver support Experimental, from D3DKMT/WDDM2.9
+[Info | 3:40:13 PM | 1] GPUPreference: current preference 0 is OK, continuing
+[Debug | 3:40:13 PM | 1] OpenGL present mode not set
+[Info | 3:40:13 PM | 1] Initializing Electron overlay
+[Debug | 3:40:13 PM | 1] HookLibraryManager cleaned up 0 old hook DLLs, leaving 0
+[Debug | 3:40:13 PM | 4] Hardware collection completed in 1126.579ms
+[Debug | 3:40:13 PM | 4] {"GPU":[{"Name":"AMD Radeon HD 6450","VideoProcessor":"AMD Radeon HD 6450","AdapterDACType":"Internal DAC(400MHz)","InstalledDisplayDrivers":"aticfx64.dll,aticfx64.dll,aticfx64.dll,amdxc64.dll","DriverVersion":"15.201.1151.1008","AdapterRAM":"1.0 GB"},{"Name":"NVIDIA Quadro NVS 295","VideoProcessor":"Quadro NVS 295","AdapterDACType":"Integrated RAMDAC","InstalledDisplayDrivers":"nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll","DriverVersion":"9.18.13.4135","AdapterRAM":"256.0 MB"},{"Name":"AMD Radeon HD 6450","VideoProcessor":"AMD Radeon HD 6450","AdapterDACType":"Internal DAC(400MHz)","InstalledDisplayDrivers":"aticfx64.dll,aticfx64.dll,aticfx64.dll,amdxc64.dll","DriverVersion":"15.201.1151.1008","AdapterRAM":"1.0 GB"}],"HardDrives":[{"Name":"Drive C:\\","Drive type":"Fixed","Volume label":"","File system":"NTFS","Available space to current user":"195.5 GB","Total available space":"195.5 GB","Total size of drive":"465.1 GB","Root directory":"C:\\","MediaType":"SSD"},{"Name":"Drive D:\\","Drive type":"Fixed","Volume label":"Data","File system":"NTFS","Available space to current user":"64.0 GB","Total available space":"64.0 GB","Total size of drive":"223.6 GB","Root directory":"D:\\","MediaType":"SSD"},{"Name":"Drive F:\\","Drive type":"CDRom"}],"CPU":[{"Name":"Intel(R) Xeon(R) CPU E5-2609 v4 @ 1.70GHz","DeviceID":"CPU0","Manufacturer":"GenuineIntel","CurrentClockSpeed":"1700","Caption":"Intel64 Family 6 Model 79 Stepping 1","NumberOfCores":"8","NumberOfEnabledCore":"8","NumberOfLogicalProcessors":"8","Architecture":"x64","Family":"179","ProcessorType":"Central Processor","AddressWidth":"64","MaxClockSpeed":"1700 MHz","InstructionSet":"AVX2"}],"Memory":[{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Hynix","PartNumber":"HMA41GR7MFR4N-TF","Speed":"2133","MemoryType":"Unknown"}],"OS":[{"Caption":"Microsoft Windows 10 Pro","WindowsDirectory":"C:\\Windows","ProductType":"1","SystemDirectory":"C:\\Windows\\system32","CountryCode":"1","CurrentTimeZone":"240","Locale":"0409","EncryptionLevel":"256","OSArchitecture":"64-bit","OSLanguage":"1033","OSType":"18","Version":"10.0.19045","HAGSEnabled":"False"}],"Monitors":[{"Name":"VA2719 Series","BitsPerPixel":"32","ScreenWidth":"1920","ScreenHeight":"1080","Primary":"True","AspectRatio":"16:9","Diagonal":"27"}],"Sound":[{"Name":"Realtek High Definition Audio","ProductName":"Realtek High Definition Audio","DeviceID":"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0221&SUBSYS_103C212A&REV_1000\\4&C2B69CB&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"NVIDIA High Definition Audio","ProductName":"NVIDIA High Definition Audio","DeviceID":"HDAUDIO\\FUNC_01&VEN_10DE&DEV_0071&SUBSYS_38422974&REV_1001\\5&3609A6E5&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"USB Audio Device","ProductName":"USB Audio Device","DeviceID":"USB\\VID_1B3F&PID_2247&MI_02\\7&18AC11E6&0&0002","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","ProductName":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","DeviceID":"ROOT\\UNNAMED_DEVICE\\0000","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"}],"Motherboard":[{"Name":"Base Board","Model":"null","Manufacturer":"Hewlett-Packard","SlotLayout":"null","Product":"212A"}],"Keyboard":[{"Name":"USB Input Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"}],"Mouse":[{"Name":"USB Input Device","Manufacturer":"(Standard system devices)"},{"Name":"HID-compliant mouse","Manufacturer":"Microsoft"}],"Controllers":[],"Encoder":[{"Name":"GPU"}],"Battery":[{"Present":"False"}]}
+[Info | 3:40:13 PM | 1] [GameFilePaths] Error grabbing game file path from libraryfolders.vdf: Value cannot be null.
+Parameter name: path1
+[Warning | 3:40:13 PM | 1] [CounterStrike2] Game Library Base Path is null -- cannot write GSI file.
+[Info | 3:40:13 PM | 4] Sending hardware info
+[Info | 3:40:13 PM | 1] [GameFilePaths] Error grabbing game file path from libraryfolders.vdf: Value cannot be null.
+Parameter name: path1
+[Warning | 3:40:13 PM | 1] [Dota2] Game Library Base Path is null -- cannot write GSI file.
+[Debug | 3:40:13 PM | 4] SendHardwareInfo reply {"success":true}
+[Info | 3:40:13 PM | 1] System supports GAO / process capture audio
+[Info | 3:40:13 PM | 1] Setting up external recorders
+[Info | 3:40:13 PM | 1] External recorder shadowplay is disabled
+[Info | 3:40:13 PM | 1] External recorder relive is disabled
+[Info | 3:40:13 PM | 1] External recorder obs is disabled
+[Info | 3:40:13 PM | 1] External recorder setup complete
+[Info | 3:40:13 PM | 7] Memory-mapped file does not exist.
+[Info | 3:40:13 PM | 7] Config file not found at C:\Users\alish\AppData\Local\NVIDIA Corporation\NvNode\nodejs.json
+[Info | 3:40:13 PM | 7] Config file does not exist
+[Debug | 3:40:13 PM | 11] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:40:13 PM | 11] job.respond de63c446-7d62-4c7f-84d6-2fc97ff20f57
+[Debug | 3:40:13 PM | 11] Executing Request: user
+[Debug | 3:40:13 PM | 14] job.respond "ok"
+[Debug | 3:40:13 PM | 14] ShareHardwareId reply {"success":true}
+[Info | 3:40:13 PM | 11] Username is base64 translated to Elite_Stealer1112
+[Info | 3:40:13 PM | 11] User updated 370958739 - Elite_Stealer1112
+[Info | 3:40:13 PM | 11] job.respond 9e2e63c0-3edc-45bd-9d2d-1740e67b864d
+[Debug | 3:40:13 PM | 11] Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 11] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:40:13 PM | 11] job.respond e4d90a40-8c1e-4019-a0d5-906cfc4b846d
+[Debug | 3:40:13 PM | 11] Executing Request: icymi.eventState
+[Debug | 3:40:13 PM | 13] job.respond "ok"
+[Debug | 3:40:13 PM | 13] 1 logs of- job.respond "ok"
+[Debug | 3:40:13 PM | 13] ShareHardwareId reply {"success":true}
+[Info | 3:40:13 PM | 11] job.respond 63851337-1743-4780-ab79-b4afc6583baf
+[Debug | 3:40:13 PM | 11] Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 11] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:40:13 PM | 11] job.respond 6e7a5e1d-9260-4dd9-aa5b-532bf8fbea29
+[Debug | 3:40:13 PM | 13] job.respond "ok"
+[Debug | 3:40:13 PM | 11] Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 11] 1 logs of- Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 11] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:40:13 PM | 11] job.respond 82309797-af2a-4f49-9798-c761aa5cc514
+[Debug | 3:40:13 PM | 13] ShareHardwareId reply {"success":true}
+[Debug | 3:40:13 PM | 11] Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 11] 1 logs of- Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 11] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Debug | 3:40:13 PM | 13] 1 logs of- Executing Request: get.hardwareId
+[Debug | 3:40:13 PM | 13] job.respond "ok"
+[Info | 3:40:13 PM | 11] job.respond 430baa45-1f61-49ed-ab34-4a212de1e4e8
+[Debug | 3:40:13 PM | 11] Executing Request: set.useStringId
+[Warning | 3:40:13 PM | 11] No command for set.useStringId
+[Info | 3:40:13 PM | 11] job.respond 94528c27-96a7-43bb-9329-62a2705fe3e1
+[Debug | 3:40:13 PM | 13] ShareHardwareId reply {"success":true}
+[Debug | 3:40:13 PM | 14] job.respond "ok"
+[Debug | 3:40:13 PM | 11] 1 logs of- job.respond "ok"
+[Debug | 3:40:13 PM | 11] PollDesktopJobQueue reply [{"uuid":"ba4b5855-6233-43ca-8254-fcf226539199","body":{"enabled":false},"action":"set.sdkmode"},{"uuid":"de63c446-7d62-4c7f-84d6-2fc97ff20f57","body":null,"action":"get.hardwareId"},{"uuid":"9e2e63c0-3edc-45bd-9d2d-1740e67b864d","body":{"userName.base64":"RWxpdGVfU3RlYWxlcjExMTI=","key":"6f90e6a1-735a-4e50-9238-421eeca721b4","userId":"370958739","userName":"Elite_Stealer1112","roles":[],"thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","premiumType":"NONE","state":{"state":"idle","timestamp":1748438979080}},"action":"user"},{"uuid":"e4d90a40-8c1e-4019-a0d5-906cfc4b846d","body":null,"action":"get.hardwareId"},{"uuid":"63851337-1743-4780-ab79-b4afc6583baf","body":"<trimmed>","action":"icymi.eventState"},{"uuid":"6e7a5e1d-9260-4dd9-aa5b-532bf8fbea29","body":null,"action":"get.hardwareId"},{"uuid":"82309797-af2a-4f49-9798-c761aa5cc514","body":null,"action":"get.hardwareId"},{"uuid":"430baa45-1f61-49ed-ab34-4a212de1e4e8","body":null,"action":"get.hardwareId"},{"uuid":"94528c27-96a7-43bb-9329-62a2705fe3e1","body":{"enabled":true},"action":"set.useStringId"}]
+[Info | 3:40:13 PM | 1] TPGame API started at http://localhost:12665
+[Info | 3:40:13 PM | 1] Recorder Initialization Complete
+[Info | 3:40:13 PM | 1] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 3:40:13 PM | 1] Remote Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 3:40:13 PM | 1] Local Info: {"Version":"2.1227","Command":"none","Environment":"production"}
+[Info | 3:40:13 PM | 1] Downloading new game database from https://cdn.medal.tv/asset/games-db/production/MedalGameInfo-2.1236.db
+[Debug | 3:40:14 PM | 1] Going to switch to new game info DB from C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalGameInfo.db
+[Debug | 3:40:14 PM | 1] Acquired game info DB write lock
+[Debug | 3:40:14 PM | 1] Successfully switched to new game info DB
+[Debug | 3:40:14 PM | 1] Released game info DB write lock
+[Info | 3:40:14 PM | 1] Game database updated. Version: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 3:40:14 PM | 1] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalGameInfo.db
+[Debug | 3:40:14 PM | 19] Executing Request: get.hardwareId
+[Debug | 3:40:14 PM | 19] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:40:14 PM | 19] job.respond 977270ad-127a-4c9f-8a22-485977a60595
+[Debug | 3:40:14 PM | 19] Executing Request: set.allSettings
+[Debug | 3:40:14 PM | 14] ShareHardwareId reply {"success":true}
+[Debug | 3:40:14 PM | 14] job.respond "ok"
+[Debug | 3:40:14 PM | 19] Disabling saving of recorder settings file
+[Info | 3:40:14 PM | 19] Received settings
+[Debug | 3:40:14 PM | 19] Settings: Selected Audio Devices changed from [Auto] --> [Auto]
+[Info | 3:40:14 PM | 1] Custom database location is C:\Users\alish\AppData\Roaming\Medal\CustomGameDatabase.db
+[Debug | 3:40:14 PM | 1] ProcessTracker using WMI backend
+[Info | 3:40:14 PM | 1] Current disk space 209870782464, min disk space requirement 3824000000
+[Warning | 3:40:14 PM | 19] No command for set.mouseTrigger
+[Warning | 3:40:14 PM | 19] No command for set.mouseTriggerEnabled
+[Warning | 3:40:14 PM | 19] No command for set.controllerTriggerEnabled
+[Warning | 3:40:14 PM | 19] No command for set.cliplength
+[Debug | 3:40:14 PM | 5] Checking window: Minecraft* 1.21.4 (919334, GLFW30)
+[Debug | 3:40:14 PM | 5] Checking window under process javaw against 78 games with LTs 5, 1, 3
+[Info | 3:40:14 PM | 19] Sending Bitrate Setting
+[Info | 3:40:14 PM | 5] Game Found Type ProcessFuzzyCaption: Minecraft
+[Info | 3:40:14 PM | 13] SendBitrateSetting reply "ok"
+[Info | 3:40:14 PM | 5] Process name found javaw | Caption | Minecraft* 1.21.4 | and class | GLFW30 | Detect all Games | False
+[Info | 3:40:14 PM | 5] Adding game to active games. State: 0 0 0
+[Info | 3:40:14 PM | 5] Creating Target process
+[Info | 3:40:14 PM | 5] Checking if game process is elevated
+[Debug | 3:40:14 PM | 5] Initialized customization for hAXdelx2t (Minecraft)
+[Info | 3:40:14 PM | 22] Event queue processing has started.
+[Info | 3:40:14 PM | 7] Event queue health check has started.
+[Info | 3:40:14 PM | 5] Acquiring InputManagerHandle
+[Info | 3:40:14 PM | 5] Starting InputManager.
+[Info | 3:40:14 PM | 5] Check for input devices
+[Info | 3:40:14 PM | 1] ----[ESM State]: SelectTarget----
+[Info | 3:40:14 PM | 1] [ESM Event] - ConsiderSwitchRecording
+[Debug | 3:40:14 PM | 22] [EventProcessor] [->] ConsiderSwitchRecording
+[Info | 3:40:14 PM | 10] Minecraft_MatchDetector: No valid log files found in CurseForge instances
+[Warning | 3:40:14 PM | 19] No command for set.autoUploadState
+[Warning | 3:40:14 PM | 19] No command for set.autoUpload
+[Info | 3:40:14 PM | 22] [SelectTarget] Considering switching target while idle
+[Info | 3:40:14 PM | 10] Minecraft_MatchDetector: Determined client Default (timestamp: 2025-05-14 16:24:22)
+[Info | 3:40:14 PM | 10] Minecraft_MatchDetector: Detected client: Default
+[Info | 3:40:14 PM | 10] Minecraft_MatchDetector: Using log path: C:\Users\alish\AppData\Roaming\.minecraft\logs\latest.log
+[Debug | 3:40:14 PM | 22] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:40:14 PM | 22] No viable targets available
+[Debug | 3:40:14 PM | 22] [EventProcessor] [<-] ConsiderSwitchRecording ElapsedTime: 32ms
+[Info | 3:40:14 PM | 1] Username is base64 translated to Elite_Stealer1112
+[Info | 3:40:14 PM | 1] User updated 370958739 - Elite_Stealer1112
+[Info | 3:40:14 PM | 1] request environment reply "production"
+[Warning | 3:40:14 PM | 19] No command for set.holdToRecordEnabled
+[Debug | 3:40:14 PM | 1] encoder options reply "ok"
+[Debug | 3:40:14 PM | 1] SendAvailableWebCamDevices reply {"device":{"options":[{"id":"\\\\?\\usb#vid_1b3f&pid_2247&mi_00#7&18ac11e6&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"GENERAL WEBCAM","value":"GENERAL WEBCAM"}],"selected":{"id":"<None>","label":"<None>","value":"<None>"}}}
+[Debug | 3:40:14 PM | 1] SendAvailableGPUDevices reply {"success":true}
+[Debug | 3:40:14 PM | 1] SendAvailableGPUCodecs reply {"success":true}
+[Info | 3:40:14 PM | 1] Initialization complete reply "ok"
+[Info | 3:40:14 PM | 10] Minecraft_MatchDetector: Username detected: EliteProFast
+[Info | 3:40:14 PM | 5] InputManager started.
+[Info | 3:40:14 PM | 5] Setting up window hooks for game window
+[Debug | 3:40:14 PM | 26] Window thread message loop starting: Window Hooks for Window[919334, hAXdelx2t[Minecraft], GLFW30, javaw[17268]]
+[Info | 3:40:14 PM | 26] Set up window hooks for window handle 919334
+[Info | 3:40:14 PM | 5] Added game to active games
+[Info | 3:40:14 PM | 5] Using electron overlay.
+[Info | 3:40:14 PM | 25] InputManager: regenerating trigger inputs for (none)
+[Info | 3:40:14 PM | 5] Starting Electron overlay for Minecraft
+[Info | 3:40:14 PM | 5] Sending electron overlay toggle injected mode: False
+[Info | 3:40:14 PM | 5] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:40:14 PM | 14] SendOverlayToggleInjectedMode reply "ok" after 7.0ms
+[Info | 3:40:14 PM | 14] Average response time: 7.0ms (1 measures)
+[Warning | 3:40:14 PM | 19] No command for set.advancedOverlayEnabled
+[Info | 3:40:14 PM | 14] SendOverlaySize reply "ok" after 5.0ms
+[Info | 3:40:14 PM | 14] Average response time: 6.0ms (2 measures)
+[Info | 3:40:14 PM | 5] [Game Status]: game/started - Minecraft[hAXdelx2t]
+[Info | 3:40:14 PM | 19] Empty monitor device name, using primary monitor \\.\DISPLAY1
+[Info | 3:40:14 PM | 25] Updated hotkeys for (none), now have 8 hotkeys configured
+[Warning | 3:40:14 PM | 19] Invalid trigger input for action clip;length=1200: no inputs defined
+[Warning | 3:40:14 PM | 19] Invalid trigger input for action segment_toggle: no inputs defined
+[Info | 3:40:14 PM | 19] Updated hotkeys for Minecraft, now have 8 hotkeys configured
+[Debug | 3:40:14 PM | 19] Settings: Hotkeys changed from [clip;length=1200: short_press of keyboard:F8, segment_toggle: long_press of keyboard:F8, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v] --> [clip;length=1200: short_press of keyboard:Left Click, segment_toggle: long_press of keyboard:Left Click, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v]
+[Info | 3:40:14 PM | 25] InputManager: target switch detected, regenerating trigger inputs for Minecraft
+[Warning | 3:40:14 PM | 25] Invalid trigger input for action clip;length=1200: no inputs defined
+[Warning | 3:40:14 PM | 25] Invalid trigger input for action segment_toggle: no inputs defined
+[Info | 3:40:14 PM | 25] Updated hotkeys for Minecraft, now have 8 hotkeys configured
+[Info | 3:40:14 PM | 19] Windows Game Mode disabled.
+[Info | 3:40:14 PM | 19] [ESM Event] - ConfigChanged
+[Debug | 3:40:14 PM | 19] Config change: MaxClipDuration (Global), AudioInputLayout (Global)
+[Debug | 3:40:14 PM | 19] Enabling saving of recorder settings file
+[Debug | 3:40:14 PM | 22] [EventProcessor] [->] ConfigChanged
+[Debug | 3:40:14 PM | 22] Handling config change while waiting to select target: MaxClipDuration (Global), AudioInputLayout (Global)
+[Debug | 3:40:14 PM | 22] [EventProcessor] [<-] ConfigChanged ElapsedTime: 1ms
+[Debug | 3:40:14 PM | 19] Saved recorder settings file after re-enable
+[Info | 3:40:14 PM | 19] job.respond a8476cd4-fecc-49cb-ac31-26063efdc241
+[Debug | 3:40:14 PM | 19] Executing Request: get.availableMicDevices
+[Debug | 3:40:14 PM | 20] job.respond "ok"
+[Info | 3:40:14 PM | 19] Sending available mic devices Microphone (GENERAL WEBCAM), Microphone (Realtek High Definition Audio)
+[Info | 3:40:15 PM | 19] job.respond 32db16c8-8896-434d-9eb0-bc7607a4e38e
+[Debug | 3:40:15 PM | 19] Executing Request: get.availableAudioDevices
+[Debug | 3:40:15 PM | 20] SendAvailableMicDevices reply {"success":true}
+[Debug | 3:40:15 PM | 14] job.respond "ok"
+[Info | 3:40:15 PM | 19] Sending available audio devices Speakers (Realtek High Definition Audio), VA2719 Series (NVIDIA High Definition Audio)
+[Info | 3:40:15 PM | 19] job.respond 8c462dfe-fed9-468c-aeaf-eb287afa67a9
+[Debug | 3:40:15 PM | 19] Executing Request: get.micAudioDevice
+[Debug | 3:40:15 PM | 14] SendAvailableAudioDevices reply {"success":true}
+[Debug | 3:40:15 PM | 15] [Scope] [15:40:15.020559] [005164] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 3:40:15 PM | 19] Sending selected mic device Auto
+[Info | 3:40:15 PM | 19] job.respond 0457d6e8-5d5c-457f-b3e0-bc2117c8a9bb
+[Debug | 3:40:15 PM | 19] Executing Request: get.gameSoundAudioDevice
+[Debug | 3:40:15 PM | 14] SendSelectedMicDevice reply {"success":true}
+[Debug | 3:40:15 PM | 14] job.respond "ok"
+[Debug | 3:40:15 PM | 15] [Scope] [15:40:15.037281] [005164] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 3:40:15 PM | 19] Sending selected audio output devices Auto
+[Info | 3:40:15 PM | 19] job.respond f87c935a-e10c-48a8-86e2-24ead11c8633
+[Debug | 3:40:15 PM | 19] Executing Request: get.GAODisabledList
+[Warning | 3:40:15 PM | 19] No command for get.GAODisabledList
+[Info | 3:40:15 PM | 19] job.respond c6ed5a5a-b97a-4a8e-ab70-ff53f2821769
+[Debug | 3:40:15 PM | 19] Executing Request: set.jwt
+[Debug | 3:40:15 PM | 14] SendSelectedAudioDevices reply {"success":true}
+[Debug | 3:40:15 PM | 14] job.respond "ok"
+[Debug | 3:40:15 PM | 19] Settings: JWT changed from <hidden> --> <hidden>
+[Debug | 3:40:15 PM | 13] job.respond "ok"
+[Info | 3:40:15 PM | 19] JWT validation is successful
+[Info | 3:40:15 PM | 19] job.respond f4ee8c96-2f97-4eb0-955c-558d5b25481c
+[Debug | 3:40:15 PM | 19] Executing Request: get.gamePluginsInstalled
+[Info | 3:40:15 PM | 19] [GameFilePaths] Error grabbing game file path from libraryfolders.vdf: Value cannot be null.
+Parameter name: path1
+[Info | 3:40:15 PM | 19] job.respond 8cf40cc3-d645-47ec-850e-17864ded7767
+[Debug | 3:40:15 PM | 27] job.respond "ok"
+[Debug | 3:40:15 PM | 19] PollDesktopJobQueue reply [{"uuid":"977270ad-127a-4c9f-8a22-485977a60595","action":"get.hardwareId"},{"uuid":"a8476cd4-fecc-49cb-ac31-26063efdc241","body":{"settings":{"set.gameSoundAudioDevice":{"audioDevices":["Auto"]},"set.micAudioDevice":{"audioDevice":"Auto"},"set.devmode":{"enabled":false},"set.bookmarkModeEnabled":{"enabled":true},"set.fullSessionModeEnabled":{"enabled":true},"set.webcam.overlay":{"enabled":false,"position":{"index":1,"value":"Top Right"}},"set.webcam.device":{"selected":{"id":"<None>","label":"<None>","value":"<None>"}},"set.gpu.device":{"selected":"Auto"},"set.setPushToTalkEnabled":{"enabled":false},"set.mouseTrigger":{},"set.mouseTriggerEnabled":{"enabled":false},"set.controllerTriggerEnabled":{"enabled":true},"set.cliplength":{"cliplength":"15"},"set.inMemoryBuffer":{"enabled":true},"set.resolution":{"resolution":"Full HD (1080p)"},"set.fps":{"fps":"60"},"set.bitrate":{"bitrate":"15"},"set.sdkmode":{"enabled":false},"set.micinput":{"micinput":1},"set.monoAudio":{"monoaudio":false},"set.overlayalerts":{"overlayalerts":1},"set.soundalerts":{"soundalerts":true},"set.bookmarksoundalerts":{"bookmarksoundalerts":true},"set.aspectRatio":{"aspectRatio":2},"set.detectallgames":{"detectallgames":0},"set.encoder":{"type":"GPU"},"set.clipFolder":{"clipFolder":"C:%path.sep%Medal%path.sep%","clipFolder.base64":"QzpcTWVkYWxc"},"set.autoUploadState":{},"set.autoUpload":{"autoUpload":false},"set.gameAudioOnly":{"enabled":1},"set.discordAudio":{"enabled":0},"set.setVoiceClipping":{"enabled":0},"set.multipleAudioTracks":{"enabled":1},"set.showCursor":{"enabled":0},"set.holdToRecordEnabled":{"enabled":1},"ICYMIEnabled":{"enabled":0},"set.icymisoundalerts":{"soundalerts":true},"set.windowsGraphicsCapture":{"enabled":0},"set.experimentalCapture":{"enabled":0},"set.hdrCompatibility":{"enabled":0},"set.forceWindowCapture":{"enabled":0},"set.overlayCurrentInjectedMode":{"enabled":0},"set.recordingEnabled":{"enabled":1},"set.micNoiseGate":{"enabled":0},"set.micNoiseSuppress":{"enabled":0},"set.micNoiseGateThreshold":{"open_threshold":-100},"set.externalFileSources":{"nativeOptions":[{"label":"NVIDIA ShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMD ReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]},"set.advancedOverlayEnabled":{"enabled":true},"set.monitorDeviceName":{"monitorDeviceName":"","monitorDeviceName.base64":""},"set.gameSoundGain":{"gain":50},"set.micGain":{"gain":50},"set.hotkeys":{"hotkeys":[{"action":"clip;length=1200","device":"keyboard","type":"short_press","inputs":"Left Click"},{"action":"segment_toggle","device":"keyboard","type":"long_press","inputs":"Left Click"},{"action":"screenshot","device":"keyboard","type":"short_press","inputs":"F7"},{"action":"callback;event=dismiss","inputs":"ALT + SHIFT + d","device":"keyboard","type":"short_press"},{"action":"callback;event=answerVoice","inputs":"ALT + SHIFT + z","device":"keyboard","type":"short_press"},{"action":"callback;event=declineVoice","inputs":"ALT + SHIFT + x","device":"keyboard","type":"short_press"},{"action":"callback;event=acceptMessageRequest","inputs":"ALT + SHIFT + c","device":"keyboard","type":"short_press"},{"action":"callback;event=viewScreenshot","inputs":"ALT + SHIFT + v","device":"keyboard","type":"short_press"}]},"set.toggleScreenCapture":{"enabled":false},"set.codec":{"codec":"H264"},"set.switchToGameRecordingOnGameLaunch":{"enabled":true},"set.windowsgamemode":{"windowsgamemode":false},"set.gameControlsCollectionEnabled":{"enabled":true},"set.soundAlert":{"global":true,"clipSaved":true,"bookmarkSaved":true,"autoClipping":true,"screenshotSaved":true,"sessionToggle":true,"diskFull":true,"clipSound":"default"},"set.customSound":{}}},"action":"set.allSettings"},{"uuid":"32db16c8-8896-434d-9eb0-bc7607a4e38e","action":"get.availableMicDevices"},{"uuid":"8c462dfe-fed9-468c-aeaf-eb287afa67a9","action":"get.availableAudioDevices"},{"uuid":"0457d6e8-5d5c-457f-b3e0-bc2117c8a9bb","action":"get.micAudioDevice"},{"uuid":"f87c935a-e10c-48a8-86e2-24ead11c8633","action":"get.gameSoundAudioDevice"},{"uuid":"c6ed5a5a-b97a-4a8e-ab70-ff53f2821769","action":"get.GAODisabledList"},{"uuid":"f4ee8c96-2f97-4eb0-955c-558d5b25481c","body":{"jwt":"eyJhbGciOiJFUzI1NiJ9.eyJhdWQiOlsibWVkYWwtcmVjb3JkZXIiXSwiY25mIjp7ImNydCI6Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLVxuTUlJQk9EQ0IzNkFEQWdFQ0FnaGZlV3YwOUVkRUV6QUtCZ2dxaGtqT1BRUURBakFiTVJrd0Z3WURWUVFEREJCb1xuZEhSd2N6b3ZMMjFsWkdGc0xuUjJNQjRYRFRJMU1EWXdOREEzTWpjek1Wb1hEVEkxTURZeE9EQTNNamN6TVZvd1xuS2pFb01DWUdBMVVFQXd3ZlNsZFVJSE5wWjI1bGNpQm1iM0lnYUhSMGNITTZMeTl0WldSaGJDNTBkakJaTUJNR1xuQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJFNlZuMEplTTltYVp1dm5FZVRwOUxTc3NqbjkrYkkrcWhCTFxubGRxQlBUeEw1VDRCYTY5R1k1N3crSGZ6Zkx2TS94OTdkUE5oR2J0Y2VGa2Z4Ui83dmk4d0NnWUlLb1pJemowRVxuQXdJRFNBQXdSUUloQU14QndOek9vWUFhRzBNb05qMUR4U3ZkRHZQWW9yZ3Y5VXRjRGUyaWZHRElBaUFHYmpYN1xuRlNmM2M3RCt5SmVQSGdwYm5JaWdpbzdvVkV2MnN4OFVrUEYyUUE9PVxuLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLSJ9LCJjYXBhYmlsaXRpZXMiOnsidXBsb2FkZWRDb250ZW50TWF4RHVyYXRpb25TZWNvbmRzIjo2MDAsInVwbG9hZGVkQ29udGVudE1heFJlc29sdXRpb24iOjE5MjAsInVwbG9hZGVkQ29udGVudE1heEZyYW1lUmF0ZSI6NjAsInByZW1pdW1DbGlwQ291bnRRdW90YUJvbnVzIjowLCJhbmltYXRlZFVzZXJUaHVtYm5haWwiOmZhbHNlLCJoYXNUaWVyMVN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjJTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIxRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkZvdW5kZXJSb2xlIjpmYWxzZSwiaGFzVmVyaWZpZWRSb2xlIjpmYWxzZSwiaGFzQ3JlYXRvclN1cHBvcnRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMURpc2NvcmRTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIyRGlzY29yZFN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjFEaXNjb3JkRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkRpc2NvcmRGb3VuZGVyUm9sZSI6ZmFsc2UsIndhdGVybWFya0Rpc2FibGVhYmxlIjpmYWxzZSwiZG93bmxvYWRXaXRob3V0V2F0ZXJtYXJrIjpmYWxzZSwicHJpb3JpdHlDaGF0U3VwcG9ydCI6ZmFsc2UsImF1dG9VcGxvYWRzIjpmYWxzZSwiY2xvdWRTeW5jIjpmYWxzZSwidmlld0NvbnRlbnRWaWV3ZXJzIjp0cnVlLCJzY3JlZW5SZWNvcmRpbmciOnRydWUsInVwbG9hZFNjcmVlblJlY29yZGluZ3MiOmZhbHNlLCJjYW5SZWNvcmQiOnRydWUsInNraXBBZHMiOmZhbHNlLCJ1cGxvYWRJbXBvcnRlZENsaXBzIjp0cnVlLCJ1c2VQcmVtaXVtSWNvbnMiOmZhbHNlLCJjdXN0b21DbGlwU291bmRzIjpmYWxzZX0sImNsaWVudF9pZCI6IkF5Q09tT200Q3ltNEtycWNEcUd0SzhiQTRRWks3MjhuaTYwRUFWN1AwZjQ9IiwiaXNzIjoiaHR0cHM6Ly9tZWRhbC50diIsInN1YiI6InVzZXI6MzcwOTU4NzM5IiwiaWF0IjoxNzQ5MDM3MjE0LCJleHAiOjE3NDk2NDIwMTR9.a5TihTrMkuMNAElGQYJ_724kAsOuaaKrWhZAUSUyWSAtySqkHyFjJASSOBaE6ym9qGaMz4ObxpYUSiEhspB5Yw"},"action":"set.jwt"},{"uuid":"8cf40cc3-d645-47ec-850e-17864ded7767","action":"get.gamePluginsInstalled"}]
+[Debug | 3:40:15 PM | 19] ShareGamePluginsInstalled reply {"success":true}
+[Debug | 3:40:15 PM | 19] job.respond "ok"
+[Debug | 3:40:15 PM | 14] Executing Request: set.toggleBroadcast
+[Info | 3:40:15 PM | 14] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 3:40:15 PM | 14] Clear override settings
+[Info | 3:40:15 PM | 14] job.respond b4dc5d31-0e95-4c86-86d0-a04ed2e4778e
+[Debug | 3:40:15 PM | 14] PollDesktopJobQueue reply [{"uuid":"b4dc5d31-0e95-4c86-86d0-a04ed2e4778e","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 3:40:15 PM | 14] job.respond "ok"
+[Info | 3:40:15 PM | 5] New game window detected: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[17268]]
+[Info | 3:40:15 PM | 5] [ESM Event] - ConsiderSwitchRecording
+[Debug | 3:40:15 PM | 22] [EventProcessor] [->] ConsiderSwitchRecording
+[Info | 3:40:15 PM | 22] [SelectTarget] Considering switching target while idle
+[Info | 3:40:15 PM | 5] Marking new game window as checked for tracking
+[Debug | 3:40:15 PM | 22] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:40:15 PM | 22] ~ Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[17268]]
+[Debug | 3:40:15 PM | 22] ~     Score: 68000 (PreferredType, Focused)
+[Debug | 3:40:15 PM | 22] Selected target Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[17268]] (score 68000)
+[Info | 3:40:15 PM | 22] Going to attempt recording Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[17268]]
+[Info | 3:40:15 PM | 22] [ESM Event] - AttemptRecording
+[Debug | 3:40:15 PM | 22] [EventProcessor] [<-] ConsiderSwitchRecording ElapsedTime: 21ms
+[Debug | 3:40:15 PM | 22] [EventProcessor] [->] AttemptRecording
+[Info | 3:40:15 PM | 22] ----[ESM State]: AttemptRecording----
+[Debug | 3:40:15 PM | 22] WinRTCheck: skipping WinRT capture due to likely OpenGL game
+[Info | 3:40:15 PM | 22] [ESM Event] - StartRecording
+[Debug | 3:40:15 PM | 22] [EventProcessor] [<-] AttemptRecording ElapsedTime: 22ms
+[Debug | 3:40:15 PM | 22] [EventProcessor] [->] StartRecording
+[Info | 3:40:15 PM | 22] ----[ESM State]: Recording----
+[Debug | 3:40:15 PM | 5] Checking window:  (460118, ApplicationFrameTitleBarWindow)
+[Debug | 3:40:15 PM | 5] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:40:15 PM | 22] Creating recording session for Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[17268]] using capture mode Window/DXGI Attempts: 1
+[Debug | 3:40:15 PM | 22] CreateConfig: using main LUID 81152, encode LUID 81152, codec SCOPE_VID_CODEC_H264
+[Debug | 3:40:15 PM | 22] COR: input resolution <= output resolution (1920x1080 vs 1920x1080), not upscaling
+[Info | 3:40:15 PM | 22] Input resolution: 1920x1080
+[Info | 3:40:15 PM | 22] Output resolution: 1920x1080
+[Info | 3:40:15 PM | 22] Clearing current I/O settings
+[Info | 3:40:15 PM | 22] Updating audio configurations
+[Debug | 3:40:15 PM | 15] [Scope] [15:40:15.970738] [0051A8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:40:15 PM | 15] [Scope] [15:40:15.977907] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:40:15 PM | 15] [Scope] [15:40:15.986503] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 3:40:16 PM | 22] RecordingSession using window capture: window 919334 using mode SCOPE_VCAP_WINDOW_MODE_DXGI
+[Info | 3:40:16 PM | 22] Output modes: FullSessionOutput
+[Debug | 3:40:16 PM | 5] Checking window:  (1312230, ApplicationFrameInputSinkWindow)
+[Debug | 3:40:16 PM | 5] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.038334] [005254] pipeline starting to process user actions
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.156228] [0051A8] NV encoder initialised with Latest backend (NVENC 12.0, driver max NVENC 12.2)
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.175358] [0051A8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.213747] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.215049] [0051A8] WASAPI process capture: entering ActivateAudioInterface, capture including PID 17268
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.215056] [0051A8] WASAPI process capture: going to call ActivateAudioInterfaceAsync
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.216496] [0051A8] WASAPI process capture: waiting for activate completed
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.216597] [002CE8] WASAPI process capture: activate completed callback called
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.216614] [002CE8] WASAPI process capture: using audio properties Wave (PCM, float, 32-bit, interleaved) 48000Hz 2ch
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.216640] [002CE8] WASAPI process capture: WFX fmt FFFE channels 2 chmask 00000003 sr 48000 bps 32 balign 8
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.216641] [002CE8] WASAPI process capture: activate completed callback going to initialise audio client
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.217483] [002CE8] created WASAPI capture for PID 17268; loopback using WASAPI events
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.217484] [0051A8] WASAPI process capture: received activate completed
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.217593] [0051A8] WASAPI process capture for PID 17268 using assumed capture period of 10.000ms
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.217596] [0051A8]     format: Wave (PCM, float, 32-bit, interleaved), 2 channels, 48000Hz
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.231375] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.231452] [0051A8] creating WASAPI capture for device Microphone (GENERAL WEBCAM); capture aiming to use WASAPI events
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.232566] [0051A8] WASAPI device capture for Microphone (GENERAL WEBCAM) trying format Wave (PCM, float, 32-bit, interleaved), 16000Hz, 1ch
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.357817] [0051A8] created WASAPI capture for device Microphone (GENERAL WEBCAM); capture client using WASAPI events
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.358920] [0051A8] WASAPI device capture for Microphone (GENERAL WEBCAM) using retrieved capture period of 10.000ms
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.358929] [0051A8]     format: Wave (PCM, float, 32-bit, interleaved), 1 channels, 16000Hz
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.371102] [0051A8] created FFMPEG muxer
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.371623] [0051A8] added video stream 0 () to FFMPEG muxer
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.372618] [0051A8] added audio stream 0 (All Audio) to FFMPEG muxer
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.372633] [0051A8] added audio stream 1 (Game) to FFMPEG muxer
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.372637] [0051A8] added audio stream 2 (Mic) to FFMPEG muxer
+[Info | 3:40:16 PM | 22] Starting Medal Performance monitor.
+[Debug | 3:40:16 PM | 22] [EventProcessor] [<-] StartRecording ElapsedTime: 503ms
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.408661] [002218] audio processor updated noise suppression settings for input track 1
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.410144] [002218] audio processor updated gate settings for input track 1
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.410539] [002218] starting pipeline
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.599364] [002218] started input capture
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.599404] [002218] opening file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.600243] [002218] opened file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.600423] [002218] starting FFMPEG audio encoder
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.600463] [002218] starting FFMPEG audio encoder
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.600501] [002218] starting FFMPEG audio encoder
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.600562] [002218] starting FFMPEG audio stream processor
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.600616] [002218] starting WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Info | 3:40:16 PM | 15] [Scope] [15:40:16.600638] [002218] starting WASAPI process capture for PID 17268
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.600692] [002218] starting NV video encoder
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.600709] [002218] starting D2D video frame processor
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.600818] [002218] starting DXGI window capture
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.600819] [002218] pipeline start issued
+[Info | 3:40:16 PM | 10] Session Output
+[Info | 3:40:16 PM | 10] Recording session starting
+[Info | 3:40:16 PM | 10] JWT validation is successful
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.626998] [0052BC] muxer creating video stream with codec H.264
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.627049] [0052BC] muxer creating audio stream with codec AAC
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.629516] [0052BC] muxer creating audio stream with codec AAC
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.629969] [0052BC] muxer creating audio stream with codec AAC
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.630453] [0052BC] muxer start: entering loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.638464] [0052C0] entering FFMPEG audio encoder loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.638472] [0052C0] regenerating FFMPEG audio encoder
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.649447] [0052C4] entering FFMPEG audio encoder loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.649455] [0052C4] regenerating FFMPEG audio encoder
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.649866] [0052C8] entering FFMPEG audio encoder loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.649869] [0052C8] regenerating FFMPEG audio encoder
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.650276] [0052D0] WASAPI capture for Microphone (GENERAL WEBCAM) using WASAPI events
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.650753] [0052CC] audio stream processor: generating filter graph for 2 input streams -> 3 output streams
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.651099] [0052D4] entering NV video encoder main encode loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.651287] [0052D8] entering D2D video processor main loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.651293] [0052D8] regenerating D2D video frame processor (iteration 1)
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.652340] [0052E0] entering DXGI capture main loop
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.652359] [0052E0] DXGI capture regenerating
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.719303] [0052D0] entering WASAPI capture loop for capture device Microphone (GENERAL WEBCAM)
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.719342] [0052D0] WASAPI device capture: using source timestamps for Microphone (GENERAL WEBCAM) (time diff: 0.060943s)
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.746950] [0052E0] DXDeviceManager created DXDevice for adapter NVIDIA GeForce GTX 970 (LUID 81152) with usage 1
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.749252] [0052E0] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.749289] [0052E0] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.752309] [0052E0] DXGI screen using texture format 87
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.752331] [0052E0] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.757774] [0052CC] audio stream processor: generated and configured filter graph
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.757786] [0052CC] audio stream processor: output stream 0 initial time base is 1/48000
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.757788] [0052CC] audio stream processor: output stream 1 initial time base is 1/48000
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.757792] [0052CC] audio stream processor: output stream 2 initial time base is 1/48000
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.757805] [0052CC] all pipeline components started
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.762471] [0052E0] DXGI capture using source timestamps (time diff: 0.000209s)
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.789026] [0052BC] muxer start: got keyframe from video stream 0 at time 170894.981966, now at 1/4 streams
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.858823] [0052BC] muxer start: got keyframe from audio stream 2 at time 170894.957125, now at 2/4 streams
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.859452] [0052BC] muxer start: got keyframe from audio stream 1 at time 170894.957042, now at 3/4 streams
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.868509] [0052BC] muxer start: got keyframe from audio stream 0 at time 170894.957042, now at 4/4 streams
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.868518] [0052BC] muxer start: using 170894.981966 as zero time
+[Debug | 3:40:16 PM | 15] [Scope] [15:40:16.868588] [0052BC] muxer writing file header
+[Info | 3:40:16 PM | 7] Recording session started successfully
+[Info | 3:40:16 PM | 7] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:40:16 PM | 7] Sending electron overlay show: Recording started.
+[Info | 3:40:16 PM | 7] [Game Status]: capture/started - Minecraft[hAXdelx2t]
+[Debug | 3:40:17 PM | 27] StartRecordingSession reply {"uuid":"7d3ce243-88c3-4943-9594-31ae8ea5e3e5","contentId":"kqkrrY9JiVqTxARhF"}
+[Info | 3:40:17 PM | 27] SendOverlaySize reply "ok" after 689.6ms
+[Info | 3:40:17 PM | 27] Average response time: 233.9ms (3 measures)
+[Debug | 3:40:17 PM | 14] capture/started reply "ok"
+[Warning | 3:40:22 PM | 31] Polling has been going on for too long. Allowing new poll. Oldest request: game/started at 6/4/2025 3:40:14 PM
+[Debug | 3:40:24 PM | 27] game/started reply "ok"
+[Debug | 3:40:24 PM | 27] job.respond "ok"
+[Info | 3:40:24 PM | 27] SendOverlayShow reply "ok" after 7407.4ms
+[Info | 3:40:24 PM | 27] Average response time: 2027.2ms (4 measures)
+[Debug | 3:40:24 PM | 27] Executing Request: set.overlayCurrentInjectedMode
+[Info | 3:40:24 PM | 27] job.respond e90e3882-f957-4e83-8fb1-3b56ea1a472b
+[Debug | 3:40:24 PM | 27] PollDesktopJobQueue reply [{"uuid":"e90e3882-f957-4e83-8fb1-3b56ea1a472b","body":{"enabled":0},"action":"set.overlayCurrentInjectedMode"}]
+[Debug | 3:40:24 PM | 27] job.respond "ok"
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.126584] [0052E0] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.136744] [0052E0] DXGI capture regenerating
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.137741] [0052E0] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.137752] [0052E0] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.139512] [0052E0] DXGI screen using texture format 87
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.139525] [0052E0] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Info | 3:44:30 PM | 9] Window object entered/left fullscreen: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [525,269 + 870x519], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:44:30 PM | 9] Sending electron overlay location: size 870x519 position 525,269
+[Info | 3:44:30 PM | 9] Input resolution changed from 1920x1080 to 870x519
+[Debug | 3:44:30 PM | 9] COR: input resolution <= output resolution (870x519 vs 1810x1080), not upscaling
+[Debug | 3:44:30 PM | 9] COR: proposed output resolution changed from 1920x1080 to 870x519
+[Debug | 3:44:30 PM | 9] COR: input resolution not larger (870x519 vs 1920x1080), keeping existing output res
+[Info | 3:44:30 PM | 9] Continuing current recording at output resolution 1920x1080
+[Info | 3:44:30 PM | 27] SendOverlaySize reply "ok" after 13.5ms
+[Info | 3:44:30 PM | 27] Average response time: 1624.5ms (5 measures)
+[Debug | 3:44:30 PM | 15] [Scope] [15:44:30.166138] [0052E0] DXGI capture using source timestamps (time diff: 0.000107s)
+[Info | 3:44:32 PM | 14] Window object moved/resized: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [525,269 + 870x519], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:44:32 PM | 10] Window object entered/left fullscreen: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:44:32 PM | 10] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:44:32 PM | 10] Input resolution changed from 870x519 to 1920x1080
+[Debug | 3:44:32 PM | 10] COR: input resolution <= output resolution (1920x1080 vs 1920x1080), not upscaling
+[Info | 3:44:32 PM | 10] Continuing current recording at output resolution 1920x1080
+[Info | 3:44:32 PM | 31] Window object entered/left exclusive fullscreen: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:44:32 PM | 12] SendOverlaySize reply "ok" after 15.0ms
+[Info | 3:44:32 PM | 12] Average response time: 1356.2ms (6 measures)
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.577339] [0052E0] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.587586] [0052E0] DXGI capture regenerating
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.608814] [0052E0] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.608826] [0052E0] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.612155] [0052E0] DXGI screen using texture format 87
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.612172] [0052E0] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:44:32 PM | 15] [Scope] [15:44:32.665244] [0052E0] DXGI capture using source timestamps (time diff: 0.000115s)
+[Info | 3:44:34 PM | 10] Window object moved/resized: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:45:14 PM | 9] Queue processing running. Events processed: 8
+[Debug | 3:46:27 PM | 15] [Scope] [15:46:27.525888] [0052E0] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Debug | 3:46:27 PM | 15] [Scope] [15:46:27.536377] [0052E0] DXGI capture regenerating
+[Debug | 3:46:27 PM | 15] [Scope] [15:46:27.536935] [0052E0] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:46:27 PM | 15] [Scope] [15:46:27.536941] [0052E0] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:46:27 PM | 15] [Scope] [15:46:27.537096] [0052E0] could not create DXGI screen for monitor 0x10001 using adapter 81152: could not duplicate DXGI output (80070005, Access is denied.) (-302)
+[Debug | 3:46:27 PM | 15] [Scope] [15:46:27.537099] [0052E0] failed to create DXGI screen for monitor 0x10001 due to access denied error, waiting and trying again
+[Info | 3:46:27 PM | 10] Window object entered/left fullscreen: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-32000,-32000 + 160x28], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:46:27 PM | 10] Game is not in focus
+[Info | 3:46:27 PM | 26] Window object minimized/unminimized: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-32000,-32000 + 160x28], javaw[17268]] EventType: EVENT_SYSTEM_MINIMIZESTART
+[Info | 3:46:27 PM | 31] Game is not in focus
+[Info | 3:46:29 PM | 14] Window object entered/left fullscreen: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[17268]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:46:29 PM | 14] Game is not in focus
+[Info | 3:46:29 PM | 26] Window object minimized/unminimized: Window[919334, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[17268]] EventType: EVENT_SYSTEM_MINIMIZEEND
+[Info | 3:46:29 PM | 14] Game is not in focus
+[Info | 3:46:30 PM | 31] Window object destroyed: Window[919334, hAXdelx2t[Minecraft], GLFW30, "", [0,0 + 1920x1080], javaw[17268]] EventType: EVENT_OBJECT_DESTROY
+[Debug | 3:46:30 PM | 26] Window thread message loop stopped: Window Hooks for Window[919334, hAXdelx2t[Minecraft], GLFW30, javaw[17268]]
+[Info | 3:46:30 PM | 31] Match detector Minecraft_MatchDetector cancelled.
+[Info | 3:46:30 PM | 31] [Game Status]: game/stopped - Minecraft[hAXdelx2t]
+[Info | 3:46:30 PM | 31] [ESM Event] - StopRecording
+[Debug | 3:46:30 PM | 22] [EventProcessor] [->] StopRecording
+[Info | 3:46:30 PM | 31] Stopping InputManager.
+[Info | 3:46:30 PM | 22] Exiting Recording
+[Info | 3:46:30 PM | 22] Dispose Recording Session
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.555415] [0051A8] stopping pipeline
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.555464] [0051A8] stopping DXGI window capture
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.565850] [0052E0] exiting DXGI capture main loop
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.566551] [0051A8] stopping D2D video frame processor
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.566592] [0052D8] exiting D2D video processor main loop
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.567971] [0051A8] stopped D2D video frame processor
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.567982] [0051A8] stopping NV video encoder (put thread)
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.567983] [0051A8] NV encoder sending EOS
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.568174] [0051A8] NV encoder waiting for EOS event
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.568244] [0051A8] NV encoder sent EOS
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.568255] [0051A8] stopping NV video encoder (encode thread)
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.568263] [0052D4] exiting NV video encoder main encode loop
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.572466] [0051A8] stopping WASAPI process capture for PID 17268
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.573243] [0051A8] stopped WASAPI process capture for PID 17268
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.573259] [0051A8] stopping WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.573277] [0052D0] exiting WASAPI capture loop for device Microphone (GENERAL WEBCAM)
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.573750] [0051A8] stopped WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.573757] [0051A8] stopping FFMPEG audio stream processor
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.574165] [0051A8] stopped FFMPEG audio stream processor
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.574170] [0051A8] stopping FFMPEG audio encoder
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.575273] [0052C8] exiting FFMPEG audio encoder loop
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.578989] [0052C8] leaving FFMPEG audio encoder run thread
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.579330] [0051A8] stopped FFMPEG audio encoder
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.579336] [0051A8] stopping FFMPEG audio encoder
+[Info | 3:46:30 PM | 25] InputManager: PollInput stopped
+[Info | 3:46:30 PM | 31] InputManager stopped.
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.674767] [0052C4] exiting FFMPEG audio encoder loop
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.675274] [0052C4] leaving FFMPEG audio encoder run thread
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.675714] [0051A8] stopped FFMPEG audio encoder
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.675721] [0051A8] stopping FFMPEG audio encoder
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.675746] [0052C0] exiting FFMPEG audio encoder loop
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.679073] [0052C0] leaving FFMPEG audio encoder run thread
+[Info | 3:46:30 PM | 15] [Scope] [15:46:30.680042] [0051A8] stopped FFMPEG audio encoder
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.680092] [0052BC] muxer stop: flushing buffers
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.680116] [0052BC] muxer stop: writing trailer, last PTS 171268.737966
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.682250] [0052BC] muxer stop: exiting thread
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.682727] [0051A8] waiting for pending async requests to complete for file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.682730] [0051A8] closing file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.722420] [0051A8] synced file data and metadata for C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.722710] [0051A8] closed file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Info | 3:46:30 PM | 22] Stopped Pipeline
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.722728] [0051A8] stopping input capture
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.723819] [0051A8] stopped input capture
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.723841] [0051A8] all pipeline components stopped
+[Debug | 3:46:30 PM | 15] [Scope] [15:46:30.723851] [0051A8] pipeline stop issued
+[Debug | 3:46:30 PM | 34] Executing Request: set.toggleBroadcast
+[Info | 3:46:30 PM | 34] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 3:46:30 PM | 34] Clear override settings
+[Info | 3:46:30 PM | 34] job.respond f7268496-d542-4c53-b1a7-aef7a9bbb080
+[Debug | 3:46:30 PM | 34] PollDesktopJobQueue reply [{"uuid":"f7268496-d542-4c53-b1a7-aef7a9bbb080","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 3:46:30 PM | 30] job.respond "ok"
+[Debug | 3:46:30 PM | 22] Probe output: {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "bits_per_raw_sample": "8",
+            "extradata_size": 41,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "DURATION": "00:06:13.766000000"
+            }
+        },
+        {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 18,
+            "start_time": "0.018000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "All Audio",
+                "DURATION": "00:06:13.798000000"
+            }
+        },
+        {
+            "index": 2,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 18,
+            "start_time": "0.018000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "Game",
+                "DURATION": "00:06:13.798000000"
+            }
+        },
+        {
+            "index": 3,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 18,
+            "start_time": "0.018000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "Mic",
+                "DURATION": "00:06:13.798000000"
+            }
+        }
+    ],
+    "format": {
+        "filename": "C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv",
+        "nb_streams": 4,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.000000",
+        "duration": "373.798000",
+        "size": "636032956",
+        "bit_rate": "13612335",
+        "probe_score": 100,
+        "tags": {
+            "ZERO_TIME": "1749037216761421",
+            "ENCODER": "Lavf61.7.100"
+        }
+    }
+}
+
+[Info | 3:46:31 PM | 22] Output FPS: 60
+[Info | 3:46:31 PM | 22] Output Video Bitrate (Mbps) : 13.612335
+[Info | 3:46:31 PM | 22] Output Video Length (in seconds): 373.766
+[Info | 3:46:31 PM | 22] Session duration: 373.766
+[Info | 3:46:31 PM | 22] Input FPS: 78.7707756133685
+[Info | 3:46:31 PM | 22] Complete session. Output File: C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154016.mkv
+[Info | 3:46:31 PM | 22] ActiveGame does not have additional context tags.
+[Info | 3:46:31 PM | 22] Context: MinecraftClientName Default
+[Info | 3:46:31 PM | 22] Context: MinecraftUsername EliteProFast
+[Info | 3:46:31 PM | 22] Recording session stopped
+[Info | 3:46:31 PM | 22] [Game Status]: capture/stopped - Minecraft[hAXdelx2t]
+[Debug | 3:46:31 PM | 34] capture/stopped reply "ok"
+[Info | 3:46:31 PM | 22] Stopping performance monitor.
+[Debug | 3:46:31 PM | 15] [Scope] [15:46:31.286526] [0051A8] stopping pipeline
+[Debug | 3:46:31 PM | 15] [Scope] [15:46:31.286600] [0051A8] pipeline stop issued
+[Debug | 3:46:31 PM | 15] [Scope] [15:46:31.286605] [0051A8] pipeline joining user action thread
+[Debug | 3:46:31 PM | 15] [Scope] [15:46:31.286618] [005254] pipeline stopping processing user actions
+[Debug | 3:46:31 PM | 15] [Scope] [15:46:31.286967] [0051A8] pipeline joined user action thread
+[Info | 3:46:31 PM | 22] Disposed Pipeline
+[Info | 3:46:31 PM | 22] ----[ESM State]: SelectTarget----
+[Info | 3:46:31 PM | 22] [SelectTarget] Considering switching target after recording stopped
+[Debug | 3:46:31 PM | 22] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:46:31 PM | 22] No viable targets available
+[Debug | 3:46:31 PM | 22] [EventProcessor] [<-] StopRecording ElapsedTime: 758ms
+[Info | 3:46:31 PM | 14] javaw exited.
+[Info | 3:46:31 PM | 14] Sending electron overlay toggle injected mode: False
+[Debug | 3:46:31 PM | 14] Closing window on process exit: Window[919334, hAXdelx2t[Minecraft], GLFW30, "", [0,0 + 0x0], javaw[17268][DEAD]]
+[Info | 3:46:31 PM | 14] Game process javaw for Minecraft exited with code 0, hook attempted: no
+[Debug | 3:46:32 PM | 34] game/stopped reply "ok"
+[Info | 3:46:32 PM | 34] SendOverlayToggleInjectedMode reply "ok" after 296.8ms
+[Info | 3:46:32 PM | 34] Average response time: 1204.9ms (7 measures)
+[Debug | 3:46:32 PM | 10] Checking window: SKlauncher 3.2.12 build.522 (3147554, GlassWndClass-GlassWindowClass-4)
+[Debug | 3:46:32 PM | 10] Checking window under process javaw against 78 games with LTs 5, 1, 3
+[Debug | 3:46:35 PM | 34] StopRecordingSession reply {"uuid":"7d3ce243-88c3-4943-9594-31ae8ea5e3e5","clipID":"kqkrrY9JiVqTxARhF","Status":"local","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","Image":"C:\\Medal\\.Thumbnails\\MedalTVMinecraft20250604154016.jpg","SaveType":"4","GameTitle":"Untitled","TimeCreated":1749037216.621,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"},"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1749037591221,"priority":0},"triggerType":null,"isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":null,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"2025-06-04T15:40:16.6082112+04:00","exportStatsDuration":373.76599999999996,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"encoded":true,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1mkIpe4xYBCMcP3HUxp","Content":{"contentId":"kqkrrY9JiVqTxARhF","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5121911,"publishedClipCount":9057170,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1749037190099},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/kqkrrY9JiVqTxARhF","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1749037218061,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1749058200000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0,"contentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","contentUrl360p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","contentUrl480p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","contentUrl720p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","contentUrl1080p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154016.mkv","bookmarks":[],"draft":true,"metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"},"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1749037591221,"priority":0},"triggerType":null,"isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":null,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"2025-06-04T15:40:16.6082112+04:00","exportStatsDuration":373.76599999999996,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"}},"origin":"Recorder","sessionType":"FullSession","Size":636032956,"ffmpegMetadata":{"contentStartTime":0.018,"video":{"codec":"h264","colorspace":"yuv420p","resolution":{"width":1920,"height":1080},"aspectRatio":"16:9","startTime":"0.000000"},"audio":{"codec":"aac","samplerate":"48000","startTime":"0.018000"},"metadataVersion":"ffprobe.v1","audioStreams":[{"index":1,"codec_name":"aac","codec_long_name":"AAC (Advanced Audio Coding)","profile":"LC","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":2,"channel_layout":"stereo","bits_per_sample":0,"initial_padding":1024,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":18,"start_time":"0.018000","extradata_size":5,"disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"title":"All Audio","DURATION":"00:06:13.798000000"}},{"index":2,"codec_name":"aac","codec_long_name":"AAC (Advanced Audio Coding)","profile":"LC","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":2,"channel_layout":"stereo","bits_per_sample":0,"initial_padding":1024,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":18,"start_time":"0.018000","extradata_size":5,"disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"title":"Game","DURATION":"00:06:13.798000000"}},{"index":3,"codec_name":"aac","codec_long_name":"AAC (Advanced Audio Coding)","profile":"LC","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":2,"channel_layout":"stereo","bits_per_sample":0,"initial_padding":1024,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":18,"start_time":"0.018000","extradata_size":5,"disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"title":"Mic","DURATION":"00:06:13.798000000"}}]},"ExportKey":"dd8604c2cd7df908f66cec0f7864fd69"}
+[Debug | 3:49:04 PM | 31] Checking window: Minecraft* 1.21.4 (526170, GLFW30)
+[Debug | 3:49:04 PM | 31] Checking window under process javaw against 78 games with LTs 5, 1, 3
+[Info | 3:49:04 PM | 31] Game Found Type ProcessFuzzyCaption: Minecraft
+[Info | 3:49:04 PM | 31] Process name found javaw | Caption | Minecraft* 1.21.4 | and class | GLFW30 | Detect all Games | False
+[Info | 3:49:04 PM | 31] Adding game to active games. State: 0 14 2
+[Info | 3:49:04 PM | 31] Creating Target process
+[Info | 3:49:04 PM | 31] Checking if game process is elevated
+[Debug | 3:49:04 PM | 31] Initialized customization for hAXdelx2t (Minecraft)
+[Info | 3:49:04 PM | 7] Minecraft_MatchDetector: No valid log files found in CurseForge instances
+[Info | 3:49:04 PM | 7] Minecraft_MatchDetector: Determined client Default (timestamp: 2025-05-14 16:24:22)
+[Info | 3:49:04 PM | 7] Minecraft_MatchDetector: Detected client: Default
+[Info | 3:49:04 PM | 7] Minecraft_MatchDetector: Using log path: C:\Users\alish\AppData\Roaming\.minecraft\logs\latest.log
+[Info | 3:49:04 PM | 31] Acquiring InputManagerHandle
+[Info | 3:49:04 PM | 31] Starting InputManager.
+[Info | 3:49:04 PM | 31] Check for input devices
+[Info | 3:49:04 PM | 7] Minecraft_MatchDetector: Username detected: EliteProFast
+[Info | 3:49:04 PM | 31] InputManager started.
+[Info | 3:49:04 PM | 31] Setting up window hooks for game window
+[Info | 3:49:04 PM | 37] InputManager: regenerating trigger inputs for (none)
+[Warning | 3:49:04 PM | 37] Invalid trigger input for action clip;length=1200: no inputs defined
+[Warning | 3:49:04 PM | 37] Invalid trigger input for action segment_toggle: no inputs defined
+[Info | 3:49:04 PM | 37] Updated hotkeys for (none), now have 8 hotkeys configured
+[Debug | 3:49:04 PM | 35] Window thread message loop starting: Window Hooks for Window[526170, hAXdelx2t[Minecraft], GLFW30, javaw[21140]]
+[Info | 3:49:04 PM | 35] Set up window hooks for window handle 526170
+[Info | 3:49:04 PM | 31] Added game to active games
+[Info | 3:49:04 PM | 31] Using electron overlay.
+[Info | 3:49:04 PM | 31] Starting Electron overlay for Minecraft
+[Info | 3:49:04 PM | 31] Sending electron overlay toggle injected mode: False
+[Info | 3:49:04 PM | 31] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:49:04 PM | 31] [Game Status]: game/started - Minecraft[hAXdelx2t]
+[Info | 3:49:04 PM | 38] SendOverlayToggleInjectedMode reply "ok" after 2.0ms
+[Info | 3:49:04 PM | 38] Average response time: 1054.5ms (8 measures)
+[Info | 3:49:04 PM | 38] SendOverlaySize reply "ok" after 4.0ms
+[Info | 3:49:04 PM | 38] Average response time: 937.8ms (9 measures)
+[Info | 3:49:04 PM | 31] New game window detected: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]]
+[Info | 3:49:04 PM | 31] [ESM Event] - ConsiderSwitchRecording
+[Info | 3:49:04 PM | 31] Marking new game window as checked for tracking
+[Debug | 3:49:04 PM | 22] [EventProcessor] [->] ConsiderSwitchRecording
+[Info | 3:49:04 PM | 22] [SelectTarget] Considering switching target while idle
+[Debug | 3:49:04 PM | 22] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:49:04 PM | 22] ~ Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]]
+[Debug | 3:49:04 PM | 22] ~     Score: 63000 (PreferredType)
+[Debug | 3:49:04 PM | 22] Selected target Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]] (score 63000)
+[Info | 3:49:04 PM | 22] Going to attempt recording Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]]
+[Info | 3:49:04 PM | 22] [ESM Event] - AttemptRecording
+[Debug | 3:49:04 PM | 22] [EventProcessor] [<-] ConsiderSwitchRecording ElapsedTime: 6ms
+[Debug | 3:49:04 PM | 22] [EventProcessor] [->] AttemptRecording
+[Info | 3:49:04 PM | 22] ----[ESM State]: AttemptRecording----
+[Debug | 3:49:04 PM | 22] WinRTCheck: skipping WinRT capture due to likely OpenGL game
+[Info | 3:49:04 PM | 22] [ESM Event] - StartRecording
+[Debug | 3:49:04 PM | 22] [EventProcessor] [<-] AttemptRecording ElapsedTime: 2ms
+[Debug | 3:49:04 PM | 22] [EventProcessor] [->] StartRecording
+[Info | 3:49:04 PM | 22] ----[ESM State]: Recording----
+[Debug | 3:49:04 PM | 22] Creating recording session for Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]] using capture mode Window/DXGI Attempts: 1
+[Debug | 3:49:04 PM | 22] CreateConfig: using main LUID 81152, encode LUID 81152, codec SCOPE_VID_CODEC_H264
+[Debug | 3:49:04 PM | 22] COR: input resolution <= output resolution (1920x1080 vs 1920x1080), not upscaling
+[Info | 3:49:04 PM | 22] Input resolution: 1920x1080
+[Info | 3:49:04 PM | 22] Output resolution: 1920x1080
+[Info | 3:49:04 PM | 22] Clearing current I/O settings
+[Info | 3:49:04 PM | 22] Updating audio configurations
+[Debug | 3:49:04 PM | 15] [Scope] [15:49:04.885948] [0051A8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:04 PM | 15] [Scope] [15:49:04.895518] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:04 PM | 15] [Scope] [15:49:04.903559] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 3:49:04 PM | 22] RecordingSession using window capture: window 526170 using mode SCOPE_VCAP_WINDOW_MODE_DXGI
+[Info | 3:49:04 PM | 22] Output modes: FullSessionOutput
+[Debug | 3:49:04 PM | 15] [Scope] [15:49:04.908528] [005258] pipeline starting to process user actions
+[Info | 3:49:04 PM | 37] InputManager: target switch detected, regenerating trigger inputs for Minecraft
+[Warning | 3:49:04 PM | 37] Invalid trigger input for action clip;length=1200: no inputs defined
+[Warning | 3:49:04 PM | 37] Invalid trigger input for action segment_toggle: no inputs defined
+[Info | 3:49:04 PM | 37] Updated hotkeys for Minecraft, now have 8 hotkeys configured
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.002598] [0051A8] NV encoder initialised with Latest backend (NVENC 12.0, driver max NVENC 12.2)
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.009558] [0051A8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.016889] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017144] [0051A8] WASAPI process capture: entering ActivateAudioInterface, capture including PID 21140
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017146] [0051A8] WASAPI process capture: going to call ActivateAudioInterfaceAsync
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017623] [0051A8] WASAPI process capture: waiting for activate completed
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017635] [004ED4] WASAPI process capture: activate completed callback called
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017644] [004ED4] WASAPI process capture: using audio properties Wave (PCM, float, 32-bit, interleaved) 48000Hz 2ch
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017648] [004ED4] WASAPI process capture: WFX fmt FFFE channels 2 chmask 00000003 sr 48000 bps 32 balign 8
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017649] [004ED4] WASAPI process capture: activate completed callback going to initialise audio client
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.017871] [004ED4] created WASAPI capture for PID 21140; loopback using WASAPI events
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017873] [0051A8] WASAPI process capture: received activate completed
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.017895] [0051A8] WASAPI process capture for PID 21140 using assumed capture period of 10.000ms
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.017898] [0051A8]     format: Wave (PCM, float, 32-bit, interleaved), 2 channels, 48000Hz
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.025236] [0051A8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.025346] [0051A8] creating WASAPI capture for device Microphone (GENERAL WEBCAM); capture aiming to use WASAPI events
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.026522] [0051A8] WASAPI device capture for Microphone (GENERAL WEBCAM) trying format Wave (PCM, float, 32-bit, interleaved), 16000Hz, 1ch
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.054044] [0051A8] created WASAPI capture for device Microphone (GENERAL WEBCAM); capture client using WASAPI events
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.055089] [0051A8] WASAPI device capture for Microphone (GENERAL WEBCAM) using retrieved capture period of 10.000ms
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.055099] [0051A8]     format: Wave (PCM, float, 32-bit, interleaved), 1 channels, 16000Hz
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.055309] [0051A8] created FFMPEG muxer
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.055335] [0051A8] added video stream 0 () to FFMPEG muxer
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.055341] [0051A8] added audio stream 0 (All Audio) to FFMPEG muxer
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.055346] [0051A8] added audio stream 1 (Game) to FFMPEG muxer
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.055349] [0051A8] added audio stream 2 (Mic) to FFMPEG muxer
+[Info | 3:49:05 PM | 22] Starting Medal Performance monitor.
+[Debug | 3:49:05 PM | 22] [EventProcessor] [<-] StartRecording ElapsedTime: 190ms
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.061014] [00293C] audio processor updated noise suppression settings for input track 1
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.061036] [00293C] audio processor updated gate settings for input track 1
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.061042] [00293C] starting pipeline
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.321755] [00293C] started input capture
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.321770] [00293C] opening file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.322642] [00293C] opened file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.322772] [00293C] starting FFMPEG audio encoder
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.322818] [00293C] starting FFMPEG audio encoder
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.322861] [00293C] starting FFMPEG audio encoder
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.322905] [00293C] starting FFMPEG audio stream processor
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.322949] [00293C] starting WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Info | 3:49:05 PM | 7] Session Output
+[Info | 3:49:05 PM | 15] [Scope] [15:49:05.322973] [00293C] starting WASAPI process capture for PID 21140
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.323026] [00293C] starting NV video encoder
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.323033] [00293C] starting D2D video frame processor
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.323128] [00293C] starting DXGI window capture
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.323129] [00293C] pipeline start issued
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.327950] [004BD8] muxer creating video stream with codec H.264
+[Info | 3:49:05 PM | 7] Recording session starting
+[Info | 3:49:05 PM | 7] JWT validation is successful
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.327970] [004BD8] muxer creating audio stream with codec AAC
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.328055] [002370] entering FFMPEG audio encoder loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.328058] [002370] regenerating FFMPEG audio encoder
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.329205] [004BD8] muxer creating audio stream with codec AAC
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.329607] [004BD8] muxer creating audio stream with codec AAC
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.330031] [004BD8] muxer start: entering loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.330637] [002F18] entering FFMPEG audio encoder loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.330640] [002F18] regenerating FFMPEG audio encoder
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.331286] [0028BC] entering FFMPEG audio encoder loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.331288] [0028BC] regenerating FFMPEG audio encoder
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.335429] [005084] audio stream processor: generating filter graph for 2 input streams -> 3 output streams
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.336093] [004558] WASAPI capture for Microphone (GENERAL WEBCAM) using WASAPI events
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.336412] [003624] entering NV video encoder main encode loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.337917] [0003F0] entering D2D video processor main loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.337923] [0003F0] regenerating D2D video frame processor (iteration 1)
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.338612] [00282C] entering DXGI capture main loop
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.338615] [00282C] DXGI capture regenerating
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.338918] [00282C] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.338922] [00282C] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.340463] [00282C] DXGI screen using texture format 87
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.340476] [00282C] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.344857] [005084] audio stream processor: generated and configured filter graph
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.344863] [005084] audio stream processor: output stream 0 initial time base is 1/48000
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.344864] [005084] audio stream processor: output stream 1 initial time base is 1/48000
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.344866] [005084] audio stream processor: output stream 2 initial time base is 1/48000
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.347580] [00282C] DXGI capture using source timestamps (time diff: 0.000111s)
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.417403] [004558] all pipeline components started
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.417425] [004558] entering WASAPI capture loop for capture device Microphone (GENERAL WEBCAM)
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.417444] [004558] WASAPI device capture: using source timestamps for Microphone (GENERAL WEBCAM) (time diff: 0.054452s)
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.434065] [004BD8] muxer start: got keyframe from video stream 0 at time 171423.567226, now at 1/4 streams
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.435336] [004BD8] muxer start: got keyframe from audio stream 1 at time 171423.544104, now at 2/4 streams
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.453447] [004BD8] muxer start: got keyframe from audio stream 2 at time 171423.544104, now at 3/4 streams
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.462667] [004BD8] muxer start: got keyframe from audio stream 0 at time 171423.544104, now at 4/4 streams
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.462676] [004BD8] muxer start: using 171423.567226 as zero time
+[Debug | 3:49:05 PM | 15] [Scope] [15:49:05.462716] [004BD8] muxer writing file header
+[Info | 3:49:05 PM | 14] Recording session started successfully
+[Info | 3:49:05 PM | 14] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:49:05 PM | 14] Sending electron overlay show: Recording started.
+[Info | 3:49:05 PM | 14] [Game Status]: capture/started - Minecraft[hAXdelx2t]
+[Debug | 3:49:06 PM | 33] StartRecordingSession reply {"uuid":"a45205e2-9f92-4a5d-9732-20bba11c7c4d","contentId":"kqkB7sYuWBOwbFOVE"}
+[Info | 3:49:06 PM | 33] SendOverlaySize reply "ok" after 755.6ms
+[Info | 3:49:06 PM | 33] Average response time: 919.6ms (10 measures)
+[Debug | 3:49:06 PM | 33] capture/started reply "ok"
+[Warning | 3:49:10 PM | 10] Polling has been going on for too long. Allowing new poll. Oldest request: game/started at 6/4/2025 3:49:04 PM
+[Debug | 3:49:10 PM | 38] Executing Request: set.toggleBroadcast
+[Info | 3:49:10 PM | 38] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 3:49:10 PM | 38] Clear override settings
+[Info | 3:49:10 PM | 38] job.respond 7909935c-6f21-4e6c-9683-d82c1e2f50ad
+[Debug | 3:49:10 PM | 38] PollDesktopJobQueue reply [{"uuid":"7909935c-6f21-4e6c-9683-d82c1e2f50ad","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 3:49:10 PM | 33] job.respond "ok"
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.042828] [00282C] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.054064] [00282C] DXGI capture regenerating
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.065238] [00282C] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.065248] [00282C] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.068244] [00282C] DXGI screen using texture format 87
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.068261] [00282C] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.074625] [00282C] DXGI capture using source timestamps (time diff: 0.000124s)
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.575726] [00282C] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.586249] [00282C] DXGI capture regenerating
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.586754] [00282C] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.586760] [00282C] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.588506] [00282C] DXGI screen using texture format 87
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.588518] [00282C] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Info | 3:49:13 PM | 14] Window object entered/left fullscreen: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [525,269 + 870x519], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:13 PM | 14] Game is not in focus
+[Info | 3:49:13 PM | 14] Input resolution changed from 1920x1080 to 870x519
+[Debug | 3:49:13 PM | 14] COR: input resolution <= output resolution (870x519 vs 1810x1080), not upscaling
+[Debug | 3:49:13 PM | 14] COR: proposed output resolution changed from 1920x1080 to 870x519
+[Debug | 3:49:13 PM | 14] COR: input resolution not larger (870x519 vs 1920x1080), keeping existing output res
+[Info | 3:49:13 PM | 14] Continuing current recording at output resolution 1920x1080
+[Debug | 3:49:13 PM | 15] [Scope] [15:49:13.595968] [00282C] DXGI capture using source timestamps (time diff: 0.000105s)
+[Warning | 3:49:15 PM | 10] Polling has been going on for too long. Allowing new poll. Oldest request: game/started at 6/4/2025 3:49:04 PM
+[Info | 3:49:15 PM | 27] Window object moved/resized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [525,269 + 870x519], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:15 PM | 27] Game is not in focus
+[Debug | 3:49:15 PM | 33] game/started reply "ok"
+[Debug | 3:49:15 PM | 33] Executing Request: set.overlayCurrentInjectedMode
+[Info | 3:49:15 PM | 33] job.respond 08967070-54fc-4987-a10d-f6d6db8a5c68
+[Info | 3:49:15 PM | 38] SendOverlayShow reply "ok" after 10358.7ms
+[Info | 3:49:15 PM | 38] Average response time: 1777.7ms (11 measures)
+[Debug | 3:49:15 PM | 33] PollDesktopJobQueue reply [{"uuid":"08967070-54fc-4987-a10d-f6d6db8a5c68","body":{"enabled":0},"action":"set.overlayCurrentInjectedMode"}]
+[Debug | 3:49:15 PM | 33] job.respond "ok"
+[Info | 3:49:23 PM | 14] Window object maximized/unmaximized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [-8,-8 + 1936x1056], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:23 PM | 14] Sending electron overlay location: size 1936x1056 position -8,-8
+[Info | 3:49:23 PM | 14] Input resolution changed from 870x519 to 1936x1056
+[Debug | 3:49:23 PM | 14] COR: input resolution <= output resolution (1936x1056 vs 1980x1080), not upscaling
+[Debug | 3:49:23 PM | 14] COR: proposed output resolution changed from 1920x1080 to 1936x1056
+[Debug | 3:49:23 PM | 14] COR: input resolution is larger (1936x1056 vs 870x519), using new output res
+[Info | 3:49:23 PM | 14] Continuing current recording at output resolution 1920x1080
+[Info | 3:49:23 PM | 34] SendOverlaySize reply "ok" after 8.0ms
+[Info | 3:49:23 PM | 34] Average response time: 1630.2ms (12 measures)
+[Info | 3:49:25 PM | 7] Window object entered/left fullscreen: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:25 PM | 7] Sending electron overlay location: size 1920x1080 position 0,0
+[Info | 3:49:25 PM | 7] Input resolution changed from 1936x1056 to 1920x1080
+[Debug | 3:49:25 PM | 7] COR: input resolution <= output resolution (1920x1080 vs 1920x1080), not upscaling
+[Info | 3:49:25 PM | 7] Continuing current recording at output resolution 1920x1080
+[Info | 3:49:25 PM | 33] SendOverlaySize reply "ok" after 11.0ms
+[Info | 3:49:25 PM | 33] Average response time: 1505.7ms (13 measures)
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.109217] [00282C] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.119937] [00282C] DXGI capture regenerating
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.135037] [00282C] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.135047] [00282C] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.139060] [00282C] DXGI screen using texture format 87
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.139076] [00282C] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:49:25 PM | 15] [Scope] [15:49:25.142244] [00282C] DXGI capture using source timestamps (time diff: 0.000112s)
+[Info | 3:49:27 PM | 14] Window object moved/resized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [0,0 + 1920x1080], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Debug | 3:49:49 PM | 15] [Scope] [15:49:49.509240] [00282C] DXGI capture hit recoverable DXGI error, regenerating: The keyed mutex was abandoned. (887A0026) (-404)
+[Info | 3:49:49 PM | 27] Window object maximized/unmaximized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-32000,-32000 + 160x28], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:49 PM | 27] Game is not in focus
+[Debug | 3:49:49 PM | 15] [Scope] [15:49:49.520167] [00282C] DXGI capture regenerating
+[Info | 3:49:49 PM | 35] Window object minimized/unminimized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-32000,-32000 + 160x28], javaw[21140]] EventType: EVENT_SYSTEM_MINIMIZESTART
+[Info | 3:49:49 PM | 10] Game is not in focus
+[Debug | 3:49:49 PM | 15] [Scope] [15:49:49.523179] [00282C] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:49:49 PM | 15] [Scope] [15:49:49.523189] [00282C] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:49:49 PM | 15] [Scope] [15:49:49.523401] [00282C] could not create DXGI screen for monitor 0x10001 using adapter 81152: could not duplicate DXGI output (80070005, Access is denied.) (-302)
+[Debug | 3:49:49 PM | 15] [Scope] [15:49:49.523405] [00282C] failed to create DXGI screen for monitor 0x10001 due to access denied error, waiting and trying again
+[Info | 3:49:53 PM | 10] Window object maximized/unmaximized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:53 PM | 35] Window object minimized/unminimized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [0,0 + 1920x1080], javaw[21140]] EventType: EVENT_SYSTEM_MINIMIZEEND
+[Info | 3:49:54 PM | 14] Window object entered/left fullscreen: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Info | 3:49:54 PM | 14] Sending electron overlay location: size 1936x1056 position -8,-8
+[Info | 3:49:54 PM | 14] Input resolution changed from 1920x1080 to 1936x1056
+[Debug | 3:49:54 PM | 14] COR: input resolution <= output resolution (1936x1056 vs 1980x1080), not upscaling
+[Debug | 3:49:54 PM | 14] COR: proposed output resolution changed from 1920x1080 to 1936x1056
+[Debug | 3:49:54 PM | 14] COR: input resolution is larger (1936x1056 vs 1920x1080), using new output res
+[Info | 3:49:54 PM | 14] Continuing current recording at output resolution 1920x1080
+[Info | 3:49:54 PM | 33] SendOverlaySize reply "ok" after 8.0ms
+[Info | 3:49:54 PM | 33] Average response time: 1398.7ms (14 measures)
+[Info | 3:49:56 PM | 14] Window object moved/resized: Window[526170, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[21140]] EventType: EVENT_OBJECT_LOCATIONCHANGE
+[Debug | 3:49:59 PM | 15] [Scope] [15:49:59.534888] [00282C] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 81152
+[Debug | 3:49:59 PM | 15] [Scope] [15:49:59.534899] [00282C] DXGI screen output's device is 0x1d1b29c1a08 (LUID 81152), in-use device is 0x1d1b29c1a08 (LUID 81152)
+[Debug | 3:49:59 PM | 15] [Scope] [15:49:59.536033] [00282C] DXGI screen using texture format 87
+[Debug | 3:49:59 PM | 15] [Scope] [15:49:59.536045] [00282C] DXGI capture switched to monitor 0x10001 on LUID 81152 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:49:59 PM | 15] [Scope] [15:49:59.552254] [00282C] DXGI capture using source timestamps (time diff: 0.000105s)
+[Info | 3:50:14 PM | 30] Queue processing running. Events processed: 14
+[Info | 3:55:14 PM | 34] Starting periodic game DB update check
+[Info | 3:55:14 PM | 34] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 3:55:14 PM | 34] Remote Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 3:55:14 PM | 34] Local Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 3:55:14 PM | 34] Periodic game DB update check: no update available
+[Info | 3:55:14 PM | 34] Queue processing running. Events processed: 14
+[Info | 4:10:14 PM | 34] 2 logs of- Queue processing running. Events processed: 14
+[Info | 4:10:14 PM | 34] Starting periodic game DB update check
+[Info | 4:10:14 PM | 34] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:10:14 PM | 34] Remote Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 4:10:14 PM | 34] Local Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 4:10:14 PM | 34] Periodic game DB update check: no update available
+[Info | 4:10:14 PM | 14] Queue processing running. Events processed: 14
+[Info | 4:25:14 PM | 14] 2 logs of- Queue processing running. Events processed: 14
+[Info | 4:25:14 PM | 14] Starting periodic game DB update check
+[Info | 4:25:14 PM | 14] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:25:14 PM | 14] Remote Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 4:25:14 PM | 14] Local Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 4:25:14 PM | 14] Periodic game DB update check: no update available
+[Info | 4:25:15 PM | 7] Queue processing running. Events processed: 14
+[Info | 4:32:29 PM | 25] 1 logs of- Queue processing running. Events processed: 14
+[Info | 4:32:29 PM | 25] Window object destroyed: Window[526170, hAXdelx2t[Minecraft], GLFW30, "", [-8,-8 + 1936x1056], javaw[21140]] EventType: EVENT_OBJECT_DESTROY
+[Debug | 4:32:29 PM | 35] Window thread message loop stopped: Window Hooks for Window[526170, hAXdelx2t[Minecraft], GLFW30, javaw[21140]]
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.080144] [00282C] DXGI capture switched to no monitor, stopping capture of current screen
+[Info | 4:32:29 PM | 25] Match detector Minecraft_MatchDetector cancelled.
+[Info | 4:32:29 PM | 25] [Game Status]: game/stopped - Minecraft[hAXdelx2t]
+[Info | 4:32:29 PM | 25] [ESM Event] - StopRecording
+[Info | 4:32:29 PM | 25] Stopping InputManager.
+[Debug | 4:32:29 PM | 22] [EventProcessor] [->] StopRecording
+[Info | 4:32:29 PM | 22] Exiting Recording
+[Info | 4:32:29 PM | 22] Dispose Recording Session
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.087700] [0051A8] stopping pipeline
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.087747] [0051A8] stopping DXGI window capture
+[Info | 4:32:29 PM | 37] InputManager: PollInput stopped
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.091106] [00282C] exiting DXGI capture main loop
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.092654] [0051A8] stopping D2D video frame processor
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.092671] [0003F0] exiting D2D video processor main loop
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.093709] [0051A8] stopped D2D video frame processor
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.093720] [0051A8] stopping NV video encoder (put thread)
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.093721] [0051A8] NV encoder sending EOS
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.093938] [0051A8] NV encoder waiting for EOS event
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.094124] [0051A8] NV encoder sent EOS
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.094135] [0051A8] stopping NV video encoder (encode thread)
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.094142] [003624] exiting NV video encoder main encode loop
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.099168] [0051A8] stopping WASAPI process capture for PID 21140
+[Info | 4:32:29 PM | 25] InputManager stopped.
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.106035] [0051A8] stopped WASAPI process capture for PID 21140
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.106058] [0051A8] stopping WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.106070] [004558] exiting WASAPI capture loop for device Microphone (GENERAL WEBCAM)
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.106743] [0051A8] stopped WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.106751] [0051A8] stopping FFMPEG audio stream processor
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.107136] [0051A8] stopped FFMPEG audio stream processor
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.107140] [0051A8] stopping FFMPEG audio encoder
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.110843] [0028BC] exiting FFMPEG audio encoder loop
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.113840] [0028BC] leaving FFMPEG audio encoder run thread
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.114292] [0051A8] stopped FFMPEG audio encoder
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.114299] [0051A8] stopping FFMPEG audio encoder
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.208045] [002F18] exiting FFMPEG audio encoder loop
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.208548] [002F18] leaving FFMPEG audio encoder run thread
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.209871] [0051A8] stopped FFMPEG audio encoder
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.209878] [0051A8] stopping FFMPEG audio encoder
+[Debug | 4:32:29 PM | 19] Executing Request: set.toggleBroadcast
+[Info | 4:32:29 PM | 19] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 4:32:29 PM | 19] Clear override settings
+[Info | 4:32:29 PM | 19] job.respond 9fd42903-bae8-4b59-9dfb-2b046654bb29
+[Debug | 4:32:29 PM | 19] PollDesktopJobQueue reply [{"uuid":"9fd42903-bae8-4b59-9dfb-2b046654bb29","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 4:32:29 PM | 19] job.respond "ok"
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.310022] [002370] exiting FFMPEG audio encoder loop
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.314953] [002370] leaving FFMPEG audio encoder run thread
+[Info | 4:32:29 PM | 15] [Scope] [16:32:29.315395] [0051A8] stopped FFMPEG audio encoder
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.315424] [004BD8] muxer stop: flushing buffers
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.315451] [004BD8] muxer stop: writing trailer, last PTS 174027.277226
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.319935] [004BD8] muxer stop: exiting thread
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.320490] [0051A8] waiting for pending async requests to complete for file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.320493] [0051A8] closing file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.325982] [0051A8] synced file data and metadata for C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.326334] [0051A8] closed file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.326347] [0051A8] stopping input capture
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.327907] [0051A8] stopped input capture
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.327930] [0051A8] all pipeline components stopped
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.327940] [0051A8] pipeline stop issued
+[Info | 4:32:29 PM | 22] Stopped Pipeline
+[Debug | 4:32:29 PM | 22] Probe output: {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "bits_per_raw_sample": "8",
+            "extradata_size": 41,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "DURATION": "00:43:23.707000000"
+            }
+        },
+        {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 20,
+            "start_time": "0.020000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "All Audio",
+                "DURATION": "00:43:23.752000000"
+            }
+        },
+        {
+            "index": 2,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 20,
+            "start_time": "0.020000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "Game",
+                "DURATION": "00:43:23.752000000"
+            }
+        },
+        {
+            "index": 3,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 20,
+            "start_time": "0.020000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "Mic",
+                "DURATION": "00:43:23.752000000"
+            }
+        }
+    ],
+    "format": {
+        "filename": "C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv",
+        "nb_streams": 4,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.000000",
+        "duration": "2603.752000",
+        "size": "4733133764",
+        "bit_rate": "14542502",
+        "probe_score": 100,
+        "tags": {
+            "ZERO_TIME": "1749037745346681",
+            "ENCODER": "Lavf61.7.100"
+        }
+    }
+}
+
+[Info | 4:32:29 PM | 22] Output FPS: 60
+[Info | 4:32:29 PM | 22] Output Video Bitrate (Mbps) : 14.542502
+[Info | 4:32:29 PM | 22] Output Video Length (in seconds): 2603.707
+[Info | 4:32:29 PM | 22] Session duration: 2603.707
+[Info | 4:32:29 PM | 22] Input FPS: 59.291362161019
+[Info | 4:32:29 PM | 22] Complete session. Output File: C:\Medal\Clips\Minecraft\MedalTVMinecraft20250604154904.mkv
+[Info | 4:32:29 PM | 22] ActiveGame does not have additional context tags.
+[Info | 4:32:29 PM | 22] Context: MinecraftClientName Default
+[Info | 4:32:29 PM | 22] Context: MinecraftUsername EliteProFast
+[Info | 4:32:29 PM | 22] Recording session stopped
+[Info | 4:32:29 PM | 22] [Game Status]: capture/stopped - Minecraft[hAXdelx2t]
+[Info | 4:32:29 PM | 22] Stopping performance monitor.
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.526594] [0051A8] stopping pipeline
+[Debug | 4:32:29 PM | 9] capture/stopped reply "ok"
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.526664] [0051A8] pipeline stop issued
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.526669] [0051A8] pipeline joining user action thread
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.526681] [005258] pipeline stopping processing user actions
+[Debug | 4:32:29 PM | 15] [Scope] [16:32:29.527061] [0051A8] pipeline joined user action thread
+[Info | 4:32:29 PM | 22] Disposed Pipeline
+[Info | 4:32:29 PM | 22] ----[ESM State]: SelectTarget----
+[Info | 4:32:29 PM | 22] [SelectTarget] Considering switching target after recording stopped
+[Debug | 4:32:29 PM | 22] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 4:32:29 PM | 22] No viable targets available
+[Debug | 4:32:29 PM | 22] [EventProcessor] [<-] StopRecording ElapsedTime: 492ms
+[Debug | 4:32:29 PM | 25] Checking window:  (591706, ApplicationFrameTitleBarWindow)
+[Debug | 4:32:29 PM | 25] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:32:29 PM | 25] Checking window:  (2688484, ApplicationFrameInputSinkWindow)
+[Debug | 4:32:29 PM | 25] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:32:30 PM | 9] game/stopped reply "ok"
+[Info | 4:32:31 PM | 5] javaw exited.
+[Info | 4:32:31 PM | 5] Sending electron overlay toggle injected mode: False
+[Debug | 4:32:31 PM | 5] Closing window on process exit: Window[526170, hAXdelx2t[Minecraft], GLFW30, "", [0,0 + 0x0], javaw[21140][DEAD]]
+[Info | 4:32:31 PM | 5] Game process javaw for Minecraft exited with code 0, hook attempted: no
+[Info | 4:32:31 PM | 20] SendOverlayToggleInjectedMode reply "ok" after 5.0ms
+[Info | 4:32:31 PM | 20] Average response time: 1305.8ms (15 measures)
+[Debug | 4:32:31 PM | 25] Checking window: SKlauncher 3.2.12 build.522 (4785928, GlassWndClass-GlassWindowClass-5)
+[Debug | 4:32:31 PM | 25] Checking window under process javaw against 78 games with LTs 5, 1, 3
+[Debug | 4:32:34 PM | 20] StopRecordingSession reply {"uuid":"a45205e2-9f92-4a5d-9732-20bba11c7c4d","clipID":"kqkB7sYuWBOwbFOVE","Status":"local","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","Image":"C:\\Medal\\.Thumbnails\\MedalTVMinecraft20250604154904.jpg","SaveType":"4","GameTitle":"Untitled","TimeCreated":1749037745.331,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"},"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1749040349521,"priority":0},"triggerType":null,"isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":null,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"2025-06-04T15:49:05.3269526+04:00","exportStatsDuration":2603.707,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"encoded":true,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"Content":{"contentId":"kqkB7sYuWBOwbFOVE","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5121915,"publishedClipCount":9057198,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1749037190099},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/kqkB7sYuWBOwbFOVE","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1749037746697,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1749058200000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0,"contentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","contentUrl360p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","contentUrl480p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","contentUrl720p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","contentUrl1080p":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250604154904.mkv","bookmarks":[],"draft":true,"metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"},"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1749040349521,"priority":0},"triggerType":null,"isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":null,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"2025-06-04T15:49:05.3269526+04:00","exportStatsDuration":2603.707,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"}},"origin":"Recorder","sessionType":"FullSession","Size":4733133764,"ffmpegMetadata":{"contentStartTime":0.02,"video":{"codec":"h264","colorspace":"yuv420p","resolution":{"width":1920,"height":1080},"aspectRatio":"16:9","startTime":"0.000000"},"audio":{"codec":"aac","samplerate":"48000","startTime":"0.020000"},"metadataVersion":"ffprobe.v1","audioStreams":[{"index":1,"codec_name":"aac","codec_long_name":"AAC (Advanced Audio Coding)","profile":"LC","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":2,"channel_layout":"stereo","bits_per_sample":0,"initial_padding":1024,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":20,"start_time":"0.020000","extradata_size":5,"disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"title":"All Audio","DURATION":"00:43:23.752000000"}},{"index":2,"codec_name":"aac","codec_long_name":"AAC (Advanced Audio Coding)","profile":"LC","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":2,"channel_layout":"stereo","bits_per_sample":0,"initial_padding":1024,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":20,"start_time":"0.020000","extradata_size":5,"disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"title":"Game","DURATION":"00:43:23.752000000"}},{"index":3,"codec_name":"aac","codec_long_name":"AAC (Advanced Audio Coding)","profile":"LC","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":2,"channel_layout":"stereo","bits_per_sample":0,"initial_padding":1024,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":20,"start_time":"0.020000","extradata_size":5,"disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"title":"Mic","DURATION":"00:43:23.752000000"}}]},"ExportKey":"0593d1c61497402008fcb7a23e3bbd9b"}
+[Info | 4:35:15 PM | 31] Queue processing running. Events processed: 15
+[Info | 4:40:14 PM | 5] Starting periodic game DB update check
+[Info | 4:40:14 PM | 5] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:40:14 PM | 5] Remote Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 4:40:14 PM | 5] Local Info: {"Version":"2.1236","Command":"none","Environment":"production"}
+[Info | 4:40:14 PM | 5] Periodic game DB update check: no update available
+[Info | 4:40:15 PM | 31] Queue processing running. Events processed: 15
+[Debug | 4:41:19 PM | 5] Checking window:  (265040, ApplicationFrameTitleBarWindow)
+[Debug | 4:41:19 PM | 5] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:41:19 PM | 5] Checking window:  (854754, ApplicationFrameInputSinkWindow)
+[Debug | 4:41:19 PM | 5] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 4:45:15 PM | 5] Queue processing running. Events processed: 15

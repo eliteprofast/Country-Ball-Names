@@ -1,0 +1,17 @@
+[ Log | 1:00:28 PM ] [Medal Launcher Log Init] 1.0.0.1 - 5/11/2025 1:00:28 PM
+
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250321.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250322.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250404.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250405.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250406.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250407.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250408.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250409.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250410.txt
+[ Log | 1:00:28 PM ] Deleting MedalLauncherLog20250411.txt
+[ Log | 1:00:28 PM ] Launching recorder C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalEncoder.exe
+[ Log | 1:00:28 PM ] No other MedalEncoder instances running
+[ Log | 1:00:29 PM ] Launched recorder C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalEncoder.exe
+[ Log | 1:00:38 PM ] Init OverlayInterface
+[ Log | 1:00:59 PM ] Starting suicide lock interval

@@ -1,0 +1,439 @@
+[Info | 5:30:54 PM | 1] [Medal Log Init] 3.987.0.0 - 5/24/2025 5:30:54 PM
+
+[Info | 5:30:54 PM | 1] Remote config saved
+[Debug | 5:30:54 PM | 1] Initialising Sentry with environment production and URL sentry.medal.tv
+[Info | 5:30:54 PM | 1] 1 old log files were deleted
+[Info | 5:30:54 PM | 1] SDK folder does not exist
+[Info | 5:30:56 PM | 1] Honeycomb init successfully with environment production and sample rate 30
+[Info | 5:30:56 PM | 1] Available electron port not found, set port to default 10603
+[Info | 5:30:56 PM | 1] Listening on http://localhost:10604/
+[Debug | 5:30:56 PM | 1] [Scope] [17:30:56.159307] [000001] trying to load Scope native library with default paths
+[Debug | 5:30:56 PM | 1] [Scope] [17:30:56.502110] [000001] Scope native library loaded (runtime 12.1, ScopeSharp 12.1)
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.521475] [000AD0] Scope context initialising (API 12.1)
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.522148] [000AD0] machine GUID: 8ea5b097-ddec-4ca3-8159-e1622c64760a
+[Info | 5:30:56 PM | 24] [Scope] [17:30:56.628166] [000AD0] sentry initialized successfully
+[Info | 5:30:56 PM | 24] [Scope] [17:30:56.629069] [000AD0] running on OS: Windows 10.0.19045.0
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.629757] [000AD0] Creating new DXDeviceManager()
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.631046] [000AD0] initialising DX factories (iteration 1)
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.635209] [000AD0] created DXGI factory at feature level 2
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.635271] [000AD0] created D2D factory at feature level 7
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.748264] [000AD0] created D3D9Ex factory
+[Debug | 5:30:56 PM | 24] [Scope] [17:30:56.971538] [000AD0] DXDeviceManager got default adapter LUID: 80218
+[Info | 5:30:57 PM | 1] Current DPI awareness: 0
+[Info | 5:30:57 PM | 1] Change DPI awareness to PROCESS_PER_MONITOR_DPI_AWARE. result=0
+[Info | 5:30:57 PM | 1] User saved as 370958739 - Elite_Stealer1112
+[Info | 5:30:57 PM | 1] Clip folder: C:\Medal\
+[Info | 5:30:57 PM | 1] Backup clips folder is C:\Medal
+[Info | 5:30:57 PM | 1] Initial app settings - Hotkeys are: [clip;length=1200: short_press of keyboard F8, segment_toggle: long_press of keyboard F8, screenshot: short_press of keyboard F7, callback;event=dismiss: short_press of keyboard ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard ALT + SHIFT + v] - Push to talk enabled setting is False - FPS setting is 60 - Resolution setting is 1920x1080 - Clip length is 15 - Detect all games setting is False - Encoding setting is GPU - Overlay setting is True - Sound setting is True - Full Session Sound Alerts setting is True - Mic input setting is True - Mic gain is 0.5 - Game sound gain is 0.5 - Auto upload setting is False - Auto upload state setting is 1 - environment setting is production - WindowsGameMode setting is False - Clip Folder is C:\Medal\ - Bitrate setting is 15 - Selected audio device is Auto - Selected mic device is Auto - Full Session Mode Enabled setting is True - DevelopmentModeEnabled setting is False - SdkModeEnabled setting is False - Mono audio setting is False - Selected webcam device is <None> - WebcamEnabled setting is False - Show Cursor setting is False - Game Controls Collection Enabled setting is True - Game Audio Only setting is True - Discord Audio setting is False - In Memory Buffer setting is True - Mic noise gate enabled setting is False - Mic noise gate open threshold is -100 - Mic noise suppression enabled setting is False - Audio Notifications setting is False - IncreaseMaxFrameLatencySetting is True - Aspect Ratio is Custom - Advanced Window Capture setting is False - Force Window Capture setting is False - Experimental Capture setting is False - JWT setting is present - Codec setting is H264 - HDR Compatibility setting is False - Recording Enabled setting is True - Voice Clipping Enabled setting is False - Voice Clipping Phrases setting is  - ICYMI setting is False - ICYMI setting: { enabled: [Rocket League, League of Legends, FiveM, Fortnite, War Thunder, EA Sports FC Online, Apex Legends, Splitgate: Arena Warfare, Valorant, Yu-Gi-Oh! Master Duel, Counter-Strike 2], disabled: [] } - ICYMI Clip length is 15 - ICYMI Sound setting is True - ICYMI use Overwolf setting is False - Output Format setting is matroska, Extension .mkv - Multiple Audio Streams setting is True - BFrames Enabled setting is False - UseStringID is False - External File Sources setting is {"nativeOptions":[{"label":"NVIDIAShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMDReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]} - Quality Preset setting is Performance - Selected GPU device is Auto - Monitor Device Name setting is \\.\DISPLAY1 - Broadcast Target is hidden - Broadcast setting is Disabled - Progressive uploads setting is False - Overlay Injected Mode setting is False - SwitchFromScreenCaptureOnGameStart setting is True
+[Info | 5:30:57 PM | 1] request user 
+[Info | 5:30:57 PM | 1] request environment 
+[Info | 5:30:57 PM | 1] Checking hardware encoders
+[Debug | 5:30:57 PM | 8] Executing Request: set.sdkmode - {
+  "enabled": false
+}
+[Info | 5:30:57 PM | 8] Saving SdkModeEnabled False
+[Info | 5:30:57 PM | 8] job.respond cf545515-6aac-40b2-b365-1a5c8fc36242
+[Debug | 5:30:57 PM | 19] job.respond "ok"
+[Debug | 5:30:57 PM | 8] Executing Request: get.hardwareId - 
+[Debug | 5:30:58 PM | 19] Executing Request: set.useStringId - {
+  "enabled": true
+}
+[Info | 5:30:58 PM | 19] Saving UseStringID True
+[Info | 5:30:58 PM | 19] job.respond 8d2142ef-efe4-4ec7-8d0f-bc82c6ac6510
+[Debug | 5:30:58 PM | 19] PollDesktopJobQueue reply [{"uuid":"8d2142ef-efe4-4ec7-8d0f-bc82c6ac6510","body":{"enabled":true},"action":"set.useStringId"}]
+[Debug | 5:30:58 PM | 19] job.respond "ok"
+[Debug | 5:30:58 PM | 24] [Scope] [17:30:58.658924] [000AD0] DXDeviceManager created DXDevice for adapter NVIDIA GeForce GTX 970 (LUID 80218) with usage 0
+[Info | 5:30:59 PM | 1] Found 1 adapters:
+[Info | 5:30:59 PM | 1]     80218: NVIDIA GeForce GTX 970 (10DE:13C2), VRAM: 4030 MiB, codecs: H.264 (BGRA32), H.265 (BGRA32)
+[Info | 5:30:59 PM | 1] Supported video encoder options: n264
+[Info | 5:30:59 PM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Info | 5:30:59 PM | 1] Video codec set: n264 - hardware encoding
+[Info | 5:30:59 PM | 1] C:\Medal\ - folder verified
+[Debug | 5:30:59 PM | 19] Executing Request: set.allSettings-{"settings":{"set.gameSoundAudioDevice":{"audioDevices":["Auto"]},"set.micAudioDevice":{"audioDevice":"Auto"},"set.devmode":{"enabled":false},"set.bookmarkModeEnabled":{"enabled":true},"set.fullSessionModeEnabled":{"enabled":true},"set.webcam.overlay":{"enabled":false,"position":{"index":1,"value":"TopRight"}},"set.webcam.device":{"selected":{"id":"<None>","label":"<None>","value":"<None>"}},"set.gpu.device":{"selected":"Auto"},"set.setPushToTalkEnabled":{"enabled":false},"set.mouseTrigger":{},"set.mouseTriggerEnabled":{"enabled":false},"set.controllerTriggerEnabled":{"enabled":true},"set.cliplength":{"cliplength":"15"},"set.inMemoryBuffer":{"enabled":true},"set.resolution":{"resolution":"FullHD(1080p)"},"set.fps":{"fps":"60"},"set.bitrate":{"bitrate":"15"},"set.sdkmode":{"enabled":false},"set.micinput":{"micinput":1},"set.monoAudio":{"monoaudio":false},"set.overlayalerts":{"overlayalerts":1},"set.soundalerts":{"soundalerts":true},"set.bookmarksoundalerts":{"bookmarksoundalerts":true},"set.aspectRatio":{"aspectRatio":2},"set.detectallgames":{"detectallgames":0},"set.encoder":{"type":"GPU"},"set.clipFolder":{"clipFolder":"C:%path.sep%Medal%path.sep%","clipFolder.base64":"QzpcTWVkYWxc"},"set.autoUploadState":{},"set.autoUpload":{"autoUpload":false},"set.gameAudioOnly":{"enabled":1},"set.discordAudio":{"enabled":0},"set.setVoiceClipping":{"enabled":0},"set.multipleAudioTracks":{"enabled":1},"set.showCursor":{"enabled":0},"set.holdToRecordEnabled":{"enabled":1},"ICYMIEnabled":{"enabled":0},"set.icymisoundalerts":{"soundalerts":true},"set.windowsGraphicsCapture":{"enabled":0},"set.experimentalCapture":{"enabled":0},"set.hdrCompatibility":{"enabled":0},"set.forceWindowCapture":{"enabled":0},"set.overlayCurrentInjectedMode":{"enabled":0},"set.recordingEnabled":{"enabled":1},"set.micNoiseGate":{"enabled":0},"set.micNoiseSuppress":{"enabled":0},"set.micNoiseGateThreshold":{"open_threshold":-100},"set.externalFileSources":{"nativeOptions":[{"label":"NVIDIAShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMDReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]},"set.advancedOverlayEnabled":{"enabled":true},"set.monitorDeviceName":{"monitorDeviceName":"","monitorDeviceName.base64":""},"set.gameSoundGain":{"gain":50},"set.micGain":{"gain":50},"set.hotkeys":{"hotkeys":[{"action":"clip;length=1200","device":"keyboard","type":"short_press","inputs":"F8"},{"action":"segment_toggle","device":"keyboard","type":"long_press","inputs":"F8"},{"action":"screenshot","device":"keyboard","type":"short_press","inputs":"F7"},{"action":"callback;event=dismiss","inputs":"ALT+SHIFT+d","device":"keyboard","type":"short_press"},{"action":"callback;event=answerVoice","inputs":"ALT+SHIFT+z","device":"keyboard","type":"short_press"},{"action":"callback;event=declineVoice","inputs":"ALT+SHIFT+x","device":"keyboard","type":"short_press"},{"action":"callback;event=acceptMessageRequest","inputs":"ALT+SHIFT+c","device":"keyboard","type":"short_press"},{"action":"callback;event=viewScreenshot","inputs":"ALT+SHIFT+v","device":"keyboard","type":"short_press"}]},"set.toggleScreenCapture":{"enabled":false},"set.codec":{"codec":"H264"},"set.switchToGameRecordingOnGameLaunch":{"enabled":true},"set.windowsgamemode":{"windowsgamemode":false},"set.gameControlsCollectionEnabled":{"enabled":true},"set.soundAlert":{"global":true,"clipSaved":true,"bookmarkSaved":true,"autoClipping":true,"screenshotSaved":true,"sessionToggle":true,"diskFull":true,"clipSound":"default"},"set.customSound":{}}}
+[Debug | 5:30:59 PM | 19] Disabling saving of recorder settings file
+[Info | 5:30:59 PM | 19] Received settings
+[Info | 5:30:59 PM | 19] Saving unplugged audio devices - 
+[Info | 5:30:59 PM | 19] Selected audio output devices Auto
+[Info | 5:30:59 PM | 19] Selected mic device Auto
+[Info | 5:30:59 PM | 1] Set process priority to High
+[Info | 5:30:59 PM | 19] Saving DevelopmentModeEnabled False
+[Info | 5:30:59 PM | 19] Saving Full Session Mode Enabled True
+[Info | 5:30:59 PM | 19] 1 logs of- Saving Full Session Mode Enabled True
+[Info | 5:30:59 PM | 19] Saving WebcamEnabled False
+[Info | 5:30:59 PM | 19] Saving WebcamPositionIndex: 1
+[Info | 5:30:59 PM | 19] Selected Webcam device <None>
+[Info | 5:30:59 PM | 19] Selected GPU device Auto
+[Info | 5:30:59 PM | 19] Video codec set: n264 - hardware encoding
+[Info | 5:30:59 PM | 19] Saving Push to talk enabled False
+[Info | 5:30:59 PM | 19] [ESM Event] - PushToTalkEnable
+[Warning | 5:30:59 PM | 19] No command for set.mouseTrigger
+[Info | 5:30:59 PM | 1] Output Mode: FullSession
+[Warning | 5:30:59 PM | 19] No command for set.mouseTriggerEnabled
+[Warning | 5:30:59 PM | 19] No command for set.controllerTriggerEnabled
+[Info | 5:30:59 PM | 19] Saving clip length 15
+[Info | 5:30:59 PM | 19] Saving In Memory Buffer True
+[Info | 5:30:59 PM | 19] Saving resolution Full HD (1080p)
+[Info | 5:30:59 PM | 19] Saving bitrate 15
+[Info | 5:30:59 PM | 19] Sending Bitrate Setting
+[Info | 5:30:59 PM | 14] SendBitrateSetting reply "ok"
+[Info | 5:30:59 PM | 20] Attempting to start process watcher
+[Info | 5:30:59 PM | 1] [System.RuntimeMethodHandle] Set security permissions for C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\Host\medal-hook64.dll
+[Info | 5:30:59 PM | 19] Saving FPS 60
+[Info | 5:30:59 PM | 1] [System.RuntimeMethodHandle] Set security permissions for C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\Host\medal-hook32.dll
+[Info | 5:30:59 PM | 19] Hook data extracted
+[Info | 5:30:59 PM | 1] Output Mode: FullSession
+[Info | 5:30:59 PM | 19] Saving bitrate 15
+[Info | 5:30:59 PM | 19] 1 logs of- Saving bitrate 15
+[Info | 5:30:59 PM | 19] Saving SdkModeEnabled False
+[Info | 5:30:59 PM | 19] Saving Mic Input True
+[Info | 5:30:59 PM | 19] Saving Mono Audio False
+[Info | 5:30:59 PM | 19] Saving Overlay Alerts True
+[Info | 5:30:59 PM | 19] Saving Sound Alerts True
+[Info | 5:30:59 PM | 1] Monitor: 65537 Current DPI: 96, 96
+[Info | 5:30:59 PM | 1] Active game initialized Screen Recording
+[Info | 5:30:59 PM | 19] Saving Full Session Sound Alerts True
+[Info | 5:30:59 PM | 19] Saving Aspect Ratio Custom
+[Info | 5:30:59 PM | 19] Saving Detect All Games False
+[Info | 5:30:59 PM | 19] Video codec set: n264 - hardware encoding
+[Info | 5:30:59 PM | 20] Process watcher started
+[Info | 5:30:59 PM | 19] Saving Clip folder: QzpcTWVkYWxc
+[Info | 5:30:59 PM | 19] Clip folder setting is base64 translated to C:\Medal\
+[Info | 5:30:59 PM | 19] C:\Medal\ - folder verified
+[Info | 5:30:59 PM | 19] Saving Auto Upload State 
+[Warning | 5:30:59 PM | 19] Auto upload state settings invalid  -- resetting to 1
+[Info | 5:30:59 PM | 19] Saving Auto Upload False
+[Info | 5:30:59 PM | 19] Saving Game Audio Only 1
+[Info | 5:30:59 PM | 19] Saving Discord Audio 0
+[Info | 5:30:59 PM | 1] Contains args: True
+[Info | 5:30:59 PM | 19] Saving Voice Clipping Enabled 0
+[Info | 5:30:59 PM | 1] No other MedalEncoder instances running
+[Info | 5:30:59 PM | 19] Saving Multiple Audio Streams 1
+[Info | 5:30:59 PM | 1] Video codec set: n264 - hardware encoding
+[Info | 5:30:59 PM | 19] Saving Show Cursor False
+[Warning | 5:30:59 PM | 19] No command for set.holdToRecordEnabled
+[Debug | 5:30:59 PM | 8] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 5:30:59 PM | 19] Saving ICYMI False
+[Info | 5:30:59 PM | 8] job.respond 7344447e-b8f0-43d5-9e46-b6cb8bdf67ee
+[Debug | 5:30:59 PM | 14] ShareHardwareId reply {"success":true}
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Info | 5:30:59 PM | 19] Saving ICYMI Sound Alerts True
+[Info | 5:30:59 PM | 19] Saving Advanced Window Capture 0
+[Info | 5:30:59 PM | 8] Username is base64 translated to Elite_Stealer1112
+[Info | 5:30:59 PM | 19] Saving Experimental Capture 0
+[Info | 5:30:59 PM | 8] User updated 370958739 - Elite_Stealer1112
+[Info | 5:30:59 PM | 8] job.respond ac5efba9-474c-4005-b27f-e6e0ca5e5806
+[Debug | 5:30:59 PM | 8] Executing Request: get.hardwareId - 
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Debug | 5:30:59 PM | 8] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 5:30:59 PM | 8] job.respond 94246ece-0cc6-475c-b1bc-b9fca77f1ed8
+[Debug | 5:30:59 PM | 12] ShareHardwareId reply {"success":true}
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Info | 5:30:59 PM | 19] Saving HDR Compatibility 0
+[Info | 5:30:59 PM | 19] Saving Force Window Capture 0
+[Info | 5:30:59 PM | 8] Saving ICYMI Events
+[Info | 5:30:59 PM | 8] job.respond ff344099-f86d-4d45-955f-f835ab8d6042
+[Debug | 5:30:59 PM | 8] Executing Request: clip.recovery - {
+  "clips": [
+    {
+      "uuid": "7b182b88-620d-41c5-aaf6-dd01fe112a6d",
+      "videoPath": "QzpcTWVkYWxcQ2xpcHNcTWluZWNyYWZ0XE1lZGFsVFZNaW5lY3JhZnQyMDI1MDUxMTEzMzIyOS5ta3Y=",
+      "type": "session"
+    }
+  ]
+}
+[Info | 5:30:59 PM | 19] Saving OverlayCurrentInjectedMode 0
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Info | 5:30:59 PM | 8] job.respond 8628625b-7a12-4a11-aebd-1096dfcdfa35
+[Debug | 5:30:59 PM | 8] Executing Request: get.hardwareId - 
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Debug | 5:30:59 PM | 8] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 5:30:59 PM | 19] Saving Recording Enabled 1
+[Info | 5:30:59 PM | 19] [ESM Event] - EnableRecordingSet
+[Info | 5:30:59 PM | 8] job.respond 9acb2541-f93d-4de6-bf10-38f363a63fe3
+[Debug | 5:30:59 PM | 12] ShareHardwareId reply {"success":true}
+[Debug | 5:30:59 PM | 8] Executing Request: get.hardwareId - 
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Info | 5:30:59 PM | 22] Recovering clip- 7b182b88-620d-41c5-aaf6-dd01fe112a6d
+[Debug | 5:30:59 PM | 8] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Warning | 5:30:59 PM | 22] Can't recover a clip- 7b182b88-620d-41c5-aaf6-dd01fe112a6d File is too large
+[Info | 5:30:59 PM | 8] job.respond c7a8779d-58f6-41a4-8afe-aa1cc15302d0
+[Debug | 5:30:59 PM | 12] ShareHardwareId reply {"success":true}
+[Debug | 5:30:59 PM | 12] job.respond "ok"
+[Info | 5:30:59 PM | 19] Saving mic noise gate enabled 0
+[Debug | 5:30:59 PM | 8] PollDesktopJobQueue reply [{"uuid":"cf545515-6aac-40b2-b365-1a5c8fc36242","body":{"enabled":false},"action":"set.sdkmode"},{"uuid":"7344447e-b8f0-43d5-9e46-b6cb8bdf67ee","body":null,"action":"get.hardwareId"},{"uuid":"ac5efba9-474c-4005-b27f-e6e0ca5e5806","body":{"userName.base64":"RWxpdGVfU3RlYWxlcjExMTI=","key":"6f90e6a1-735a-4e50-9238-421eeca721b4","userId":"370958739","userName":"Elite_Stealer1112","roles":[],"thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","premiumType":"NONE","state":{"state":"online","timestamp":1746955770457}},"action":"user"},{"uuid":"94246ece-0cc6-475c-b1bc-b9fca77f1ed8","body":null,"action":"get.hardwareId"},{"uuid":"8628625b-7a12-4a11-aebd-1096dfcdfa35","body":{"clips":[{"uuid":"7b182b88-620d-41c5-aaf6-dd01fe112a6d","videoPath":"QzpcTWVkYWxcQ2xpcHNcTWluZWNyYWZ0XE1lZGFsVFZNaW5lY3JhZnQyMDI1MDUxMTEzMzIyOS5ta3Y=","type":"session"}]},"action":"clip.recovery"},{"uuid":"9acb2541-f93d-4de6-bf10-38f363a63fe3","body":null,"action":"get.hardwareId"},{"uuid":"c7a8779d-58f6-41a4-8afe-aa1cc15302d0","body":null,"action":"get.hardwareId"}]
+[Info | 5:30:59 PM | 1] Sending available web cam devices {"availableDevices":[{"id":"\\\\?\\usb#vid_1b3f&pid_2247&mi_00#7&18ac11e6&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"GENERAL WEBCAM","value":"GENERAL WEBCAM"}],"selectedDevice":{"id":"<None>","label":"<None>","value":"<None>"}}
+[Info | 5:31:00 PM | 19] Saving mic noise suppression enabled 0
+[Info | 5:31:00 PM | 19] Saving mic noise gate threshold -100
+[Info | 5:31:00 PM | 19] Setting up external recorders
+[Info | 5:31:00 PM | 1] Sending available GPU devices NVIDIA GeForce GTX 970
+[Info | 5:31:00 PM | 19] External recorder shadowplay is disabled
+[Info | 5:31:00 PM | 19] External recorder relive is disabled
+[Info | 5:31:00 PM | 19] External recorder obs is disabled
+[Info | 5:31:00 PM | 19] External recorder setup complete
+[Info | 5:31:00 PM | 19] Saving External File Sources {
+  "nativeOptions": [
+    {
+      "label": "NVIDIA ShadowPlay",
+      "value": "shadowplay",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "AMD ReLive",
+      "value": "relive",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "OBS",
+      "value": "obs",
+      "enabled": false,
+      "freeUpSpace": false
+    }
+  ],
+  "folders": []
+}
+[Warning | 5:31:00 PM | 19] No command for set.advancedOverlayEnabled
+[Info | 5:31:00 PM | 1] Sending available GPU Codecs NVIDIA GeForce GTX 970: H264, H265
+[Info | 5:31:00 PM | 19] Empty monitor device name, using primary monitor \\.\DISPLAY1
+[Info | 5:31:00 PM | 19] Monitor Device Name: \\.\DISPLAY1
+[Info | 5:31:00 PM | 19] [ESM Event] - WindowCaptureSetMonitor
+[Info | 5:31:00 PM | 19] Saving game sound gain 50
+[Info | 5:31:00 PM | 19] Saving mic gain 50
+[Info | 5:31:00 PM | 19] Saving hotkey settings [
+  {
+    "action": "clip;length=1200",
+    "device": "keyboard",
+    "type": "short_press",
+    "inputs": "F8"
+  },
+  {
+    "action": "segment_toggle",
+    "device": "keyboard",
+    "type": "long_press",
+    "inputs": "F8"
+  },
+  {
+    "action": "screenshot",
+    "device": "keyboard",
+    "type": "short_press",
+    "inputs": "F7"
+  },
+  {
+    "action": "callback;event=dismiss",
+    "inputs": "ALT + SHIFT + d",
+    "device": "keyboard",
+    "type": "short_press"
+  },
+  {
+    "action": "callback;event=answerVoice",
+    "inputs": "ALT + SHIFT + z",
+    "device": "keyboard",
+    "type": "short_press"
+  },
+  {
+    "action": "callback;event=declineVoice",
+    "inputs": "ALT + SHIFT + x",
+    "device": "keyboard",
+    "type": "short_press"
+  },
+  {
+    "action": "callback;event=acceptMessageRequest",
+    "inputs": "ALT + SHIFT + c",
+    "device": "keyboard",
+    "type": "short_press"
+  },
+  {
+    "action": "callback;event=viewScreenshot",
+    "inputs": "ALT + SHIFT + v",
+    "device": "keyboard",
+    "type": "short_press"
+  }
+]
+[Info | 5:31:00 PM | 19] Updated hotkeys for (none), now have 8 hotkeys configured
+[Info | 5:31:00 PM | 19] Saving Push to talk enabled False
+[Info | 5:31:00 PM | 19] [ESM Event] - PushToTalkEnable
+[Info | 5:31:00 PM | 19] [ESM Event] - ClipLengthChanged
+[Info | 5:31:00 PM | 19] [ESM Event] - StopScreenCapture
+[Info | 5:31:00 PM | 19] Toggle Screen Capture False
+[Info | 5:31:00 PM | 19] Saving Codec H264
+[Info | 5:31:00 PM | 19] Saving SwitchFromScreenCaptureOnGameStart True
+[Info | 5:31:00 PM | 19] Windows Game Mode disabled.
+[Info | 5:31:00 PM | 19] Saving WindowsGameMode False
+[Info | 5:31:00 PM | 19] Saving Game Controls Collection Enabled True
+[Warning | 5:31:00 PM | 19] No command for set.soundAlert
+[Warning | 5:31:00 PM | 19] No command for set.customSound
+[Debug | 5:31:00 PM | 19] Enabling saving of recorder settings file
+[Debug | 5:31:00 PM | 19] Saved recorder settings file after re-enable
+[Info | 5:31:00 PM | 19] job.respond 22e02953-5178-4607-9d1a-8b874f25d04d
+[Debug | 5:31:00 PM | 19] Executing Request: get.availableMicDevices - 
+[Debug | 5:31:00 PM | 12] job.respond "ok"
+[Debug | 5:31:00 PM | 24] [Scope] [17:31:00.542817] [0036B8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:31:00 PM | 19] Sending available mic devices Microphone (GENERAL WEBCAM), Microphone (Realtek High Definition Audio)
+[Info | 5:31:00 PM | 19] job.respond 65254ba6-96db-48e3-be0d-811e662cdedf
+[Debug | 5:31:00 PM | 19] Executing Request: get.availableAudioDevices - 
+[Debug | 5:31:00 PM | 12] SendAvailableMicDevices reply {"success":true}
+[Debug | 5:31:00 PM | 12] job.respond "ok"
+[Debug | 5:31:00 PM | 24] [Scope] [17:31:00.574927] [0036B8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 5:31:00 PM | 19] Sending available audio devices Speakers (Realtek High Definition Audio), VA2719 Series (NVIDIA High Definition Audio)
+[Info | 5:31:00 PM | 19] job.respond d5008a34-98ea-4efa-82d9-ded2c64a1b45
+[Debug | 5:31:00 PM | 12] SendAvailableAudioDevices reply {"success":true}
+[Debug | 5:31:00 PM | 19] Executing Request: get.micAudioDevice - 
+[Debug | 5:31:00 PM | 12] job.respond "ok"
+[Info | 5:31:00 PM | 19] Sending selected mic device Auto
+[Info | 5:31:00 PM | 19] job.respond 2cfcdee5-5504-4b49-b436-6c45bc72f76c
+[Debug | 5:31:00 PM | 19] Executing Request: get.gameSoundAudioDevice - 
+[Debug | 5:31:00 PM | 12] SendSelectedMicDevice reply {"success":true}
+[Debug | 5:31:00 PM | 15] job.respond "ok"
+[Info | 5:31:00 PM | 19] Sending selected audio output devices Auto
+[Info | 5:31:00 PM | 19] job.respond 89e69425-98fe-4adf-af18-e5473da1dee9
+[Debug | 5:31:00 PM | 19] Executing Request: get.GAODisabledList - 
+[Debug | 5:31:00 PM | 15] SendSelectedAudioDevices reply {"success":true}
+[Debug | 5:31:00 PM | 12] job.respond "ok"
+[Info | 5:31:00 PM | 19] Sending games with not supported GAO
+[Info | 5:31:00 PM | 19] job.respond 17b497d0-05ac-4e3e-99f0-b0d337c9474b
+[Debug | 5:31:00 PM | 12] SendGAODisabledList reply {"success":true}
+[Debug | 5:31:00 PM | 19] Executing Request: get.gamePluginsInstalled - 
+[Warning | 5:31:00 PM | 19] No command for get.gamePluginsInstalled
+[Info | 5:31:00 PM | 19] job.respond c05c343a-0426-4510-8991-4c95aa729df4
+[Debug | 5:31:00 PM | 19] PollDesktopJobQueue reply [{"uuid":"22e02953-5178-4607-9d1a-8b874f25d04d","body":{"settings":{"set.gameSoundAudioDevice":{"audioDevices":["Auto"]},"set.micAudioDevice":{"audioDevice":"Auto"},"set.devmode":{"enabled":false},"set.bookmarkModeEnabled":{"enabled":true},"set.fullSessionModeEnabled":{"enabled":true},"set.webcam.overlay":{"enabled":false,"position":{"index":1,"value":"Top Right"}},"set.webcam.device":{"selected":{"id":"<None>","label":"<None>","value":"<None>"}},"set.gpu.device":{"selected":"Auto"},"set.setPushToTalkEnabled":{"enabled":false},"set.mouseTrigger":{},"set.mouseTriggerEnabled":{"enabled":false},"set.controllerTriggerEnabled":{"enabled":true},"set.cliplength":{"cliplength":"15"},"set.inMemoryBuffer":{"enabled":true},"set.resolution":{"resolution":"Full HD (1080p)"},"set.fps":{"fps":"60"},"set.bitrate":{"bitrate":"15"},"set.sdkmode":{"enabled":false},"set.micinput":{"micinput":1},"set.monoAudio":{"monoaudio":false},"set.overlayalerts":{"overlayalerts":1},"set.soundalerts":{"soundalerts":true},"set.bookmarksoundalerts":{"bookmarksoundalerts":true},"set.aspectRatio":{"aspectRatio":2},"set.detectallgames":{"detectallgames":0},"set.encoder":{"type":"GPU"},"set.clipFolder":{"clipFolder":"C:%path.sep%Medal%path.sep%","clipFolder.base64":"QzpcTWVkYWxc"},"set.autoUploadState":{},"set.autoUpload":{"autoUpload":false},"set.gameAudioOnly":{"enabled":1},"set.discordAudio":{"enabled":0},"set.setVoiceClipping":{"enabled":0},"set.multipleAudioTracks":{"enabled":1},"set.showCursor":{"enabled":0},"set.holdToRecordEnabled":{"enabled":1},"ICYMIEnabled":{"enabled":0},"set.icymisoundalerts":{"soundalerts":true},"set.windowsGraphicsCapture":{"enabled":0},"set.experimentalCapture":{"enabled":0},"set.hdrCompatibility":{"enabled":0},"set.forceWindowCapture":{"enabled":0},"set.overlayCurrentInjectedMode":{"enabled":0},"set.recordingEnabled":{"enabled":1},"set.micNoiseGate":{"enabled":0},"set.micNoiseSuppress":{"enabled":0},"set.micNoiseGateThreshold":{"open_threshold":-100},"set.externalFileSources":{"nativeOptions":[{"label":"NVIDIA ShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMD ReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]},"set.advancedOverlayEnabled":{"enabled":true},"set.monitorDeviceName":{"monitorDeviceName":"","monitorDeviceName.base64":""},"set.gameSoundGain":{"gain":50},"set.micGain":{"gain":50},"set.hotkeys":{"hotkeys":[{"action":"clip;length=1200","device":"keyboard","type":"short_press","inputs":"F8"},{"action":"segment_toggle","device":"keyboard","type":"long_press","inputs":"F8"},{"action":"screenshot","device":"keyboard","type":"short_press","inputs":"F7"},{"action":"callback;event=dismiss","inputs":"ALT + SHIFT + d","device":"keyboard","type":"short_press"},{"action":"callback;event=answerVoice","inputs":"ALT + SHIFT + z","device":"keyboard","type":"short_press"},{"action":"callback;event=declineVoice","inputs":"ALT + SHIFT + x","device":"keyboard","type":"short_press"},{"action":"callback;event=acceptMessageRequest","inputs":"ALT + SHIFT + c","device":"keyboard","type":"short_press"},{"action":"callback;event=viewScreenshot","inputs":"ALT + SHIFT + v","device":"keyboard","type":"short_press"}]},"set.toggleScreenCapture":{"enabled":false},"set.codec":{"codec":"H264"},"set.switchToGameRecordingOnGameLaunch":{"enabled":true},"set.windowsgamemode":{"windowsgamemode":false},"set.gameControlsCollectionEnabled":{"enabled":true},"set.soundAlert":{"global":true,"clipSaved":true,"bookmarkSaved":true,"autoClipping":true,"screenshotSaved":true,"sessionToggle":true,"diskFull":true,"clipSound":"default"},"set.customSound":{}}},"action":"set.allSettings"},{"uuid":"65254ba6-96db-48e3-be0d-811e662cdedf","action":"get.availableMicDevices"},{"uuid":"d5008a34-98ea-4efa-82d9-ded2c64a1b45","action":"get.availableAudioDevices"},{"uuid":"2cfcdee5-5504-4b49-b436-6c45bc72f76c","action":"get.micAudioDevice"},{"uuid":"89e69425-98fe-4adf-af18-e5473da1dee9","action":"get.gameSoundAudioDevice"},{"uuid":"17b497d0-05ac-4e3e-99f0-b0d337c9474b","action":"get.GAODisabledList"},{"uuid":"c05c343a-0426-4510-8991-4c95aa729df4","action":"get.gamePluginsInstalled"}]
+[Debug | 5:31:00 PM | 19] job.respond "ok"
+[Info | 5:31:00 PM | 1] 1 logs of- job.respond "ok"
+[Info | 5:31:00 PM | 1] NVAPIManager: Medal.exe - profile not found
+[Warning | 5:31:00 PM | 1] NVAPIManager: Failed to delete profile - NVAPI_ERROR
+[Critical | 5:31:00 PM | 1] NVAPIManager: Failed to delete profile
+[Debug | 5:31:01 PM | 19] Executing Request: set.jwt - {
+  "jwt": "eyJhbGciOiJFUzI1NiJ9.eyJhdWQiOlsibWVkYWwtcmVjb3JkZXIiXSwiY25mIjp7ImNydCI6Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLVxuTUlJQk9EQ0IzNkFEQWdFQ0FnaDdoYXRrcjgzRmd6QUtCZ2dxaGtqT1BRUURBakFiTVJrd0Z3WURWUVFEREJCb1xuZEhSd2N6b3ZMMjFsWkdGc0xuUjJNQjRYRFRJMU1EVXlOREV5TXpZeU1sb1hEVEkxTURZd056RXlNell5TWxvd1xuS2pFb01DWUdBMVVFQXd3ZlNsZFVJSE5wWjI1bGNpQm1iM0lnYUhSMGNITTZMeTl0WldSaGJDNTBkakJaTUJNR1xuQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJBNWNSV0hVV2hXKy9maWFOaEN1MTcyRWVRTHFWYTNIb0FBZVxuS05uSmJWZXBnQlhEZDBXWlhaSllIVnBPWnBSLzdzRm84T3BhSUp5YzduY0lPMkhoZmR3d0NnWUlLb1pJemowRVxuQXdJRFNBQXdSUUlnQ1dnMTFqVXJzT2YwaHZrK3luZE90b1o5QWNzalUvem9aRWlBc1JvcFpLRUNJUUMrczZkS1xuc0cwa1FGTHVwWUhrajNIa3drR3EzUS9tU2NmdkRibnRKL2xLdEE9PVxuLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLSJ9LCJjYXBhYmlsaXRpZXMiOnsidXBsb2FkZWRDb250ZW50TWF4RHVyYXRpb25TZWNvbmRzIjo2MDAsInVwbG9hZGVkQ29udGVudE1heFJlc29sdXRpb24iOjE5MjAsInVwbG9hZGVkQ29udGVudE1heEZyYW1lUmF0ZSI6NjAsInByZW1pdW1DbGlwQ291bnRRdW90YUJvbnVzIjowLCJhbmltYXRlZFVzZXJUaHVtYm5haWwiOmZhbHNlLCJoYXNUaWVyMVN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjJTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIxRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkZvdW5kZXJSb2xlIjpmYWxzZSwiaGFzVmVyaWZpZWRSb2xlIjpmYWxzZSwiaGFzQ3JlYXRvclN1cHBvcnRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMURpc2NvcmRTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIyRGlzY29yZFN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjFEaXNjb3JkRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkRpc2NvcmRGb3VuZGVyUm9sZSI6ZmFsc2UsIndhdGVybWFya0Rpc2FibGVhYmxlIjpmYWxzZSwiZG93bmxvYWRXaXRob3V0V2F0ZXJtYXJrIjpmYWxzZSwicHJpb3JpdHlDaGF0U3VwcG9ydCI6ZmFsc2UsImF1dG9VcGxvYWRzIjpmYWxzZSwiY2xvdWRTeW5jIjpmYWxzZSwidmlld0NvbnRlbnRWaWV3ZXJzIjp0cnVlLCJzY3JlZW5SZWNvcmRpbmciOnRydWUsInVwbG9hZFNjcmVlblJlY29yZGluZ3MiOmZhbHNlLCJjYW5SZWNvcmQiOnRydWUsInNraXBBZHMiOmZhbHNlLCJ1cGxvYWRJbXBvcnRlZENsaXBzIjp0cnVlLCJ1c2VQcmVtaXVtSWNvbnMiOmZhbHNlLCJjdXN0b21DbGlwU291bmRzIjpmYWxzZX0sImNsaWVudF9pZCI6IkF5Q09tT200Q3ltNEtycWNEcUd0SzhiQTRRWks3MjhuaTYwRUFWN1AwZjQ9IiwiaXNzIjoiaHR0cHM6Ly9tZWRhbC50diIsInN1YiI6InVzZXI6MzcwOTU4NzM5IiwiaWF0IjoxNzQ4MDkzNDYzLCJleHAiOjE3NDg2OTgyNjN9.ESh3tvybOCX0QrWnXEMEmt-7vPSUETuy2gpZHJ0AEFTRVlM7yd4r7JaXtGPCc3IMEi2WaHGvkev1tWM7rDNJ6g"
+}
+[Info | 5:31:01 PM | 19] Saving JWT
+[Info | 5:31:01 PM | 19] Failed to validate JWT: JWT signature validation failed: token expired
+[Info | 5:31:01 PM | 19] job.respond e14b3b3a-1e0b-4b40-a603-e94345e35c1f
+[Debug | 5:31:01 PM | 19] PollDesktopJobQueue reply [{"uuid":"e14b3b3a-1e0b-4b40-a603-e94345e35c1f","body":{"jwt":"eyJhbGciOiJFUzI1NiJ9.eyJhdWQiOlsibWVkYWwtcmVjb3JkZXIiXSwiY25mIjp7ImNydCI6Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLVxuTUlJQk9EQ0IzNkFEQWdFQ0FnaDdoYXRrcjgzRmd6QUtCZ2dxaGtqT1BRUURBakFiTVJrd0Z3WURWUVFEREJCb1xuZEhSd2N6b3ZMMjFsWkdGc0xuUjJNQjRYRFRJMU1EVXlOREV5TXpZeU1sb1hEVEkxTURZd056RXlNell5TWxvd1xuS2pFb01DWUdBMVVFQXd3ZlNsZFVJSE5wWjI1bGNpQm1iM0lnYUhSMGNITTZMeTl0WldSaGJDNTBkakJaTUJNR1xuQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJBNWNSV0hVV2hXKy9maWFOaEN1MTcyRWVRTHFWYTNIb0FBZVxuS05uSmJWZXBnQlhEZDBXWlhaSllIVnBPWnBSLzdzRm84T3BhSUp5YzduY0lPMkhoZmR3d0NnWUlLb1pJemowRVxuQXdJRFNBQXdSUUlnQ1dnMTFqVXJzT2YwaHZrK3luZE90b1o5QWNzalUvem9aRWlBc1JvcFpLRUNJUUMrczZkS1xuc0cwa1FGTHVwWUhrajNIa3drR3EzUS9tU2NmdkRibnRKL2xLdEE9PVxuLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLSJ9LCJjYXBhYmlsaXRpZXMiOnsidXBsb2FkZWRDb250ZW50TWF4RHVyYXRpb25TZWNvbmRzIjo2MDAsInVwbG9hZGVkQ29udGVudE1heFJlc29sdXRpb24iOjE5MjAsInVwbG9hZGVkQ29udGVudE1heEZyYW1lUmF0ZSI6NjAsInByZW1pdW1DbGlwQ291bnRRdW90YUJvbnVzIjowLCJhbmltYXRlZFVzZXJUaHVtYm5haWwiOmZhbHNlLCJoYXNUaWVyMVN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjJTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIxRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkZvdW5kZXJSb2xlIjpmYWxzZSwiaGFzVmVyaWZpZWRSb2xlIjpmYWxzZSwiaGFzQ3JlYXRvclN1cHBvcnRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMURpc2NvcmRTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIyRGlzY29yZFN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjFEaXNjb3JkRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkRpc2NvcmRGb3VuZGVyUm9sZSI6ZmFsc2UsIndhdGVybWFya0Rpc2FibGVhYmxlIjpmYWxzZSwiZG93bmxvYWRXaXRob3V0V2F0ZXJtYXJrIjpmYWxzZSwicHJpb3JpdHlDaGF0U3VwcG9ydCI6ZmFsc2UsImF1dG9VcGxvYWRzIjpmYWxzZSwiY2xvdWRTeW5jIjpmYWxzZSwidmlld0NvbnRlbnRWaWV3ZXJzIjp0cnVlLCJzY3JlZW5SZWNvcmRpbmciOnRydWUsInVwbG9hZFNjcmVlblJlY29yZGluZ3MiOmZhbHNlLCJjYW5SZWNvcmQiOnRydWUsInNraXBBZHMiOmZhbHNlLCJ1cGxvYWRJbXBvcnRlZENsaXBzIjp0cnVlLCJ1c2VQcmVtaXVtSWNvbnMiOmZhbHNlLCJjdXN0b21DbGlwU291bmRzIjpmYWxzZX0sImNsaWVudF9pZCI6IkF5Q09tT200Q3ltNEtycWNEcUd0SzhiQTRRWks3MjhuaTYwRUFWN1AwZjQ9IiwiaXNzIjoiaHR0cHM6Ly9tZWRhbC50diIsInN1YiI6InVzZXI6MzcwOTU4NzM5IiwiaWF0IjoxNzQ4MDkzNDYzLCJleHAiOjE3NDg2OTgyNjN9.ESh3tvybOCX0QrWnXEMEmt-7vPSUETuy2gpZHJ0AEFTRVlM7yd4r7JaXtGPCc3IMEi2WaHGvkev1tWM7rDNJ6g"},"action":"set.jwt"}]
+[Debug | 5:31:01 PM | 12] job.respond "ok"
+[Info | 5:31:01 PM | 1] NVAPIManager: C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalEncoder.exe - profile not found
+[Warning | 5:31:01 PM | 1] NVAPIManager: Failed to delete profile - NVAPI_ERROR
+[Critical | 5:31:01 PM | 1] NVAPIManager: Failed to delete profile
+[Info | 5:31:01 PM | 1] GPUPreference: no existing preference found
+[Info | 5:31:01 PM | 1] GPUPreference: current preference 0 is OK, continuing
+[Debug | 5:31:01 PM | 1] OpenGL present mode not set
+[Info | 5:31:01 PM | 1] ----[ESM State]: Initializing----
+[Info | 5:31:01 PM | 1] Initializing DirectX overlay
+[Info | 5:31:01 PM | 1] Initializing Electron overlay
+[Info | 5:31:01 PM | 1] Removed existing vulkan registry info [C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\Host\medal-vulkan64.json]
+[Info | 5:31:01 PM | 1] Removed existing vulkan registry info [C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\Host\medal-vulkan32.json]
+[Info | 5:31:01 PM | 1] Updated vulkan registry info [C:\Users\alish\AppData\Local\Medal\recorder-3.987.0]
+[Info | 5:31:01 PM | 1] [ESM Event] - Initialized
+[Info | 5:31:01 PM | 1] Running as admin False
+[Info | 5:31:01 PM | 1] DetectAllGames False
+[Info | 5:31:01 PM | 1] Recorder Initilization Complete
+[Info | 5:31:01 PM | 1] System supports GAO / Discord Audio
+[Info | 5:31:01 PM | 1] CPU supports ICYMI.
+[Info | 5:31:01 PM | 1] Saving Output Format mkv
+[Info | 5:31:02 PM | 23] Memory-mapped file does not exist.
+[Info | 5:31:02 PM | 23] Config file not found at C:\Users\alish\AppData\Local\NVIDIA Corporation\NvNode\nodejs.json
+[Info | 5:31:02 PM | 23] Config file does not exist
+[Info | 5:31:02 PM | 1] TPGame API started at http://localhost:12665
+[Info | 5:31:02 PM | 1] ----[ESM State]: UpdatingGameDatabase----
+[Info | 5:31:02 PM | 1] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 5:31:02 PM | 1] Remote Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 5:31:02 PM | 1] Local Info: {"Version":"2.1209","Command":"none","Environment":"production"}
+[Info | 5:31:02 PM | 1] Update available. Downloading new game database from https://cdn.medal.tv/asset/games-db/production/MedalGameInfo-2.1218.db with force update False
+[Info | 5:31:03 PM | 1] Game database updated. Version: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 5:31:03 PM | 1] Processing command: none
+[Info | 5:31:03 PM | 1] [ESM Event] - GameDBUpdateComplete
+[Info | 5:31:03 PM | 1] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalGameInfo.db
+[Info | 5:31:03 PM | 1] Custom database location is C:\Users\alish\AppData\Roaming\Medal\CustomGameDatabase.db
+[Info | 5:31:03 PM | 1] ----[ESM State]: ScanningForGame----
+[Info | 5:31:03 PM | 12] Saving ICYMI Events
+[Info | 5:31:03 PM | 12] job.respond 86e25fef-5669-41d1-b2e5-37758f93be11
+[Debug | 5:31:03 PM | 12] PollDesktopJobQueue reply []
+[Debug | 5:31:03 PM | 12] job.respond "ok"
+[Info | 5:31:04 PM | 1] [Game Status]: game/stopped - [2LBr6_ltG]
+[Info | 5:31:04 PM | 1] Found available electron port 10603
+[Info | 5:31:04 PM | 1] Username is base64 translated to Elite_Stealer1112
+[Info | 5:31:04 PM | 1] User updated 370958739 - Elite_Stealer1112
+[Info | 5:31:04 PM | 1] request environment reply "production"
+[Info | 5:31:04 PM | 1] Saving environment production
+[Debug | 5:31:04 PM | 1] encoder options reply "ok"
+[Debug | 5:31:04 PM | 1] SendAvailableWebCamDevices reply {"device":{"options":[{"id":"\\\\?\\usb#vid_1b3f&pid_2247&mi_00#7&18ac11e6&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"GENERAL WEBCAM","value":"GENERAL WEBCAM"}],"selected":{"id":"<None>","label":"<None>","value":"<None>"}}}
+[Debug | 5:31:04 PM | 1] SendAvailableGPUDevices reply {"success":true}
+[Debug | 5:31:04 PM | 1] SendAvailableGPUCodecs reply {"success":true}
+[Info | 5:31:04 PM | 1] Initilization complete reply "ok"
+[Debug | 5:31:04 PM | 1] game/stopped reply "ok"
+[Debug | 5:31:05 PM | 12] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 5:31:05 PM | 12] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 5:31:05 PM | 12] Ignoring Toggle Broadcast - Invalid FPS
+[Info | 5:31:05 PM | 12] Ignoring Toggle Broadcast - Invalid Resolution
+[Info | 5:31:05 PM | 12] Clear override settings
+[Info | 5:31:05 PM | 12] job.respond c60a79c2-cb57-4695-9357-0230704ad892
+[Debug | 5:31:05 PM | 12] PollDesktopJobQueue reply [{"uuid":"c60a79c2-cb57-4695-9357-0230704ad892","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 5:31:05 PM | 19] job.respond "ok"
+[Debug | 5:31:05 PM | 21] [HAGS] Status for NVIDIA GeForce GTX 970 (80218): disabled (default disabled), driver support AlwaysOff, from D3DKMT/WDDM2.9
+[Debug | 5:31:05 PM | 21] {"GPU":[{"Name":"NVIDIA GeForce GTX 970","Status":"OK","Caption":"NVIDIA GeForce GTX 970","DeviceID":"VideoController1","AdapterDACType":"Integrated RAMDAC","Monochrome":"False","InstalledDisplayDrivers":"C:\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvldumdx.dll,C:\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvldumdx.dll,C:\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvldumdx.dll,C:\\Windows\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvldumdx.dll","DriverVersion":"32.0.15.6094","VideoProcessor":"NVIDIA GeForce GTX 970","VideoArchitecture":"5","VideoMemoryType":"2","AdapterRAM":"4.0 GB"}],"HardDrives":[{"Name":"Drive C:\\","Drive type":"Fixed","Volume label":"","File system":"NTFS","Available space to current user":"196.2 GB","Total available space":"196.2 GB","Total size of drive":"465.1 GB","Root directory":"C:\\","MediaType":"SSD"},{"Name":"Drive D:\\","Drive type":"Fixed","Volume label":"Data","File system":"NTFS","Available space to current user":"64.0 GB","Total available space":"64.0 GB","Total size of drive":"223.6 GB","Root directory":"D:\\","MediaType":"SSD"},{"Name":"Drive F:\\","Drive type":"CDRom"}],"CPU":[{"Name":"Intel(R) Xeon(R) CPU E5-2609 v4 @ 1.70GHz","DeviceID":"CPU0","Manufacturer":"GenuineIntel","CurrentClockSpeed":"1700","Caption":"Intel64 Family 6 Model 79 Stepping 1","NumberOfCores":"8","NumberOfEnabledCore":"8","NumberOfLogicalProcessors":"8","Architecture":"x64","Family":"179","ProcessorType":"Central Processor","Characteristics":"236","AddressWidth":"64","MaxClockSpeed":"1700 MHz","InstructionSet":"AVX2"}],"Memory":[{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Hynix","PartNumber":"HMA41GR7MFR4N-TF","Speed":"2133","MemoryType":"Unknown"}],"OS":[{"Caption":"Microsoft Windows 10 Pro","WindowsDirectory":"C:\\Windows","ProductType":"1","SystemDirectory":"C:\\Windows\\system32","CountryCode":"1","CurrentTimeZone":"240","Locale":"0409","EncryptionLevel":"256","OSArchitecture":"64-bit","OSLanguage":"1033","OSType":"18","Version":"10.0.19045","HAGSEnabled":"False"}],"Monitors":[{"Name":"VA2719 Series","BitsPerPixel":"32","ScreenWidth":"1920","ScreenHeight":"1080","Primary":"True","AspectRatio":"16:9","Diagonal":"27"}],"Sound":[{"Name":"Realtek High Definition Audio","ProductName":"Realtek High Definition Audio","DeviceID":"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0221&SUBSYS_103C212A&REV_1000\\4&C2B69CB&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"NVIDIA High Definition Audio","ProductName":"NVIDIA High Definition Audio","DeviceID":"HDAUDIO\\FUNC_01&VEN_10DE&DEV_0071&SUBSYS_38422974&REV_1001\\5&3609A6E5&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"USB Audio Device","ProductName":"USB Audio Device","DeviceID":"USB\\VID_1B3F&PID_2247&MI_02\\7&18AC11E6&0&0002","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","ProductName":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","DeviceID":"ROOT\\UNNAMED_DEVICE\\0000","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"}],"Motherboard":[{"Name":"Base Board","Model":"null","Manufacturer":"Hewlett-Packard","SlotLayout":"null","Product":"212A"}],"Keyboard":[{"Name":"USB Input Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"}],"Mouse":[{"Name":"USB Input Device","Manufacturer":"(Standard system devices)"}],"Controllers":[],"Encoder":[{"Name":"n264"}],"Battery":[{"Present":"False"}]}
+[Info | 5:31:05 PM | 21] Sending hardware info
+[Debug | 5:31:05 PM | 21] SendHardwareInfo reply {"success":true}
+[Info | 5:46:03 PM | 7] [ESM Event] - GameDBCheckForUpdate
+[Info | 5:46:03 PM | 7] ----[ESM State]: UpdatingGameDatabase----
+[Info | 5:46:03 PM | 7] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 5:46:03 PM | 7] Remote Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 5:46:03 PM | 7] Local Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 5:46:03 PM | 7] No update is available.
+[Info | 5:46:03 PM | 7] [ESM Event] - GameDBUpdateComplete
+[Info | 5:46:03 PM | 7] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalGameInfo.db
+[Info | 5:46:03 PM | 7] ----[ESM State]: ScanningForGame----
+[Info | 5:46:03 PM | 7] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 5:46:03 PM | 57] game/stopped reply "ok"
+[Debug | 5:46:04 PM | 57] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 5:46:04 PM | 57] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 5:46:04 PM | 57] Ignoring Toggle Broadcast - Invalid FPS
+[Info | 5:46:04 PM | 57] Ignoring Toggle Broadcast - Invalid Resolution
+[Info | 5:46:04 PM | 57] Clear override settings
+[Info | 5:46:04 PM | 57] job.respond 25189464-cdeb-40dc-b1ce-22c7f0f927f3
+[Debug | 5:46:04 PM | 57] PollDesktopJobQueue reply [{"uuid":"25189464-cdeb-40dc-b1ce-22c7f0f927f3","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 5:46:04 PM | 54] job.respond "ok"
+[Info | 6:01:03 PM | 9] [ESM Event] - GameDBCheckForUpdate
+[Info | 6:01:03 PM | 9] ----[ESM State]: UpdatingGameDatabase----
+[Info | 6:01:03 PM | 9] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 6:01:03 PM | 9] Remote Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 6:01:03 PM | 9] Local Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 6:01:03 PM | 9] No update is available.
+[Info | 6:01:03 PM | 9] [ESM Event] - GameDBUpdateComplete
+[Info | 6:01:03 PM | 9] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalGameInfo.db
+[Info | 6:01:03 PM | 9] ----[ESM State]: ScanningForGame----
+[Info | 6:01:03 PM | 9] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 6:01:04 PM | 56] game/stopped reply "ok"
+[Debug | 6:01:04 PM | 56] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 6:01:04 PM | 56] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 6:01:04 PM | 56] Ignoring Toggle Broadcast - Invalid FPS
+[Info | 6:01:04 PM | 56] Ignoring Toggle Broadcast - Invalid Resolution
+[Info | 6:01:04 PM | 56] Clear override settings
+[Info | 6:01:04 PM | 56] job.respond d8972083-4b61-4025-b1d6-3fbbcaf366e7
+[Debug | 6:01:04 PM | 56] PollDesktopJobQueue reply [{"uuid":"d8972083-4b61-4025-b1d6-3fbbcaf366e7","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 6:01:04 PM | 53] job.respond "ok"
+[Info | 6:16:03 PM | 21] [ESM Event] - GameDBCheckForUpdate
+[Info | 6:16:03 PM | 21] ----[ESM State]: UpdatingGameDatabase----
+[Info | 6:16:03 PM | 21] Checking for new version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 6:16:04 PM | 21] Remote Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 6:16:04 PM | 21] Local Info: {"Version":"2.1218","Command":"none","Environment":"production"}
+[Info | 6:16:04 PM | 21] No update is available.
+[Info | 6:16:04 PM | 21] [ESM Event] - GameDBUpdateComplete
+[Info | 6:16:04 PM | 21] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalGameInfo.db
+[Info | 6:16:04 PM | 21] ----[ESM State]: ScanningForGame----
+[Info | 6:16:04 PM | 21] [Game Status]: game/stopped - [2LBr6_ltG]
+[Debug | 6:16:04 PM | 35] game/stopped reply "ok"
+[Debug | 6:16:04 PM | 35] Executing Request: set.toggleBroadcast - {
+  "enabled": false
+}
+[Info | 6:16:04 PM | 35] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 6:16:04 PM | 35] Ignoring Toggle Broadcast - Invalid FPS
+[Info | 6:16:04 PM | 35] Ignoring Toggle Broadcast - Invalid Resolution
+[Info | 6:16:04 PM | 35] Clear override settings
+[Info | 6:16:04 PM | 35] job.respond 8084db62-1984-428e-9b01-bfd9c7d3f27e
+[Debug | 6:16:04 PM | 35] PollDesktopJobQueue reply [{"uuid":"8084db62-1984-428e-9b01-bfd9c7d3f27e","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 6:16:04 PM | 47] job.respond "ok"

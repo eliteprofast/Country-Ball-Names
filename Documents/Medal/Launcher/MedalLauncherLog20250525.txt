@@ -1,0 +1,47 @@
+[ Log | 1:33:37 PM ] [Medal Launcher Log Init] 1.0.0.1 - 5/25/2025 1:33:37 PM
+
+[ Log | 1:33:37 PM ] Launching recorder C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalEncoder.exe
+[ Log | 1:33:37 PM ] No other MedalEncoder instances running
+[ Log | 1:33:37 PM ] Launched recorder C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\MedalEncoder.exe
+[ Log | 1:33:53 PM ] Init OverlayInterface
+[ Log | 1:34:07 PM ] Starting suicide lock interval
+[ Error | 1:34:31 PM ] ffmpeg version n7.1-15-g9fbbd924f2-20241021 Copyright (c) 2000-2024 the FFmpeg developers
+[ Error | 1:34:31 PM ]   built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+[ Error | 1:34:31 PM ]   configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --disable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --disable-libxml2 --enable-lzma --disable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --disable-libaom --enable-libaribb24 --disable-avisynth --disable-chromaprint --enable-libdav1d --disable-libdavs2 --disable-libdvdread --disable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --disable-frei0r --disable-libgme --enable-libkvazaar --disable-libaribcaption --disable-libass --disable-libbluray --disable-libjxl --enable-libmp3lame --enable-libopus --disable-librist --disable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --disable-lv2 --enable-libvpl --disable-openal --disable-libopencore-amrnb --disable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --disable-libopenmpt --disable-librav1e --disable-librubberband --enable-schannel --disable-sdl2 --disable-libsoxr --disable-libsrt --enable-libsvtav1 --disable-libtwolame --disable-libuavs3d --disable-libdrm --disable-vaapi --disable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --disable-libvvenc --enable-libx264 --enable-libx265 --disable-libxavs2 --enable-libxvid --disable-libzimg --disable-libzvbi --extra-cflags= --extra-cxxflags= --extra-libs= --extra-ldflags= --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241021
+[ Error | 1:34:31 PM ]   libavutil      59. 39.100 / 59. 39.100
+[ Error | 1:34:31 PM ]   libavcodec     61. 19.100 / 61. 19.100
+[ Error | 1:34:31 PM ]   libavformat    61.  7.100 / 61.  7.100
+[ Error | 1:34:31 PM ]   libavdevice    61.  3.100 / 61.  3.100
+[ Error | 1:34:31 PM ]   libavfilter    10.  4.100 / 10.  4.100
+[ Error | 1:34:31 PM ]   libswscale      8.  3.100 /  8.  3.100
+[ Error | 1:34:31 PM ]   libswresample   5.  3.100 /  5.  3.100
+[ Error | 1:34:31 PM ]   libpostproc    58.  3.100 / 58.  3.100
+[ Error | 1:34:31 PM ] Input #0, matroska,webm, from 'C:\Medal\Clips\Minecraft\MedalTVMinecraft20250525133356.mkv':
+[ Error | 1:34:31 PM ]   Metadata:
+[ Error | 1:34:31 PM ]     ZERO_TIME       : 1748165636476844
+[ Error | 1:34:31 PM ]     ENCODER         : Lavf61.7.100
+[ Error | 1:34:31 PM ]   Duration: N/A, start: 0.000000, bitrate: N/A
+[ Error | 1:34:31 PM ]   Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1016 [SAR 1:1 DAR 240:127], 62.50 fps, 60 tbr, 1k tbn (default)
+[ Error | 1:34:31 PM ]   Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+[ Error | 1:34:31 PM ]       Metadata:
+[ Error | 1:34:31 PM ]         title           : All Audio
+[ Error | 1:34:31 PM ]   Stream #0:2: Audio: aac (LC), 48000 Hz, stereo, fltp
+[ Error | 1:34:31 PM ]       Metadata:
+[ Error | 1:34:31 PM ]         title           : Game
+[ Error | 1:34:31 PM ]   Stream #0:3: Audio: aac (LC), 48000 Hz, stereo, fltp
+[ Error | 1:34:31 PM ]       Metadata:
+[ Error | 1:34:31 PM ]         title           : Mic
+[ Error | 1:34:31 PM ] Stream mapping:
+[ Error | 1:34:31 PM ]   Stream #0:0 -> #0:0 (copy)
+[ Error | 1:34:31 PM ]   Stream #0:1 -> #0:1 (copy)
+[ Error | 1:34:31 PM ] Output #0, matroska, to 'C:\Medal\Clips\Minecraft\MedalTVMinecraft20250525133356-rc.mkv':
+[ Error | 1:34:31 PM ]   Metadata:
+[ Error | 1:34:31 PM ]     ZERO_TIME       : 1748165636476844
+[ Error | 1:34:31 PM ]     encoder         : Lavf61.7.100
+[ Error | 1:34:31 PM ]   Stream #0:0: Video: h264 (High) (H264 / 0x34363248), yuv420p(progressive), 1920x1016 [SAR 1:1 DAR 240:127], q=2-31, 62.50 fps, 60 tbr, 1k tbn (default)
+[ Error | 1:34:31 PM ]   Stream #0:1: Audio: aac (LC) ([255][0][0][0] / 0x00FF), 48000 Hz, stereo, fltp (default)
+[ Error | 1:34:31 PM ]       Metadata:
+[ Error | 1:34:31 PM ]         title           : All Audio
+[ Error | 1:34:31 PM ] Press [q] to stop, [?] for help
+[ Error | 1:34:31 PM ] [out#0/matroska @ 00000278caa58e00] video:13951KiB audio:170KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.194787%
+[ Error | 1:34:31 PM ] frame= 2040 fps=0.0 q=-1.0 Lsize=   14149KiB time=00:00:34.54 bitrate=3354.9kbits/s speed= 270x    

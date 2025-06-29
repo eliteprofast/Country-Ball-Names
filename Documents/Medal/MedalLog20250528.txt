@@ -1,0 +1,1287 @@
+[Info | 3:49:31 PM | 1] [Medal Log Init] 3.1020.0.0 - 5/28/2025 3:49:31 PM
+
+[Info | 3:49:31 PM | 1] Remote config saved
+[Debug | 3:49:31 PM | 1] Initialising Sentry with environment production and URL sentry.medal.tv
+[Info | 3:49:31 PM | 1] 1 old log files were deleted
+[Info | 3:49:34 PM | 1] Honeycomb init successful, environment production and sample rate 30
+[Debug | 3:49:34 PM | 1] [Scope] [15:49:34.072845] [000001] trying to load Scope native library with default paths
+[Debug | 3:49:34 PM | 1] [Scope] [15:49:34.135810] [000001] Scope native library loaded (runtime 15.0, ScopeSharp 15.0)
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.147020] [005050] Scope context initialising (API 15.0)
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.147139] [005050] machine GUID: 8ea5b097-ddec-4ca3-8159-e1622c64760a
+[Info | 3:49:34 PM | 13] [Scope] [15:49:34.262263] [005050] sentry initialized successfully
+[Info | 3:49:34 PM | 13] [Scope] [15:49:34.266004] [005050] running on OS: Windows 10.0.19045.0
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.266073] [005050] initialising DX device manager
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.266130] [005050] initialising DX factories (iteration 1)
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.270061] [005050] created DXGI factory at feature level 2
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.270162] [005050] created D2D factory at feature level 7
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.371289] [005050] created D3D9Ex factory
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.575144] [005050] DXDeviceManager got default adapter LUID: 80218
+[Info | 3:49:34 PM | 1] Listening on http://localhost:10604/
+[Debug | 3:49:34 PM | 14] Window thread message loop starting: Common
+[Info | 3:49:34 PM | 1] User saved as -1 - undefined
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.710838] [005050] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.718076] [005050] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 3:49:34 PM | 1] Initial app settings - Advanced Window Capture is False - Aspect Ratio is Custom - Auth Key is <hidden> - Bitrate is 10 - Clip Folder is Clips/ - Codec is H264 - Detect All Games is False - Development Mode Enabled is False - Discord Audio Enabled is False - Encoder is GPU - Environment is production - Experimental Capture is False - External File Sources is  - Force Window Capture is False - Full Session Mode Enabled is False - Game Audio Only Enabled is False - Game Controls Collection Enabled is True - Clip Saved Sound Alerts is True - Bookmark Saved Sound Alerts is True - Session Toggle Sound Alerts is True - Auto Clipping Sound Alerts is True - Disk Full Sound Alerts is True - Screenshot Sound Alerts is True - Global Sound Alerts is True - Clip Sound is default - Game Sound Gain is 0.5 - HDR Compatibility is False - Hotkeys is [clip: shortpress of keyboard:F8] - ICYMI Clip Length is 0 - ICYMI Enabled is False - ICYMI Event Settings is <hidden> - In Memory Buffer is False - JWT is <hidden> - Low Disk Space Backup Clip Folder is  - Manual Recording Enabled is False - Mic Enabled is False - Mic Noise Gate Enabled is False - Mic Noise Gate Threshold is -30 - Mic Noise Suppression Enabled is False - Mic Sound Gain is 0.5 - Monitor Device Name is  - Mono Mic Audio is False - Multiple Audio Tracks is False - Overlay Current Injected Mode is False - Passive Game Switching Enabled is True - Prefer Game Capture is True - Push To Talk Enabled is False - Recording Enabled is True - Resolution is {Width=1280, Height=720} - Screen Capture Enabled is False - SDK Mode Enabled is False - Selected Audio Devices is [Auto] - Selected GPU Device is Auto - Selected Mic Device is Auto - Selected Webcam Device is {"id":"<None>","label":"<None>","value":"<None>"} - Show Cursor is False - Show Overlay is True - Target FPS is 30 - User ID is -1 - Username is undefined - Voice Clipping Enabled is False - Voice Clipping Phrases is [] - Webcam Overlay Enabled is False - Webcam Overlay Position is 1
+[Info | 3:49:34 PM | 1] request user
+[Info | 3:49:34 PM | 1] request environment
+[Debug | 3:49:34 PM | 13] [Scope] [15:49:34.956422] [005050] DXDeviceManager created DXDevice for adapter NVIDIA GeForce GTX 970 (LUID 80218) with usage 0
+[Info | 3:49:35 PM | 1] Found 1 adapters:
+[Info | 3:49:35 PM | 1]     80218: NVIDIA GeForce GTX 970 (10DE:13C2), VRAM: 4030 MiB, codecs: H.264 (BGRA32), H.265 (BGRA32)
+[Info | 3:49:35 PM | 1] Supported video encoder options: NVIDIA GeForce GTX 970
+[Info | 3:49:35 PM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Info | 3:49:35 PM | 1] Clip folder: Clips/
+[Debug | 3:49:35 PM | 1] Settings: Clip Folder changed from Clips/ --> C:\Medal
+[Info | 3:49:35 PM | 1] Selecting drive C:\ for backup clips folder with 208.4 GB available space
+[Debug | 3:49:35 PM | 1] Settings: Low Disk Space Backup Clip Folder changed from  --> C:\Medal
+[Info | 3:49:35 PM | 1] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 3:49:35 PM | 1] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 3:49:35 PM | 1] Local Info: {"Version":"0.0","Command":"none","Environment":"production"}
+[Info | 3:49:35 PM | 1] Downloading new game database from https://cdn.medal.tv/asset/games-db/production/MedalGameInfo-2.1225.db
+[Debug | 3:49:35 PM | 1] Going to switch to new game info DB from C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalGameInfo.db
+[Debug | 3:49:35 PM | 1] Acquired game info DB write lock
+[Debug | 3:49:35 PM | 1] Successfully switched to new game info DB
+[Debug | 3:49:35 PM | 1] Released game info DB write lock
+[Info | 3:49:35 PM | 1] Game database updated. Version: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 3:49:35 PM | 1] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalGameInfo.db
+[Info | 3:49:35 PM | 1] Custom database location is C:\Users\alish\AppData\Roaming\Medal\CustomGameDatabase.db
+[Debug | 3:49:35 PM | 5] Executing Request: set.sdkmode
+[Info | 3:49:35 PM | 5] job.respond 6b99ea03-8f40-45da-8094-6e247cac97de
+[Debug | 3:49:35 PM | 5] Executing Request: get.hardwareId
+[Debug | 3:49:35 PM | 12] job.respond "ok"
+[Debug | 3:49:36 PM | 1] ProcessTracker using WMI backend
+[Info | 3:49:36 PM | 1] Current disk space 223790915584, min disk space requirement 1094000000
+[Info | 3:49:36 PM | 1] [ESM Event] - ConfigChanged
+[Debug | 3:49:36 PM | 1] Config change: VideoEncoderProperties (Global)
+[Info | 3:49:36 PM | 1] Set process priority to High
+[Debug | 3:49:36 PM | 6] Checking window: Minecraft* 1.21.4 - Multiplayer (3rd-party Server) (591338, GLFW30)
+[Debug | 3:49:36 PM | 6] Checking window under process javaw against 78 games with LTs 5, 1, 3
+[Info | 3:49:36 PM | 6] Game Found Type ProcessFuzzyCaption: Minecraft
+[Info | 3:49:36 PM | 6] Process name found javaw | Caption | Minecraft* 1.21.4 - Multiplayer (3rd-party Server) | and class | GLFW30 | Detect all Games | False
+[Debug | 3:49:36 PM | 17] Window thread message loop starting: InputManager
+[Info | 3:49:36 PM | 6] Adding game to active games. State: 0 0 0
+[Info | 3:49:36 PM | 6] Creating Target process
+[Info | 3:49:36 PM | 6] Checking if game process is elevated
+[Info | 3:49:36 PM | 1] Recorder running elevated: no
+[Info | 3:49:36 PM | 1] No other MedalEncoder instances running
+[Info | 3:49:36 PM | 1] Found 1 adapters:
+[Info | 3:49:36 PM | 1]     80218: NVIDIA GeForce GTX 970 (10DE:13C2), VRAM: 4030 MiB, codecs: H.264 (BGRA32), H.265 (BGRA32)
+[Info | 3:49:36 PM | 1] Supported video encoder options: NVIDIA GeForce GTX 970
+[Info | 3:49:36 PM | 1] Completed hardware encoder detection, found 1 hardware encoder options
+[Warning | 3:49:36 PM | 15] GPU info collection error: System.IO.IOException: The specified registry key does not exist.
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.GetValueKind(String name)
+   at MedalEncoder.HardwareInfo.HardwareChecker.GPU()
+[Info | 3:49:36 PM | 1] Sending available web cam devices {"availableDevices":[{"id":"\\\\?\\usb#vid_1b3f&pid_2247&mi_00#7&18ac11e6&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"GENERAL WEBCAM","value":"GENERAL WEBCAM"}],"selectedDevice":{"id":"<None>","label":"<None>","value":"<None>"}}
+[Info | 3:49:36 PM | 1] Sending available GPU devices NVIDIA GeForce GTX 970
+[Debug | 3:49:36 PM | 6] Initialized customization for hAXdelx2t (Minecraft)
+[Info | 3:49:36 PM | 6] Acquiring InputManagerHandle
+[Info | 3:49:36 PM | 6] Starting InputManager.
+[Info | 3:49:36 PM | 6] Check for input devices
+[Info | 3:49:36 PM | 19] Minecraft_MatchDetector: No valid log files found in CurseForge instances
+[Info | 3:49:36 PM | 1] Sending available GPU Codecs NVIDIA GeForce GTX 970: H264, H265
+[Info | 3:49:36 PM | 19] Minecraft_MatchDetector: Determined client Default (timestamp: 2025-05-14 16:24:22)
+[Info | 3:49:36 PM | 19] Minecraft_MatchDetector: Detected client: Default
+[Info | 3:49:36 PM | 19] Minecraft_MatchDetector: Using log path: C:\Users\alish\AppData\Roaming\.minecraft\logs\latest.log
+[Info | 3:49:36 PM | 19] Minecraft_MatchDetector: Username detected: EliteProFast
+[Info | 3:49:36 PM | 6] InputManager started.
+[Info | 3:49:36 PM | 6] Setting up window hooks for game window
+[Debug | 3:49:36 PM | 23] Window thread message loop starting: Window Hooks for Window[591338, hAXdelx2t[Minecraft], GLFW30, javaw[4204]]
+[Info | 3:49:36 PM | 23] Set up window hooks for window handle 591338
+[Info | 3:49:36 PM | 6] Added game to active games
+[Info | 3:49:36 PM | 6] Using electron overlay.
+[Info | 3:49:36 PM | 6] [Game Status]: game/started - Minecraft[hAXdelx2t]
+[Info | 3:49:36 PM | 22] InputManager: regenerating trigger inputs for Minecraft
+[Info | 3:49:36 PM | 22] Updated hotkeys for Minecraft, now have 1 hotkeys configured
+[Info | 3:49:36 PM | 6] New game window detected: Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[4204]]
+[Info | 3:49:36 PM | 6] [ESM Event] - ConsiderSwitchRecording
+[Info | 3:49:36 PM | 6] Marking new game window as checked for tracking
+[Debug | 3:49:36 PM | 6] Checking window:  (5047760, ApplicationFrameTitleBarWindow)
+[Debug | 3:49:36 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:49:36 PM | 6] Checking window:  (7013914, ApplicationFrameInputSinkWindow)
+[Debug | 3:49:36 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:49:37 PM | 6] Checking window:  (131812, ApplicationFrameTitleBarWindow)
+[Debug | 3:49:37 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 3:49:37 PM | 1] GPUPreference: no existing preference found
+[Debug | 3:49:37 PM | 6] Checking window:  (131816, ApplicationFrameInputSinkWindow)
+[Debug | 3:49:37 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:49:37 PM | 15] [HAGS] Status for NVIDIA GeForce GTX 970 (80218): disabled (default disabled), driver support AlwaysOff, from D3DKMT/WDDM2.9
+[Debug | 3:49:37 PM | 6] Checking window:  (1376282, ApplicationFrameTitleBarWindow)
+[Info | 3:49:37 PM | 1] GPUPreference: current preference 0 is OK, continuing
+[Debug | 3:49:37 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:49:37 PM | 1] OpenGL present mode not set
+[Info | 3:49:37 PM | 1] Initializing Electron overlay
+[Debug | 3:49:37 PM | 1] HookLibraryManager cleaned up 0 old hook DLLs, leaving 0
+[Info | 3:49:37 PM | 1] Removed existing Vulkan registry info [C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\Host\medal-vulkan64.json]
+[Info | 3:49:37 PM | 1] Removed existing Vulkan registry info [C:\Users\alish\AppData\Local\Medal\recorder-3.987.0\Host\medal-vulkan32.json]
+[Info | 3:49:37 PM | 1] [GameFilePaths] Error grabbing game file path from libraryfolders.vdf: Value cannot be null.
+Parameter name: path1
+[Warning | 3:49:37 PM | 1] [CounterStrike2] Game Library Base Path is null -- cannot write GSI file.
+[Warning | 3:49:37 PM | 1] 1 logs of- [GameFilePaths] Error grabbing game file path from libraryfolders.vdf: Value cannot be null.
+Parameter name: path1
+[Warning | 3:49:37 PM | 1] [Dota2] Game Library Base Path is null -- cannot write GSI file.
+[Info | 3:49:37 PM | 1] System supports GAO / process capture audio
+[Debug | 3:49:37 PM | 6] Checking window:  (131772, ApplicationFrameInputSinkWindow)
+[Debug | 3:49:37 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 3:49:37 PM | 1] No external file source settings
+[Info | 3:49:37 PM | 19] Memory-mapped file does not exist.
+[Info | 3:49:37 PM | 19] Config file not found at C:\Users\alish\AppData\Local\NVIDIA Corporation\NvNode\nodejs.json
+[Info | 3:49:37 PM | 19] Config file does not exist
+[Debug | 3:49:37 PM | 6] Checking window:  (131394, ApplicationFrameTitleBarWindow)
+[Debug | 3:49:37 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 3:49:37 PM | 15] Hardware collection completed in 1243.162ms
+[Debug | 3:49:37 PM | 15] {"GPU":[{"Name":"AMD Radeon HD 6450","VideoProcessor":"AMD Radeon HD 6450","AdapterDACType":"Internal DAC(400MHz)","InstalledDisplayDrivers":"aticfx64.dll,aticfx64.dll,aticfx64.dll,amdxc64.dll","DriverVersion":"15.201.1151.1008","AdapterRAM":"1.0 GB"},{"Name":"NVIDIA Quadro NVS 295","VideoProcessor":"Quadro NVS 295","AdapterDACType":"Integrated RAMDAC","InstalledDisplayDrivers":"nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll","DriverVersion":"9.18.13.4135","AdapterRAM":"256.0 MB"},{"Name":"AMD Radeon HD 6450","VideoProcessor":"AMD Radeon HD 6450","AdapterDACType":"Internal DAC(400MHz)","InstalledDisplayDrivers":"aticfx64.dll,aticfx64.dll,aticfx64.dll,amdxc64.dll","DriverVersion":"15.201.1151.1008","AdapterRAM":"1.0 GB"}],"HardDrives":[{"Name":"Drive C:\\","Drive type":"Fixed","Volume label":"","File system":"NTFS","Available space to current user":"208.4 GB","Total available space":"208.4 GB","Total size of drive":"465.1 GB","Root directory":"C:\\","MediaType":"SSD"},{"Name":"Drive D:\\","Drive type":"Fixed","Volume label":"Data","File system":"NTFS","Available space to current user":"64.0 GB","Total available space":"64.0 GB","Total size of drive":"223.6 GB","Root directory":"D:\\","MediaType":"SSD"},{"Name":"Drive F:\\","Drive type":"CDRom"}],"CPU":[{"Name":"Intel(R) Xeon(R) CPU E5-2609 v4 @ 1.70GHz","DeviceID":"CPU0","Manufacturer":"GenuineIntel","CurrentClockSpeed":"1700","Caption":"Intel64 Family 6 Model 79 Stepping 1","NumberOfCores":"8","NumberOfEnabledCore":"8","NumberOfLogicalProcessors":"8","Architecture":"x64","Family":"179","ProcessorType":"Central Processor","AddressWidth":"64","MaxClockSpeed":"1700 MHz","InstructionSet":"AVX2"}],"Memory":[{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Micron","PartNumber":"18ASF1G72PZ-2G1A2","Speed":"2133","MemoryType":"Unknown"},{"Capacity":"8192","Manufacturer":"Hynix","PartNumber":"HMA41GR7MFR4N-TF","Speed":"2133","MemoryType":"Unknown"}],"OS":[{"Caption":"Microsoft Windows 10 Pro","WindowsDirectory":"C:\\Windows","ProductType":"1","SystemDirectory":"C:\\Windows\\system32","CountryCode":"1","CurrentTimeZone":"240","Locale":"0409","EncryptionLevel":"256","OSArchitecture":"64-bit","OSLanguage":"1033","OSType":"18","Version":"10.0.19045","HAGSEnabled":"False"}],"Monitors":[{"Name":"VA2719 Series","BitsPerPixel":"32","ScreenWidth":"1920","ScreenHeight":"1080","Primary":"True","AspectRatio":"16:9","Diagonal":"27"}],"Sound":[{"Name":"Realtek High Definition Audio","ProductName":"Realtek High Definition Audio","DeviceID":"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0221&SUBSYS_103C212A&REV_1000\\4&C2B69CB&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"NVIDIA High Definition Audio","ProductName":"NVIDIA High Definition Audio","DeviceID":"HDAUDIO\\FUNC_01&VEN_10DE&DEV_0071&SUBSYS_38422974&REV_1001\\5&3609A6E5&0&0001","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"USB Audio Device","ProductName":"USB Audio Device","DeviceID":"USB\\VID_1B3F&PID_2247&MI_02\\7&18AC11E6&0&0002","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"},{"Name":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","ProductName":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","DeviceID":"ROOT\\UNNAMED_DEVICE\\0000","PowerManagementSupported":"False","Status":"OK","StatusInfo":"3"}],"Motherboard":[{"Name":"Base Board","Model":"null","Manufacturer":"Hewlett-Packard","SlotLayout":"null","Product":"212A"}],"Keyboard":[{"Name":"USB Input Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"},{"Name":"HID Keyboard Device"}],"Mouse":[{"Name":"USB Input Device","Manufacturer":"(Standard system devices)"}],"Controllers":[],"Encoder":[{"Name":"GPU"}],"Battery":[{"Present":"False"}]}
+[Info | 3:49:37 PM | 15] Sending hardware info
+[Debug | 3:49:37 PM | 15] SendHardwareInfo reply {"success":true}
+[Info | 3:49:37 PM | 1] TPGame API started at http://localhost:12665
+[Info | 3:49:37 PM | 1] Recorder Initialization Complete
+[Debug | 3:49:37 PM | 6] Checking window:  (1246668, ApplicationFrameInputSinkWindow)
+[Debug | 3:49:37 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 3:49:37 PM | 26] Event queue processing has started.
+[Info | 3:49:37 PM | 15] Event queue health check has started.
+[Info | 3:49:37 PM | 1] ----[ESM State]: SelectTarget----
+[Info | 3:49:37 PM | 1] [ESM Event] - ConsiderSwitchRecording
+[Debug | 3:49:37 PM | 26] [EventProcessor] [->] ConsiderSwitchRecording
+[Info | 3:49:37 PM | 26] [SelectTarget] Considering switching target while idle
+[Debug | 3:49:37 PM | 26] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 3:49:37 PM | 26] ~ Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[4204]]
+[Debug | 3:49:37 PM | 26] ~     Score: 67992 (PreferredType, Focused)
+[Debug | 3:49:37 PM | 26] Selected target Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[4204]] (score 67992)
+[Info | 3:49:37 PM | 26] Going to attempt recording Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[4204]]
+[Info | 3:49:37 PM | 26] [ESM Event] - AttemptRecording
+[Debug | 3:49:37 PM | 26] [EventProcessor] [<-] ConsiderSwitchRecording ElapsedTime: 44ms
+[Debug | 3:49:37 PM | 26] [EventProcessor] [->] AttemptRecording
+[Info | 3:49:37 PM | 26] ----[ESM State]: AttemptRecording----
+[Debug | 3:49:37 PM | 26] WinRTCheck: skipping WinRT capture due to likely OpenGL game
+[Info | 3:49:37 PM | 26] [ESM Event] - StartRecording
+[Debug | 3:49:37 PM | 26] [EventProcessor] [<-] AttemptRecording ElapsedTime: 23ms
+[Debug | 3:49:37 PM | 26] [EventProcessor] [->] StartRecording
+[Info | 3:49:37 PM | 1] Username is base64 translated to Elite_Stealer1112
+[Debug | 3:49:37 PM | 1] Settings: User ID changed from -1 --> 370958739
+[Info | 3:49:37 PM | 26] ----[ESM State]: Recording----
+[Debug | 3:49:37 PM | 1] Settings: Username changed from undefined --> Elite_Stealer1112
+[Debug | 3:49:37 PM | 1] Settings: Auth Key changed from <hidden> --> <hidden>
+[Info | 3:49:37 PM | 1] User updated 370958739 - Elite_Stealer1112
+[Info | 3:49:37 PM | 1] request environment reply "production"
+[Debug | 3:49:37 PM | 5] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Debug | 3:49:37 PM | 1] encoder options reply "ok"
+[Debug | 3:49:37 PM | 1] SendAvailableWebCamDevices reply {"device":{"options":[{"id":"\\\\?\\usb#vid_1b3f&pid_2247&mi_00#7&18ac11e6&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","label":"GENERAL WEBCAM","value":"GENERAL WEBCAM"}],"selected":{"id":"<None>","label":"<None>","value":"<None>"}}}
+[Debug | 3:49:37 PM | 26] Creating recording session for Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[4204]] using capture mode Window/DXGI Attempts: 1
+[Debug | 3:49:37 PM | 1] SendAvailableGPUDevices reply {"success":true}
+[Debug | 3:49:37 PM | 1] SendAvailableGPUCodecs reply {"success":true}
+[Info | 3:49:37 PM | 1] Initialization complete reply "ok"
+[Info | 3:49:37 PM | 5] job.respond 3212140e-9da5-44b4-b73c-0c9d3b66ae7b
+[Debug | 3:49:37 PM | 5] Executing Request: user
+[Debug | 3:49:37 PM | 10] ShareHardwareId reply {"success":true}
+[Debug | 3:49:37 PM | 11] job.respond "ok"
+[Debug | 3:49:37 PM | 26] CreateConfig: using main LUID 80218, encode LUID 80218, codec SCOPE_VID_CODEC_H264
+[Info | 3:49:37 PM | 5] Username is base64 translated to Elite_Stealer1112
+[Info | 3:49:37 PM | 5] User updated 370958739 - Elite_Stealer1112
+[Info | 3:49:37 PM | 5] job.respond e6d28017-5978-41a0-824a-5b3cb4097d31
+[Debug | 3:49:37 PM | 5] Executing Request: get.hardwareId
+[Debug | 3:49:37 PM | 5] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:49:37 PM | 5] job.respond 60cca3ce-430d-4ff6-95df-52dc87ecdf47
+[Debug | 3:49:37 PM | 5] Executing Request: icymi.eventState
+[Info | 3:49:37 PM | 26] Scaling up the bitrate to 10312500bps for larger resolution
+[Info | 3:49:37 PM | 26] Input resolution: 1936x1056
+[Info | 3:49:37 PM | 26] Output resolution: 1320x720
+[Info | 3:49:37 PM | 26] Clearing current I/O settings
+[Info | 3:49:37 PM | 26] Updating audio configurations
+[Debug | 3:49:37 PM | 13] [Scope] [15:49:37.929162] [0045DC] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:37 PM | 13] [Scope] [15:49:37.936607] [0045DC] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:37 PM | 13] [Scope] [15:49:37.945810] [0045DC] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:37 PM | 5] Settings: ICYMI Event Settings changed from <hidden> --> <hidden>
+[Info | 3:49:37 PM | 5] job.respond 1fc0644d-5e02-4673-a7cb-a00a68329fb4
+[Debug | 3:49:37 PM | 10] job.respond "ok"
+[Debug | 3:49:37 PM | 5] Executing Request: get.hardwareId
+[Debug | 3:49:37 PM | 5] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:49:37 PM | 5] job.respond 084bd95d-ac65-471b-9f8e-be40a4004aaf
+[Debug | 3:49:37 PM | 5] Executing Request: get.hardwareId
+[Debug | 3:49:37 PM | 5] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:49:37 PM | 5] job.respond e49818f8-5f15-4452-8155-f8a803ab6344
+[Debug | 3:49:37 PM | 10] job.respond "ok"
+[Debug | 3:49:37 PM | 5] Executing Request: set.useStringId
+[Warning | 3:49:37 PM | 5] No command for set.useStringId
+[Info | 3:49:37 PM | 5] job.respond e29e7998-3458-4e9d-bf2b-04275094b35e
+[Debug | 3:49:37 PM | 10] job.respond "ok"
+[Info | 3:49:37 PM | 5] [ESM Event] - ConfigChanged
+[Debug | 3:49:37 PM | 5] Config change: ICYMIEventSettings (Global)
+[Debug | 3:49:37 PM | 10] ShareHardwareId reply {"success":true}
+[Info | 3:49:37 PM | 26] RecordingSession using window capture: window 591338 using mode SCOPE_VCAP_WINDOW_MODE_DXGI
+[Debug | 3:49:37 PM | 12] job.respond "ok"
+[Info | 3:49:37 PM | 26] Output modes: ClipOutput
+[Debug | 3:49:37 PM | 5] PollDesktopJobQueue reply [{"uuid":"6b99ea03-8f40-45da-8094-6e247cac97de","body":{"enabled":false},"action":"set.sdkmode"},{"uuid":"3212140e-9da5-44b4-b73c-0c9d3b66ae7b","body":null,"action":"get.hardwareId"},{"uuid":"e6d28017-5978-41a0-824a-5b3cb4097d31","body":{"userName.base64":"RWxpdGVfU3RlYWxlcjExMTI=","key":"6f90e6a1-735a-4e50-9238-421eeca721b4","userId":"370958739","userName":"Elite_Stealer1112","roles":[],"thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","premiumType":"NONE","state":{"state":"idle","timestamp":1748356001801}},"action":"user"},{"uuid":"60cca3ce-430d-4ff6-95df-52dc87ecdf47","body":null,"action":"get.hardwareId"},{"uuid":"1fc0644d-5e02-4673-a7cb-a00a68329fb4","body":"<trimmed>","action":"icymi.eventState"},{"uuid":"084bd95d-ac65-471b-9f8e-be40a4004aaf","body":null,"action":"get.hardwareId"},{"uuid":"e49818f8-5f15-4452-8155-f8a803ab6344","body":null,"action":"get.hardwareId"},{"uuid":"e29e7998-3458-4e9d-bf2b-04275094b35e","body":{"enabled":true},"action":"set.useStringId"}]
+[Debug | 3:49:37 PM | 12] job.respond "ok"
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.000190] [00548C] pipeline starting to process user actions
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.102418] [0045DC] NV encoder initialised with Latest backend (NVENC 12.0, driver max NVENC 12.2)
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.121225] [0045DC] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.128397] [0045DC] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.136373] [0045DC] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.136485] [0045DC] creating WASAPI capture for device Speakers (Realtek High Definition Audio); loopback aiming to use WASAPI events
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.146920] [0045DC] WASAPI device capture for Speakers (Realtek High Definition Audio) trying format Wave (PCM, float, 32-bit, interleaved), 48000Hz, 2ch
+[Info | 3:49:38 PM | 13] [Scope] [15:49:38.154721] [0045DC] created WASAPI capture for device Speakers (Realtek High Definition Audio); loopback client using WASAPI events
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.156072] [0045DC] WASAPI device capture for Speakers (Realtek High Definition Audio) using retrieved capture period of 10.000ms
+[Info | 3:49:38 PM | 13] [Scope] [15:49:38.156083] [0045DC]     format: Wave (PCM, float, 32-bit, interleaved), 2 channels, 48000Hz
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.173057] [0045DC] buffer vbuf preallocated 3 chunks after 0.015ms
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.174955] [0045DC] buffer abuf0 preallocated 2 chunks after 0.001ms
+[Info | 3:49:38 PM | 26] Starting Medal Performance monitor.
+[Debug | 3:49:38 PM | 26] [EventProcessor] [<-] StartRecording ElapsedTime: 439ms
+[Debug | 3:49:38 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 3:49:38 PM | 26] Handling config change while recording: ICYMIEventSettings (Global)
+[Debug | 3:49:38 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 13ms
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.211214] [001D90] starting pipeline
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.363594] [001D90] started input capture
+[Info | 3:49:38 PM | 19] Recording session starting
+[Info | 3:49:38 PM | 13] [Scope] [15:49:38.363666] [001D90] starting FFMPEG audio encoder
+[Info | 3:49:38 PM | 13] [Scope] [15:49:38.363736] [001D90] starting FFMPEG audio stream processor
+[Info | 3:49:38 PM | 13] [Scope] [15:49:38.363795] [001D90] starting WASAPI capture for device Speakers (Realtek High Definition Audio)
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.363849] [001D90] starting NV video encoder
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.363867] [001D90] starting D2D video frame processor
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.363985] [001D90] starting DXGI window capture
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.363986] [001D90] pipeline start issued
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.365767] [0047A4] entering FFMPEG audio encoder loop
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.365769] [0047A4] regenerating FFMPEG audio encoder
+[Info | 3:49:38 PM | 19] Failed to validate JWT: jwt is NULL
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.373571] [002380] audio stream processor: generating filter graph for 1 input streams -> 1 output streams
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.374508] [0053C8] entering NV video encoder main encode loop
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.374977] [00282C] entering D2D video processor main loop
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.374984] [00282C] regenerating D2D video frame processor (iteration 1)
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.375200] [0045A8] entering DXGI capture main loop
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.375224] [0045A8] DXGI capture regenerating
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.375589] [0050CC] WASAPI capture for Speakers (Realtek High Definition Audio) using WASAPI events
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.379968] [0050CC] entering WASAPI capture loop for loopback device Speakers (Realtek High Definition Audio)
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.382327] [002380] audio stream processor: generated and configured filter graph
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.382338] [002380] audio stream processor: output stream 0 initial time base is 1/48000
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.382350] [002380] all pipeline components started
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.383471] [0050CC] WASAPI device capture: using source timestamps for Speakers (Realtek High Definition Audio) (time diff: -0.010219s)
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.432636] [0045A8] DXDeviceManager created DXDevice for adapter NVIDIA GeForce GTX 970 (LUID 80218) with usage 1
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.432903] [0045A8] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 80218
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.432932] [0045A8] DXGI screen output's device is 0x19fa5918b18 (LUID 80218), in-use device is 0x19fa5918b18 (LUID 80218)
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.434277] [0045A8] DXGI screen using texture format 87
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.434290] [0045A8] DXGI capture switched to monitor 0x10001 on LUID 80218 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:49:38 PM | 13] [Scope] [15:49:38.442258] [0045A8] DXGI capture using source timestamps (time diff: 0.000140s)
+[Info | 3:49:38 PM | 6] Recording session started successfully
+[Info | 3:49:38 PM | 6] [Game Status]: capture/started - Minecraft[hAXdelx2t]
+[Debug | 3:49:38 PM | 11] capture/started reply "ok"
+[Debug | 3:49:38 PM | 11] Executing Request: set.toggleBroadcast
+[Info | 3:49:38 PM | 11] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 3:49:38 PM | 11] Clear override settings
+[Info | 3:49:38 PM | 11] job.respond 82587fef-eb2f-46da-a3b3-85ba3d3dc497
+[Debug | 3:49:38 PM | 11] Executing Request: get.hardwareId
+[Debug | 3:49:38 PM | 11] hardwareId : AyCOmOm4Cym4KrqcDqGtK8bA4QZK728ni60EAV7P0f4=
+[Info | 3:49:38 PM | 11] job.respond 756872cb-b6e7-40c6-b6aa-60621861a2f8
+[Debug | 3:49:38 PM | 11] Executing Request: set.allSettings
+[Debug | 3:49:38 PM | 10] job.respond "ok"
+[Debug | 3:49:38 PM | 10] ShareHardwareId reply {"success":true}
+[Debug | 3:49:38 PM | 12] job.respond "ok"
+[Debug | 3:49:38 PM | 11] Disabling saving of recorder settings file
+[Info | 3:49:38 PM | 11] Received settings
+[Debug | 3:49:38 PM | 11] Settings: Selected Audio Devices changed from [Auto] --> [Auto]
+[Debug | 3:49:38 PM | 11] Settings: Full Session Mode Enabled changed from False --> True
+[Debug | 3:49:38 PM | 11] Settings: Selected Webcam Device changed from {"id":"<None>","label":"<None>","value":"<None>"} --> {
+  "id": "<None>",
+  "label": "<None>",
+  "value": "<None>"
+}
+[Warning | 3:49:38 PM | 11] No command for set.mouseTrigger
+[Warning | 3:49:38 PM | 11] No command for set.mouseTriggerEnabled
+[Warning | 3:49:38 PM | 11] No command for set.controllerTriggerEnabled
+[Warning | 3:49:38 PM | 11] No command for set.cliplength
+[Debug | 3:49:38 PM | 11] Settings: In Memory Buffer changed from False --> True
+[Debug | 3:49:38 PM | 11] Settings: Resolution changed from {Width=1280, Height=720} --> {Width=1920, Height=1080}
+[Debug | 3:49:38 PM | 11] Settings: Bitrate changed from 10 --> 15
+[Info | 3:49:38 PM | 11] Sending Bitrate Setting
+[Info | 3:49:38 PM | 10] SendBitrateSetting reply "ok"
+[Debug | 3:49:38 PM | 11] Settings: Target FPS changed from 30 --> 60
+[Debug | 3:49:38 PM | 11] Settings: Mic Enabled changed from False --> True
+[Debug | 3:49:38 PM | 11] Settings: Clip Folder changed from C:\Medal --> C:\Medal\
+[Warning | 3:49:38 PM | 11] No command for set.autoUploadState
+[Warning | 3:49:38 PM | 11] No command for set.autoUpload
+[Debug | 3:49:38 PM | 11] Settings: Game Audio Only Enabled changed from False --> True
+[Debug | 3:49:38 PM | 11] Settings: Multiple Audio Tracks changed from False --> True
+[Warning | 3:49:38 PM | 11] No command for set.holdToRecordEnabled
+[Debug | 3:49:39 PM | 11] Settings: Mic Noise Gate Threshold changed from -30 --> -100
+[Debug | 3:49:39 PM | 11] Settings: External File Sources changed from  --> {
+  "nativeOptions": [
+    {
+      "label": "NVIDIA ShadowPlay",
+      "value": "shadowplay",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "AMD ReLive",
+      "value": "relive",
+      "enabled": false,
+      "freeUpSpace": false
+    },
+    {
+      "label": "OBS",
+      "value": "obs",
+      "enabled": false,
+      "freeUpSpace": false
+    }
+  ],
+  "folders": []
+}
+[Info | 3:49:39 PM | 11] Setting up external recorders
+[Info | 3:49:39 PM | 11] External recorder shadowplay is disabled
+[Info | 3:49:39 PM | 11] External recorder relive is disabled
+[Info | 3:49:39 PM | 11] External recorder obs is disabled
+[Info | 3:49:39 PM | 11] External recorder setup complete
+[Warning | 3:49:39 PM | 11] No command for set.advancedOverlayEnabled
+[Info | 3:49:39 PM | 11] Empty monitor device name, using primary monitor \\.\DISPLAY1
+[Debug | 3:49:39 PM | 11] Settings: Monitor Device Name changed from  --> \\.\DISPLAY1
+[Info | 3:49:39 PM | 11] Updated hotkeys for Minecraft, now have 8 hotkeys configured
+[Debug | 3:49:39 PM | 11] Settings: Hotkeys changed from [clip: shortpress of keyboard:F8] --> [clip;length=1200: short_press of keyboard:F8, segment_toggle: long_press of keyboard:F8, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v]
+[Info | 3:49:39 PM | 11] Windows Game Mode disabled.
+[Info | 3:49:39 PM | 11] [ESM Event] - ConfigChanged
+[Debug | 3:49:39 PM | 11] Config change: RecordingModes (Global), MaxClipDuration (Global), VideoCaptureProperties (Global), VideoOutputResolution (Global), VideoEncoderProperties (Global), AudioInputLayout (Global), AudioProcessorProperties (Global), AudioOutputLayout (Global), ClipBufferStorageType (Global), ScreenRecordingMonitor (Global), WebcamProperties (Global)
+[Debug | 3:49:39 PM | 11] WinRTCheck: skipping WinRT capture due to likely OpenGL game
+[Debug | 3:49:39 PM | 11] Enabling saving of recorder settings file
+[Debug | 3:49:39 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 3:49:39 PM | 26] Handling config change while recording: RecordingModes (Global), MaxClipDuration (Global), VideoCaptureProperties (Global), VideoOutputResolution (Global), VideoEncoderProperties (Global), AudioInputLayout (Global), AudioProcessorProperties (Global), AudioOutputLayout (Global), ClipBufferStorageType (Global), ScreenRecordingMonitor (Global), WebcamProperties (Global)
+[Debug | 3:49:39 PM | 26] Recording modes changed while recording is running; restarting recording
+[Info | 3:49:39 PM | 26] [ESM Event] - RestartRecording
+[Debug | 3:49:39 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 2ms
+[Debug | 3:49:39 PM | 26] [EventProcessor] [->] RestartRecording
+[Info | 3:49:39 PM | 26] Exiting Recording
+[Info | 3:49:39 PM | 26] Dispose Recording Session
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.355384] [0045DC] stopping pipeline
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.355419] [0045DC] stopping DXGI window capture
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.355457] [0045A8] exiting DXGI capture main loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.356398] [0045DC] stopping D2D video frame processor
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.356440] [00282C] exiting D2D video processor main loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.357993] [0045DC] stopped D2D video frame processor
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.358004] [0045DC] stopping NV video encoder (put thread)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.358005] [0045DC] NV encoder sending EOS
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.358281] [0045DC] NV encoder waiting for EOS event
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.360307] [0045DC] NV encoder sent EOS
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.360318] [0045DC] stopping NV video encoder (encode thread)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.360326] [0053C8] exiting NV video encoder main encode loop
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.363269] [0045DC] stopping WASAPI capture for device Speakers (Realtek High Definition Audio)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.363284] [0050CC] exiting WASAPI capture loop for device Speakers (Realtek High Definition Audio)
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.363943] [0045DC] stopped WASAPI capture for device Speakers (Realtek High Definition Audio)
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.363950] [0045DC] stopping FFMPEG audio stream processor
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.364288] [0045DC] stopped FFMPEG audio stream processor
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.364293] [0045DC] stopping FFMPEG audio encoder
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.367924] [0047A4] exiting FFMPEG audio encoder loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.372291] [0047A4] leaving FFMPEG audio encoder run thread
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.372809] [0045DC] stopped FFMPEG audio encoder
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.372820] [0045DC] stopping input capture
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.373835] [0045DC] stopped input capture
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.373848] [0045DC] all pipeline components stopped
+[Info | 3:49:39 PM | 26] Stopped Pipeline
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.373854] [0045DC] pipeline stop issued
+[Info | 3:49:39 PM | 26] Recording session stopped
+[Info | 3:49:39 PM | 26] [Game Status]: capture/stopped - Minecraft[hAXdelx2t]
+[Info | 3:49:39 PM | 26] Stopping performance monitor.
+[Debug | 3:49:39 PM | 12] capture/stopped reply "ok"
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.385940] [0045DC] stopping pipeline
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.385998] [0045DC] pipeline stop issued
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.386002] [0045DC] pipeline joining user action thread
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.386016] [00548C] pipeline stopping processing user actions
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.386406] [0045DC] pipeline joined user action thread
+[Debug | 3:49:39 PM | 11] Saved recorder settings file after re-enable
+[Info | 3:49:39 PM | 11] job.respond 78cb91ff-ff70-4a09-a909-a55c16cce3f5
+[Debug | 3:49:39 PM | 11] Executing Request: get.availableMicDevices
+[Info | 3:49:39 PM | 26] Disposed Pipeline
+[Debug | 3:49:39 PM | 10] job.respond "ok"
+[Info | 3:49:39 PM | 26] ----[ESM State]: AttemptRecording----
+[Info | 3:49:39 PM | 26] [ESM Event] - StartRecording
+[Debug | 3:49:39 PM | 26] [EventProcessor] [<-] RestartRecording ElapsedTime: 51ms
+[Debug | 3:49:39 PM | 26] [EventProcessor] [->] StartRecording
+[Info | 3:49:39 PM | 26] ----[ESM State]: Recording----
+[Info | 3:49:39 PM | 11] Sending available mic devices Microphone (GENERAL WEBCAM), Microphone (Realtek High Definition Audio)
+[Debug | 3:49:39 PM | 26] Creating recording session for Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4 - Multiplayer (3rd-party Server)", [-8,-8 + 1936x1056], javaw[4204]] using capture mode Window/DXGI Attempts: 1
+[Debug | 3:49:39 PM | 26] CreateConfig: using main LUID 80218, encode LUID 80218, codec SCOPE_VID_CODEC_H264
+[Debug | 3:49:39 PM | 26] COR: input resolution <= output resolution (1936x1056 vs 1980x1080), not upscaling
+[Info | 3:49:39 PM | 26] Input resolution: 1936x1056
+[Info | 3:49:39 PM | 26] Output resolution: 1936x1056
+[Info | 3:49:39 PM | 26] Clearing current I/O settings
+[Info | 3:49:39 PM | 26] Updating audio configurations
+[Debug | 3:49:39 PM | 10] SendAvailableMicDevices reply {"success":true}
+[Info | 3:49:39 PM | 11] job.respond d28b3f78-d30b-4ee2-91c6-c54e317d9bbf
+[Debug | 3:49:39 PM | 11] Executing Request: get.availableAudioDevices
+[Debug | 3:49:39 PM | 12] job.respond "ok"
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.416450] [0045DC] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 3:49:39 PM | 11] Sending available audio devices Speakers (Realtek High Definition Audio), VA2719 Series (NVIDIA High Definition Audio)
+[Info | 3:49:39 PM | 11] job.respond 9be8193d-9ea6-487e-bdde-e486b86c13f1
+[Debug | 3:49:39 PM | 11] Executing Request: get.micAudioDevice
+[Debug | 3:49:39 PM | 12] SendAvailableAudioDevices reply {"success":true}
+[Debug | 3:49:39 PM | 12] job.respond "ok"
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.424164] [0045DC] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.430959] [0047F8] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.433257] [0045DC] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 3:49:39 PM | 11] Sending selected mic device Auto
+[Info | 3:49:39 PM | 11] job.respond 43e9c49b-b83d-482a-a544-9ceecb061d54
+[Debug | 3:49:39 PM | 11] Executing Request: get.gameSoundAudioDevice
+[Info | 3:49:39 PM | 26] RecordingSession using window capture: window 591338 using mode SCOPE_VCAP_WINDOW_MODE_DXGI
+[Debug | 3:49:39 PM | 12] SendSelectedMicDevice reply {"success":true}
+[Info | 3:49:39 PM | 26] Output modes: FullSessionOutput
+[Debug | 3:49:39 PM | 12] job.respond "ok"
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.445772] [000470] pipeline starting to process user actions
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.447438] [0047F8] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 3:49:39 PM | 11] Sending selected audio output devices Auto
+[Info | 3:49:39 PM | 11] job.respond 4167a179-1ba7-4eca-afe1-966154ece937
+[Debug | 3:49:39 PM | 11] Executing Request: get.GAODisabledList
+[Warning | 3:49:39 PM | 11] No command for get.GAODisabledList
+[Info | 3:49:39 PM | 11] job.respond 5193e7bb-270a-4225-acd4-d6d4e447d7e8
+[Debug | 3:49:39 PM | 11] Executing Request: set.jwt
+[Debug | 3:49:39 PM | 12] SendSelectedAudioDevices reply {"success":true}
+[Debug | 3:49:39 PM | 12] job.respond "ok"
+[Debug | 3:49:39 PM | 11] 1 logs of- job.respond "ok"
+[Debug | 3:49:39 PM | 11] Settings: JWT changed from <hidden> --> <hidden>
+[Info | 3:49:39 PM | 11] JWT validation is successful
+[Info | 3:49:39 PM | 11] job.respond e581ddaf-3fac-4820-bcb0-b433aa3c21c6
+[Debug | 3:49:39 PM | 11] Executing Request: get.gamePluginsInstalled
+[Debug | 3:49:39 PM | 28] job.respond "ok"
+[Info | 3:49:39 PM | 11] [GameFilePaths] Error grabbing game file path from libraryfolders.vdf: Value cannot be null.
+Parameter name: path1
+[Info | 3:49:39 PM | 11] job.respond 8a31e2a8-5ed0-4867-8888-65a61233d860
+[Debug | 3:49:39 PM | 12] ShareGamePluginsInstalled reply {"success":true}
+[Debug | 3:49:39 PM | 11] PollDesktopJobQueue reply [{"uuid":"82587fef-eb2f-46da-a3b3-85ba3d3dc497","body":{"enabled":false},"action":"set.toggleBroadcast"},{"uuid":"756872cb-b6e7-40c6-b6aa-60621861a2f8","action":"get.hardwareId"},{"uuid":"78cb91ff-ff70-4a09-a909-a55c16cce3f5","body":{"settings":{"set.gameSoundAudioDevice":{"audioDevices":["Auto"]},"set.micAudioDevice":{"audioDevice":"Auto"},"set.devmode":{"enabled":false},"set.bookmarkModeEnabled":{"enabled":true},"set.fullSessionModeEnabled":{"enabled":true},"set.webcam.overlay":{"enabled":false,"position":{"index":1,"value":"Top Right"}},"set.webcam.device":{"selected":{"id":"<None>","label":"<None>","value":"<None>"}},"set.gpu.device":{"selected":"Auto"},"set.setPushToTalkEnabled":{"enabled":false},"set.mouseTrigger":{},"set.mouseTriggerEnabled":{"enabled":false},"set.controllerTriggerEnabled":{"enabled":true},"set.cliplength":{"cliplength":"15"},"set.inMemoryBuffer":{"enabled":true},"set.resolution":{"resolution":"Full HD (1080p)"},"set.fps":{"fps":"60"},"set.bitrate":{"bitrate":"15"},"set.sdkmode":{"enabled":false},"set.micinput":{"micinput":1},"set.monoAudio":{"monoaudio":false},"set.overlayalerts":{"overlayalerts":1},"set.soundalerts":{"soundalerts":true},"set.bookmarksoundalerts":{"bookmarksoundalerts":true},"set.aspectRatio":{"aspectRatio":2},"set.detectallgames":{"detectallgames":0},"set.encoder":{"type":"GPU"},"set.clipFolder":{"clipFolder":"C:%path.sep%Medal%path.sep%","clipFolder.base64":"QzpcTWVkYWxc"},"set.autoUploadState":{},"set.autoUpload":{"autoUpload":false},"set.gameAudioOnly":{"enabled":1},"set.discordAudio":{"enabled":0},"set.setVoiceClipping":{"enabled":0},"set.multipleAudioTracks":{"enabled":1},"set.showCursor":{"enabled":0},"set.holdToRecordEnabled":{"enabled":1},"ICYMIEnabled":{"enabled":0},"set.icymisoundalerts":{"soundalerts":true},"set.windowsGraphicsCapture":{"enabled":0},"set.experimentalCapture":{"enabled":0},"set.hdrCompatibility":{"enabled":0},"set.forceWindowCapture":{"enabled":0},"set.overlayCurrentInjectedMode":{"enabled":0},"set.recordingEnabled":{"enabled":1},"set.micNoiseGate":{"enabled":0},"set.micNoiseSuppress":{"enabled":0},"set.micNoiseGateThreshold":{"open_threshold":-100},"set.externalFileSources":{"nativeOptions":[{"label":"NVIDIA ShadowPlay","value":"shadowplay","enabled":false,"freeUpSpace":false},{"label":"AMD ReLive","value":"relive","enabled":false,"freeUpSpace":false},{"label":"OBS","value":"obs","enabled":false,"freeUpSpace":false}],"folders":[]},"set.advancedOverlayEnabled":{"enabled":true},"set.monitorDeviceName":{"monitorDeviceName":"","monitorDeviceName.base64":""},"set.gameSoundGain":{"gain":50},"set.micGain":{"gain":50},"set.hotkeys":{"hotkeys":[{"action":"clip;length=1200","device":"keyboard","type":"short_press","inputs":"F8"},{"action":"segment_toggle","device":"keyboard","type":"long_press","inputs":"F8"},{"action":"screenshot","device":"keyboard","type":"short_press","inputs":"F7"},{"action":"callback;event=dismiss","inputs":"ALT + SHIFT + d","device":"keyboard","type":"short_press"},{"action":"callback;event=answerVoice","inputs":"ALT + SHIFT + z","device":"keyboard","type":"short_press"},{"action":"callback;event=declineVoice","inputs":"ALT + SHIFT + x","device":"keyboard","type":"short_press"},{"action":"callback;event=acceptMessageRequest","inputs":"ALT + SHIFT + c","device":"keyboard","type":"short_press"},{"action":"callback;event=viewScreenshot","inputs":"ALT + SHIFT + v","device":"keyboard","type":"short_press"}]},"set.toggleScreenCapture":{"enabled":false},"set.codec":{"codec":"H264"},"set.switchToGameRecordingOnGameLaunch":{"enabled":true},"set.windowsgamemode":{"windowsgamemode":false},"set.gameControlsCollectionEnabled":{"enabled":true},"set.soundAlert":{"global":true,"clipSaved":true,"bookmarkSaved":true,"autoClipping":true,"screenshotSaved":true,"sessionToggle":true,"diskFull":true,"clipSound":"default"},"set.customSound":{}}},"action":"set.allSettings"},{"uuid":"d28b3f78-d30b-4ee2-91c6-c54e317d9bbf","action":"get.availableMicDevices"},{"uuid":"9be8193d-9ea6-487e-bdde-e486b86c13f1","action":"get.availableAudioDevices"},{"uuid":"43e9c49b-b83d-482a-a544-9ceecb061d54","action":"get.micAudioDevice"},{"uuid":"4167a179-1ba7-4eca-afe1-966154ece937","action":"get.gameSoundAudioDevice"},{"uuid":"5193e7bb-270a-4225-acd4-d6d4e447d7e8","action":"get.GAODisabledList"},{"uuid":"e581ddaf-3fac-4820-bcb0-b433aa3c21c6","body":{"jwt":"eyJhbGciOiJFUzI1NiJ9.eyJhdWQiOlsibWVkYWwtcmVjb3JkZXIiXSwiY25mIjp7ImNydCI6Ii0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLVxuTUlJQk9EQ0IzNkFEQWdFQ0FnaC8rYjUrdGJFaS96QUtCZ2dxaGtqT1BRUURBakFiTVJrd0Z3WURWUVFEREJCb1xuZEhSd2N6b3ZMMjFsWkdGc0xuUjJNQjRYRFRJMU1EVXlPREF4TXpjME9Gb1hEVEkxTURZeE1UQXhNemMwT0Zvd1xuS2pFb01DWUdBMVVFQXd3ZlNsZFVJSE5wWjI1bGNpQm1iM0lnYUhSMGNITTZMeTl0WldSaGJDNTBkakJaTUJNR1xuQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJEWjhZcFRramxBOTVmT2ZyNnRWOGtaYVNNSmRJS096KzVrNVxueXhtYUlreEY2R1EvM0kyc3RrZHl1NVZJZndtaDB1VXFiays2TXpXb0JiSU5CU2J5SnZzd0NnWUlLb1pJemowRVxuQXdJRFNBQXdSUUloQU1vMVFtZDNmNHN2STF1d3NVRHFpNm1lK3l2d21Dd3o3V0NWaVhGT0d4eUlBaUJZKzFyTVxuY1ovbGswOURKWlR2Ylo4V3Ard0tSYWVZYnBYWFo5RjB4QTVnZnc9PVxuLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLSJ9LCJjYXBhYmlsaXRpZXMiOnsidXBsb2FkZWRDb250ZW50TWF4RHVyYXRpb25TZWNvbmRzIjo2MDAsInVwbG9hZGVkQ29udGVudE1heFJlc29sdXRpb24iOjE5MjAsInVwbG9hZGVkQ29udGVudE1heEZyYW1lUmF0ZSI6NjAsInByZW1pdW1DbGlwQ291bnRRdW90YUJvbnVzIjowLCJhbmltYXRlZFVzZXJUaHVtYm5haWwiOmZhbHNlLCJoYXNUaWVyMVN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjJTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIxRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkZvdW5kZXJSb2xlIjpmYWxzZSwiaGFzVmVyaWZpZWRSb2xlIjpmYWxzZSwiaGFzQ3JlYXRvclN1cHBvcnRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMURpc2NvcmRTdWJzY3JpYmVyUm9sZSI6ZmFsc2UsImhhc1RpZXIyRGlzY29yZFN1YnNjcmliZXJSb2xlIjpmYWxzZSwiaGFzVGllcjFEaXNjb3JkRm91bmRlclJvbGUiOmZhbHNlLCJoYXNUaWVyMkRpc2NvcmRGb3VuZGVyUm9sZSI6ZmFsc2UsIndhdGVybWFya0Rpc2FibGVhYmxlIjpmYWxzZSwiZG93bmxvYWRXaXRob3V0V2F0ZXJtYXJrIjpmYWxzZSwicHJpb3JpdHlDaGF0U3VwcG9ydCI6ZmFsc2UsImF1dG9VcGxvYWRzIjpmYWxzZSwiY2xvdWRTeW5jIjpmYWxzZSwidmlld0NvbnRlbnRWaWV3ZXJzIjp0cnVlLCJzY3JlZW5SZWNvcmRpbmciOnRydWUsInVwbG9hZFNjcmVlblJlY29yZGluZ3MiOmZhbHNlLCJjYW5SZWNvcmQiOnRydWUsInNraXBBZHMiOmZhbHNlLCJ1cGxvYWRJbXBvcnRlZENsaXBzIjp0cnVlLCJ1c2VQcmVtaXVtSWNvbnMiOmZhbHNlLCJjdXN0b21DbGlwU291bmRzIjpmYWxzZX0sImNsaWVudF9pZCI6IkF5Q09tT200Q3ltNEtycWNEcUd0SzhiQTRRWks3MjhuaTYwRUFWN1AwZjQ9IiwiaXNzIjoiaHR0cHM6Ly9tZWRhbC50diIsInN1YiI6InVzZXI6MzcwOTU4NzM5IiwiaWF0IjoxNzQ4NDMyOTc5LCJleHAiOjE3NDkwMzc3Nzl9.RF0xiCDGlwLumLkPTpIx7uT90NfK6v0mYzOryJEB7NBQzXBPrNixS91bT6kcXk2R9jldYZXpREenm7QRL8sYHg"},"action":"set.jwt"},{"uuid":"8a31e2a8-5ed0-4867-8888-65a61233d860","action":"get.gamePluginsInstalled"}]
+[Debug | 3:49:39 PM | 11] job.respond "ok"
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.512191] [0045DC] NV encoder initialised with Latest backend (NVENC 12.0, driver max NVENC 12.2)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.519107] [0045DC] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.526284] [0045DC] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.527464] [0045DC] WASAPI process capture: entering ActivateAudioInterface, capture including PID 4204
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.527470] [0045DC] WASAPI process capture: going to call ActivateAudioInterfaceAsync
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528555] [0045DC] WASAPI process capture: waiting for activate completed
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528645] [003138] WASAPI process capture: activate completed callback called
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528654] [003138] WASAPI process capture: using audio properties Wave (PCM, float, 32-bit, interleaved) 48000Hz 2ch
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528668] [003138] WASAPI process capture: WFX fmt FFFE channels 2 chmask 00000003 sr 48000 bps 32 balign 8
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528669] [003138] WASAPI process capture: activate completed callback going to initialise audio client
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.528952] [003138] created WASAPI capture for PID 4204; loopback using WASAPI events
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528954] [0045DC] WASAPI process capture: received activate completed
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.528977] [0045DC] WASAPI process capture for PID 4204 using assumed capture period of 10.000ms
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.528979] [0045DC]     format: Wave (PCM, float, 32-bit, interleaved), 2 channels, 48000Hz
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.536341] [0045DC] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.536388] [0045DC] creating WASAPI capture for device Microphone (GENERAL WEBCAM); capture aiming to use WASAPI events
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.537319] [0045DC] WASAPI device capture for Microphone (GENERAL WEBCAM) trying format Wave (PCM, float, 32-bit, interleaved), 16000Hz, 1ch
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.564013] [0045DC] created WASAPI capture for device Microphone (GENERAL WEBCAM); capture client using WASAPI events
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.565056] [0045DC] WASAPI device capture for Microphone (GENERAL WEBCAM) using retrieved capture period of 10.000ms
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.565066] [0045DC]     format: Wave (PCM, float, 32-bit, interleaved), 1 channels, 16000Hz
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.565910] [0045DC] created FFMPEG muxer
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.566406] [0045DC] added video stream 0 () to FFMPEG muxer
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.566730] [0045DC] added audio stream 0 (All Audio) to FFMPEG muxer
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.566743] [0045DC] added audio stream 1 (Game) to FFMPEG muxer
+[Info | 3:49:39 PM | 26] Starting Medal Performance monitor.
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.566747] [0045DC] added audio stream 2 (Mic) to FFMPEG muxer
+[Debug | 3:49:39 PM | 26] [EventProcessor] [<-] StartRecording ElapsedTime: 169ms
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.571535] [002D9C] audio processor updated noise suppression settings for input track 1
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.572251] [002D9C] audio processor updated gate settings for input track 1
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.572258] [002D9C] starting pipeline
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.721483] [002D9C] started input capture
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.721554] [002D9C] opening file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.722429] [002D9C] opened file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.722614] [002D9C] starting FFMPEG audio encoder
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.722662] [002D9C] starting FFMPEG audio encoder
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.722706] [002D9C] starting FFMPEG audio encoder
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.722752] [002D9C] starting FFMPEG audio stream processor
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.722802] [002D9C] starting WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Info | 3:49:39 PM | 13] [Scope] [15:49:39.722822] [002D9C] starting WASAPI process capture for PID 4204
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.722889] [002D9C] starting NV video encoder
+[Info | 3:49:39 PM | 16] Session Output
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.722900] [002D9C] starting D2D video frame processor
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.722989] [002D9C] starting DXGI window capture
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.722990] [002D9C] pipeline start issued
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.723434] [0035CC] entering FFMPEG audio encoder loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.723437] [0035CC] regenerating FFMPEG audio encoder
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.723899] [002D68] entering FFMPEG audio encoder loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.723902] [002D68] regenerating FFMPEG audio encoder
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.724443] [004C34] muxer creating video stream with codec H.264
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.724485] [004C34] muxer creating audio stream with codec AAC
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.725187] [004C34] muxer creating audio stream with codec AAC
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.725304] [005028] entering FFMPEG audio encoder loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.725307] [005028] regenerating FFMPEG audio encoder
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.725672] [004C34] muxer creating audio stream with codec AAC
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.726162] [004C34] muxer start: entering loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.726467] [002BEC] audio stream processor: generating filter graph for 2 input streams -> 3 output streams
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.726914] [001C3C] entering D2D video processor main loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.726919] [001C3C] regenerating D2D video frame processor (iteration 1)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.727085] [003FA4] WASAPI capture for Microphone (GENERAL WEBCAM) using WASAPI events
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.727221] [00382C] entering NV video encoder main encode loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.727954] [0030C8] entering DXGI capture main loop
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.727957] [0030C8] DXGI capture regenerating
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.728288] [0030C8] creating DXGI screen for output @ 0,0 + 1920,1080 on LUID 80218
+[Info | 3:49:39 PM | 16] Recording session starting
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.728313] [0030C8] DXGI screen output's device is 0x19fa5918b18 (LUID 80218), in-use device is 0x19fa5918b18 (LUID 80218)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.729233] [0030C8] DXGI screen using texture format 87
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.729245] [0030C8] DXGI capture switched to monitor 0x10001 on LUID 80218 (1920x1080 with bounds [0,0,1920,1080])
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.733452] [003FA4] entering WASAPI capture loop for capture device Microphone (GENERAL WEBCAM)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.734768] [002BEC] audio stream processor: generated and configured filter graph
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.734775] [002BEC] audio stream processor: output stream 0 initial time base is 1/48000
+[Info | 3:49:39 PM | 16] JWT validation is successful
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.734776] [002BEC] audio stream processor: output stream 1 initial time base is 1/48000
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.734778] [002BEC] audio stream processor: output stream 2 initial time base is 1/48000
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.734788] [002BEC] all pipeline components started
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.735163] [003FA4] WASAPI device capture: using source timestamps for Microphone (GENERAL WEBCAM) (time diff: 0.011226s)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.741417] [0030C8] DXGI capture using source timestamps (time diff: 0.000102s)
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.763520] [004C34] muxer start: got keyframe from video stream 0 at time 370081.696893, now at 1/4 streams
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.803880] [004C34] muxer start: got keyframe from audio stream 1 at time 370081.669708, now at 2/4 streams
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.839189] [004C34] muxer start: got keyframe from audio stream 2 at time 370081.669729, now at 3/4 streams
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.849265] [004C34] muxer start: got keyframe from audio stream 0 at time 370081.669708, now at 4/4 streams
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.849274] [004C34] muxer start: using 370081.696893 as zero time
+[Debug | 3:49:39 PM | 13] [Scope] [15:49:39.849784] [004C34] muxer writing file header
+[Info | 3:49:39 PM | 5] Recording session started successfully
+[Info | 3:49:39 PM | 5] [Game Status]: capture/started - Minecraft[hAXdelx2t]
+[Debug | 3:49:40 PM | 11] StartRecordingSession reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","contentId":"knrY1HIXp2CQXxrJ2"}
+[Debug | 3:49:40 PM | 10] capture/started reply "ok"
+[Info | 3:49:41 PM | 16] Input action detected: clip;length=1200
+[Info | 3:49:41 PM | 16] [ESM Event] - SaveClip
+[Debug | 3:49:41 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:49:41 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:49:41 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:49:41 PM | 26] Context: MinecraftClientName Default
+[Info | 3:49:41 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:49:41 PM | 26] Input FPS: 60.0715502605363
+[Info | 3:49:41 PM | 26] Requested bookmark at 2.133 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:49:42 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 160ms
+[Debug | 3:49:42 PM | 10] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Debug | 3:49:47 PM | 12] game/started reply "ok"
+[Debug | 3:49:47 PM | 12] ShareHardwareId reply {"success":true}
+[Debug | 3:49:47 PM | 12] 1 logs of- ShareHardwareId reply {"success":true}
+[Debug | 3:49:47 PM | 12] job.respond "ok"
+[Debug | 3:49:47 PM | 10] Executing Request: set.overlayCurrentInjectedMode
+[Info | 3:49:47 PM | 10] job.respond 4c585ad6-86c4-457d-af98-91db1c2f9058
+[Debug | 3:49:47 PM | 10] PollDesktopJobQueue reply [{"uuid":"4c585ad6-86c4-457d-af98-91db1c2f9058","body":{"enabled":0},"action":"set.overlayCurrentInjectedMode"}]
+[Debug | 3:49:47 PM | 10] job.respond "ok"
+[Info | 3:50:46 PM | 20] Input action detected: clip;length=1200
+[Info | 3:50:46 PM | 20] [ESM Event] - SaveClip
+[Debug | 3:50:46 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:50:46 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:50:46 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:50:46 PM | 26] Context: MinecraftClientName Default
+[Info | 3:50:46 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:50:46 PM | 26] Input FPS: 59.4938451888898
+[Info | 3:50:46 PM | 26] Requested bookmark at 66.783 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:50:46 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:50:46 PM | 10] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:50:49 PM | 28] Input action detected: clip;length=1200
+[Info | 3:50:49 PM | 28] [ESM Event] - SaveClip
+[Debug | 3:50:49 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:50:49 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:50:49 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:50:49 PM | 26] Context: MinecraftClientName Default
+[Info | 3:50:49 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:50:49 PM | 26] Input FPS: 59.5181255211043
+[Info | 3:50:49 PM | 26] Requested bookmark at 70.1 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:50:49 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 5ms
+[Debug | 3:50:49 PM | 10] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:53:07 PM | 10] Input action detected: clip;length=1200
+[Info | 3:53:07 PM | 10] [ESM Event] - SaveClip
+[Debug | 3:53:07 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:53:07 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:53:07 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:53:07 PM | 26] Context: MinecraftClientName Default
+[Info | 3:53:07 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:53:07 PM | 26] Input FPS: 59.7892635718267
+[Info | 3:53:07 PM | 26] Requested bookmark at 207.599 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:53:07 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 16ms
+[Debug | 3:53:07 PM | 9] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:53:35 PM | 34] Input action detected: clip;length=1200
+[Info | 3:53:35 PM | 34] [ESM Event] - SaveClip
+[Debug | 3:53:35 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:53:35 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:53:35 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:53:35 PM | 26] Context: MinecraftClientName Default
+[Info | 3:53:35 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:53:35 PM | 26] Input FPS: 59.8059809305088
+[Info | 3:53:35 PM | 26] Requested bookmark at 235.666 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:53:35 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:53:35 PM | 28] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"235.666","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433215473,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:54:21 PM | 16] Input action detected: clip;length=1200
+[Info | 3:54:21 PM | 16] [ESM Event] - SaveClip
+[Debug | 3:54:21 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:54:21 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:54:21 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:54:21 PM | 26] Context: MinecraftClientName Default
+[Info | 3:54:21 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:54:21 PM | 26] Input FPS: 59.8271109118739
+[Info | 3:54:21 PM | 26] Requested bookmark at 281.599 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:54:21 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:54:21 PM | 9] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"235.666","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433215473,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"281.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433261399,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:54:37 PM | 10] Queue processing running. Events processed: 15
+[Info | 3:54:50 PM | 16] Input action detected: clip;length=1200
+[Info | 3:54:50 PM | 16] [ESM Event] - SaveClip
+[Debug | 3:54:50 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:54:50 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:54:50 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:54:50 PM | 26] Context: MinecraftClientName Default
+[Info | 3:54:50 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:54:50 PM | 26] Input FPS: 56.5700024057668
+[Info | 3:54:50 PM | 26] Requested bookmark at 310.632 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:54:50 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:54:50 PM | 24] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"235.666","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433215473,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"281.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433261399,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"310.632","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433290440,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:55:02 PM | 16] Input action detected: clip;length=1200
+[Info | 3:55:02 PM | 16] [ESM Event] - SaveClip
+[Debug | 3:55:02 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:55:02 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:55:02 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:55:02 PM | 26] Context: MinecraftClientName Default
+[Info | 3:55:02 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:55:02 PM | 26] Input FPS: 56.2714091320967
+[Info | 3:55:02 PM | 26] Requested bookmark at 323.032 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:55:02 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 16ms
+[Debug | 3:55:02 PM | 30] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"235.666","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433215473,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"281.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433261399,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"310.632","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433290440,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"323.032","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433302840,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:55:03 PM | 31] Input action detected: clip;length=1200
+[Info | 3:55:03 PM | 31] [ESM Event] - SaveClip
+[Debug | 3:55:03 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:55:03 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:55:03 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:55:03 PM | 26] Context: MinecraftClientName Default
+[Info | 3:55:03 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:55:03 PM | 26] Input FPS: 56.284233355073
+[Info | 3:55:03 PM | 26] Requested bookmark at 324.149 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:55:03 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:55:03 PM | 33] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"235.666","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433215473,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"281.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433261399,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"310.632","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433290440,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"323.032","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433302840,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"324.149","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433303950,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:55:35 PM | 34] Input action detected: clip;length=1200
+[Info | 3:55:35 PM | 34] [ESM Event] - SaveClip
+[Debug | 3:55:35 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:55:35 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:55:35 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:55:35 PM | 26] Context: MinecraftClientName Default
+[Info | 3:55:35 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:55:35 PM | 26] Input FPS: 56.6107758123662
+[Info | 3:55:35 PM | 26] Requested bookmark at 355.399 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:55:35 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:55:35 PM | 33] SaveBookmark reply {"uuid":"8fbd0081-49f9-4950-b9f9-1bd3aa018af5","clipID":"knrY1HIXp2CQXxrJ2","Status":"recording","FilePath":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","SaveType":"4","GameTitle":"Minecraft 5/28/2025 3:49:39 PM","TimeCreated":1748432979.758,"GameCategory":"hAXdelx2t","Flag":0,"clipType":"session","userId":"370958739","metadata":{"quality":{"resolution":"FULL_HD","fps":"60","bitrate":"15M"}},"encoded":false,"fileSource":"medal","isSkipThumbnail":false,"privacy":1,"sessionId":"1m8PtEuMHhI9rycIoaN","Content":{"contentId":"knrY1HIXp2CQXxrJ2","contentType":15,"categoryId":"hAXdelx2t","category":{"categoryId":"hAXdelx2t","categoryName":"Minecraft","alternativeName":"Minecraft","categoryThumbnail":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","categoryFollowers":5118901,"publishedClipCount":9058344,"categoryPublishers":1,"categoryBackground":"https://cdn.medal.tv/asset/games/minecraft/cover-1717452368912.jpg","coverPhoto":"https://cdn.medal.tv/games/background/background-minecraft-17.png","icon":"https://cdn.medal.tv/asset/games/minecraft/icon-1689192302783.jpg","searchTags":"Minecraft, Open World","defaultRisk":1,"slug":"minecraft","uniqueUserCount":0,"isGame":true},"privacy":1,"hasTitle":false,"contentTitle":"Untitled","contentDescription":"","tags":[],"userTags":[],"recentComments":[],"music":[],"layers":[],"viewers":[],"hasTemplates":false,"client":"Electron","clientId":"C39F4FA7-8C1C-11E6-9C43-BC0000300000","clientVersion":"4.2772.0","localContentUrl":"C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv","state":{"type":"draft","isSuccess":true,"isShareable":false},"risk":0,"unseenCount":0,"sourceWidth":1280,"sourceHeight":720,"videoLengthSeconds":0,"parent":-1,"poster":{"userId":"370958739","publisher":false,"displayName":"Elite_Stealer1112","thumbnail":"https://cdn.medal.tv/assets/img/avatars/default-surprised.png","coverPhoto":"https://cdn.medal.tv/assets/img/default-cover-photo.jpg","slogan":"","languageLocale":null,"donateConfig":null,"roles":[],"gameSessions":[],"valorantPlayer":null,"status":null,"icon":null,"state":{"state":"online","timestamp":1748432962222},"guest":false,"premiumType":"NONE","premiumSettings":{"showEarlyAdopterBadge":true,"showSubscriberBadge":true,"showPremiumProfilePage":true,"showPremiumSocialActivity":true},"followers":0,"following":0,"upvotes":0,"submissions":8,"isFollowing":false,"isFollowedBy":false,"isBlocked":false,"createdAt":1742233499000,"contexts":[],"achievements":null,"userName":"Elite_Stealer1112"},"contentPreview1080p":"","contentPreview720p":"","contentPreview480p":"","contentPreview360p":"","contentPreview240p":"","contentPreview144p":"","thumbnail720p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=1280","thumbnail480p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=848","thumbnail360p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=640","thumbnail240p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=426","thumbnail144p":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg?width=256","thumbnailUrl":"https://cdn.medal.tv/assets/img/default-content-thumbnail.jpg","contentShareUrl":"https://medal.tv/games/minecraft/clips/knrY1HIXp2CQXxrJ2","uniqueGuestViews":0,"pinned":false,"supportMatchStats":false,"requireLogin":false,"commentPermissions":"open","created":1748432982275,"publishedAt":null,"archivedAt":null,"urlsExpireAt":1748453400000,"likes":0,"views":0,"comments":0,"processed":2,"shareCount":0,"hasAccess":1,"hasSound":1,"useNativeDiscordEmbed":true,"orientation":"landscape","matchUsers":[],"contentCollections":[],"userSaved":0,"userLiked":0,"userViewed":0,"userViewedRecently":0},"origin":"Recorder","sessionType":"FullSession","bookmarks":[{"time":"2.133","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748432981919,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"66.783","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433046579,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"70.1","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433049909,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"207.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433187400,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"235.666","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433215473,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"281.599","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433261399,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"310.632","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433290440,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"323.032","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433302840,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"324.149","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433303950,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false},{"time":"355.399","label":null,"duration":null,"metadata":{"eventobj":{"name":"","tags":{},"data":{"MinecraftClientName":"Default","MinecraftUsername":"EliteProFast"},"timestamp":1748433335210,"priority":0},"triggerType":"Keyboard","isGAO":false,"isUWP":false,"generateThumbnail":true,"clipDurationSec":1200,"clipStartTime":null,"attributedCategoryId":null,"attributedCategoryName":null,"activeWindowTitle":null,"outputPath":null,"dontPublish":false,"alertType":0,"usingController":false,"controller":"","exportStatsTimestamp":"0001-01-01T00:00:00+00:00","exportStatsDuration":0,"gameControlsCollected":false,"defaultControlsCollected":false,"basicControlsCollected":false,"saveAsSession":false,"clipSound":"default"},"icymi":false}]}
+[Info | 3:56:45 PM | 16] Input action detected: clip;length=1200
+[Info | 3:56:45 PM | 16] [ESM Event] - SaveClip
+[Debug | 3:56:45 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:56:45 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:56:45 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:56:45 PM | 26] Context: MinecraftClientName Default
+[Info | 3:56:45 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:56:45 PM | 26] Input FPS: 52.9476699200924
+[Info | 3:56:45 PM | 26] Requested bookmark at 426.132 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:56:45 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 14ms
+[Debug | 3:56:45 PM | 33] SaveBookmark reply "{}"
+[Info | 3:57:20 PM | 16] Input action detected: clip;length=1200
+[Info | 3:57:20 PM | 16] [ESM Event] - SaveClip
+[Debug | 3:57:20 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:57:20 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:57:20 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:57:20 PM | 26] Context: MinecraftClientName Default
+[Info | 3:57:20 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:57:20 PM | 26] Input FPS: 53.4750468123806
+[Info | 3:57:20 PM | 26] Requested bookmark at 461.031 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:57:20 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:57:20 PM | 33] SaveBookmark reply "{}"
+[Info | 3:57:41 PM | 34] Input action detected: clip;length=1200
+[Info | 3:57:41 PM | 34] [ESM Event] - SaveClip
+[Debug | 3:57:41 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:57:41 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:57:41 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:57:41 PM | 26] Context: MinecraftClientName Default
+[Info | 3:57:41 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:57:41 PM | 26] Input FPS: 52.5398574058809
+[Info | 3:57:41 PM | 26] Requested bookmark at 481.931 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:57:41 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 14ms
+[Debug | 3:57:41 PM | 11] SaveBookmark reply "{}"
+[Info | 3:58:44 PM | 34] Input action detected: clip;length=1200
+[Info | 3:58:44 PM | 34] [ESM Event] - SaveClip
+[Debug | 3:58:44 PM | 26] [EventProcessor] [->] SaveClip
+[Info | 3:58:44 PM | 26] [RecordingState] SaveClip attempted in FSR-only mode, saving bookmark
+[Info | 3:58:44 PM | 26] ActiveGame does not have additional context tags.
+[Info | 3:58:44 PM | 26] Context: MinecraftClientName Default
+[Info | 3:58:44 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 3:58:44 PM | 26] Input FPS: 53.3976054291149
+[Info | 3:58:44 PM | 26] Requested bookmark at 544.981 | UUID: 8fbd0081-49f9-4950-b9f9-1bd3aa018af5
+[Debug | 3:58:44 PM | 26] [EventProcessor] [<-] SaveClip ElapsedTime: 15ms
+[Debug | 3:58:44 PM | 30] SaveBookmark reply "{}"
+[Debug | 3:59:04 PM | 33] Executing Request: set.hotkeys
+[Warning | 3:59:04 PM | 33] Invalid trigger input for action clip;length=1200: no inputs defined
+[Warning | 3:59:04 PM | 33] Invalid trigger input for action segment_toggle: no inputs defined
+[Info | 3:59:04 PM | 33] Updated hotkeys for Minecraft, now have 8 hotkeys configured
+[Debug | 3:59:04 PM | 33] Settings: Hotkeys changed from [clip;length=1200: short_press of keyboard:F8, segment_toggle: long_press of keyboard:F8, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v] --> [clip;length=1200: short_press of keyboard:Left Click, segment_toggle: long_press of keyboard:Left Click, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v]
+[Info | 3:59:04 PM | 33] job.respond 14719ce0-5be5-4e58-9b0c-03baad9f559c
+[Info | 3:59:04 PM | 33] [ESM Event] - ConfigChanged
+[Debug | 3:59:04 PM | 33] Config change: MaxClipDuration (Global)
+[Debug | 3:59:04 PM | 33] PollDesktopJobQueue reply [{"uuid":"14719ce0-5be5-4e58-9b0c-03baad9f559c","body":{"hotkeys":[{"action":"clip;length=1200","device":"keyboard","type":"short_press","inputs":"Left Click"},{"action":"segment_toggle","device":"keyboard","type":"long_press","inputs":"Left Click"},{"action":"screenshot","device":"keyboard","type":"short_press","inputs":"F7"},{"action":"callback;event=dismiss","inputs":"ALT + SHIFT + d","device":"keyboard","type":"short_press"},{"action":"callback;event=answerVoice","inputs":"ALT + SHIFT + z","device":"keyboard","type":"short_press"},{"action":"callback;event=declineVoice","inputs":"ALT + SHIFT + x","device":"keyboard","type":"short_press"},{"action":"callback;event=acceptMessageRequest","inputs":"ALT + SHIFT + c","device":"keyboard","type":"short_press"},{"action":"callback;event=viewScreenshot","inputs":"ALT + SHIFT + v","device":"keyboard","type":"short_press"}]},"action":"set.hotkeys"}]
+[Debug | 3:59:04 PM | 30] job.respond "ok"
+[Debug | 3:59:04 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 3:59:04 PM | 26] Handling config change while recording: MaxClipDuration (Global)
+[Debug | 3:59:04 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 2ms
+[Debug | 3:59:17 PM | 30] Executing Request: set.hotkeys
+[Warning | 3:59:17 PM | 30] Invalid trigger input for action clip;length=1200: no inputs defined
+[Warning | 3:59:17 PM | 30] Invalid trigger input for action segment_toggle: no inputs defined
+[Info | 3:59:17 PM | 30] Updated hotkeys for Minecraft, now have 8 hotkeys configured
+[Debug | 3:59:17 PM | 30] Settings: Hotkeys changed from [clip;length=1200: short_press of keyboard:Left Click, segment_toggle: long_press of keyboard:Left Click, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v] --> [clip;length=1200: short_press of keyboard:Left Click, segment_toggle: long_press of keyboard:Left Click, screenshot: short_press of keyboard:F7, callback;event=dismiss: short_press of keyboard:ALT + SHIFT + d, callback;event=answerVoice: short_press of keyboard:ALT + SHIFT + z, callback;event=declineVoice: short_press of keyboard:ALT + SHIFT + x, callback;event=acceptMessageRequest: short_press of keyboard:ALT + SHIFT + c, callback;event=viewScreenshot: short_press of keyboard:ALT + SHIFT + v]
+[Info | 3:59:17 PM | 30] job.respond 46bab195-77d6-46e9-9b38-dc2d3ca8b4ce
+[Info | 3:59:17 PM | 30] [ESM Event] - ConfigChanged
+[Debug | 3:59:17 PM | 30] Config change: MaxClipDuration (Global)
+[Debug | 3:59:17 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 3:59:17 PM | 30] PollDesktopJobQueue reply [{"uuid":"46bab195-77d6-46e9-9b38-dc2d3ca8b4ce","body":{"hotkeys":[{"action":"clip;length=1200","device":"keyboard","type":"short_press","inputs":"Left Click"},{"action":"segment_toggle","device":"keyboard","type":"long_press","inputs":"Left Click"},{"action":"screenshot","device":"keyboard","type":"short_press","inputs":"F7"},{"action":"callback;event=dismiss","inputs":"ALT + SHIFT + d","device":"keyboard","type":"short_press"},{"action":"callback;event=answerVoice","inputs":"ALT + SHIFT + z","device":"keyboard","type":"short_press"},{"action":"callback;event=declineVoice","inputs":"ALT + SHIFT + x","device":"keyboard","type":"short_press"},{"action":"callback;event=acceptMessageRequest","inputs":"ALT + SHIFT + c","device":"keyboard","type":"short_press"},{"action":"callback;event=viewScreenshot","inputs":"ALT + SHIFT + v","device":"keyboard","type":"short_press"}]},"action":"set.hotkeys"}]
+[Debug | 3:59:17 PM | 12] job.respond "ok"
+[Debug | 3:59:17 PM | 26] Handling config change while recording: MaxClipDuration (Global)
+[Debug | 3:59:17 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 2ms
+[Info | 3:59:37 PM | 16] Queue processing running. Events processed: 27
+[Info | 4:02:08 PM | 16] Window object destroyed: Window[591338, hAXdelx2t[Minecraft], GLFW30, "Minecraft* 1.21.4", [-8,-8 + 1936x1056], javaw[4204]] EventType: EVENT_OBJECT_DESTROY
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.091306] [0030C8] DXGI capture switched to no monitor, stopping capture of current screen
+[Debug | 4:02:08 PM | 23] Window thread message loop stopped: Window Hooks for Window[591338, hAXdelx2t[Minecraft], GLFW30, javaw[4204]]
+[Info | 4:02:08 PM | 16] Match detector Minecraft_MatchDetector cancelled.
+[Info | 4:02:08 PM | 16] [Game Status]: game/stopped - Minecraft[hAXdelx2t]
+[Info | 4:02:08 PM | 16] [ESM Event] - StopRecording
+[Debug | 4:02:08 PM | 26] [EventProcessor] [->] StopRecording
+[Info | 4:02:08 PM | 26] Exiting Recording
+[Info | 4:02:08 PM | 26] Dispose Recording Session
+[Info | 4:02:08 PM | 16] Stopping InputManager.
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.109943] [0045DC] stopping pipeline
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.109986] [0045DC] stopping DXGI window capture
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.112620] [0030C8] exiting DXGI capture main loop
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.113221] [0045DC] stopping D2D video frame processor
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.113238] [001C3C] exiting D2D video processor main loop
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.113867] [0045DC] stopped D2D video frame processor
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.113877] [0045DC] stopping NV video encoder (put thread)
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.113878] [0045DC] NV encoder sending EOS
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.114204] [0045DC] NV encoder waiting for EOS event
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.114251] [0045DC] NV encoder sent EOS
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.114260] [0045DC] stopping NV video encoder (encode thread)
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.114268] [00382C] exiting NV video encoder main encode loop
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.118104] [0045DC] stopping WASAPI process capture for PID 4204
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.119362] [0045DC] stopped WASAPI process capture for PID 4204
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.119377] [0045DC] stopping WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.119391] [003FA4] exiting WASAPI capture loop for device Microphone (GENERAL WEBCAM)
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.119950] [0045DC] stopped WASAPI capture for device Microphone (GENERAL WEBCAM)
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.119958] [0045DC] stopping FFMPEG audio stream processor
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.120339] [0045DC] stopped FFMPEG audio stream processor
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.120343] [0045DC] stopping FFMPEG audio encoder
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.120975] [005028] exiting FFMPEG audio encoder loop
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.126974] [005028] leaving FFMPEG audio encoder run thread
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.127374] [0045DC] stopped FFMPEG audio encoder
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.127380] [0045DC] stopping FFMPEG audio encoder
+[Info | 4:02:08 PM | 22] InputManager: PollInput stopped
+[Info | 4:02:08 PM | 16] InputManager stopped.
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.220547] [002D68] exiting FFMPEG audio encoder loop
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.221078] [002D68] leaving FFMPEG audio encoder run thread
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.221521] [0045DC] stopped FFMPEG audio encoder
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.221528] [0045DC] stopping FFMPEG audio encoder
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.222556] [0035CC] exiting FFMPEG audio encoder loop
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.237479] [0035CC] leaving FFMPEG audio encoder run thread
+[Info | 4:02:08 PM | 13] [Scope] [16:02:08.238685] [0045DC] stopped FFMPEG audio encoder
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.238734] [004C34] muxer stop: flushing buffers
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.238756] [004C34] muxer stop: writing trailer, last PTS 370830.021893
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.240736] [004C34] muxer stop: exiting thread
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.241249] [0045DC] waiting for pending async requests to complete for file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.241252] [0045DC] closing file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.349848] [0045DC] synced file data and metadata for C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.350177] [0045DC] closed file C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.350192] [0045DC] stopping input capture
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.351393] [0045DC] stopped input capture
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.351418] [0045DC] all pipeline components stopped
+[Debug | 4:02:08 PM | 13] [Scope] [16:02:08.351429] [0045DC] pipeline stop issued
+[Info | 4:02:08 PM | 26] Stopped Pipeline
+[Debug | 4:02:08 PM | 24] Executing Request: set.toggleBroadcast
+[Info | 4:02:08 PM | 24] Toggle Broadcast - Enabled:False, Resolution:, Fps:0
+[Info | 4:02:08 PM | 24] Clear override settings
+[Info | 4:02:08 PM | 24] job.respond e8561135-e918-4328-8981-075b216066f5
+[Debug | 4:02:08 PM | 24] PollDesktopJobQueue reply [{"uuid":"506ac094-e12f-43f5-8a14-85622d4a261d","body":{},"action":"ping"},{"uuid":"e8561135-e918-4328-8981-075b216066f5","body":{"enabled":false},"action":"set.toggleBroadcast"}]
+[Debug | 4:02:08 PM | 9] job.respond "ok"
+[Debug | 4:02:08 PM | 10] Checking window:  (591724, ApplicationFrameWindow)
+[Debug | 4:02:08 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:02:08 PM | 26] Probe output: {
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 1936,
+            "height": 1056,
+            "coded_width": 1936,
+            "coded_height": 1056,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "11:6",
+            "pix_fmt": "yuv420p",
+            "level": 42,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "bits_per_raw_sample": "8",
+            "extradata_size": 40,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "DURATION": "00:12:28.331000000"
+            }
+        },
+        {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 15,
+            "start_time": "0.015000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "All Audio",
+                "DURATION": "00:12:28.367000000"
+            }
+        },
+        {
+            "index": 2,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 15,
+            "start_time": "0.015000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "Game",
+                "DURATION": "00:12:28.367000000"
+            }
+        },
+        {
+            "index": 3,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 16,
+            "start_time": "0.016000",
+            "extradata_size": 5,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "tags": {
+                "title": "Mic",
+                "DURATION": "00:12:28.367000000"
+            }
+        }
+    ],
+    "format": {
+        "filename": "C:\\Medal\\Clips\\Minecraft\\MedalTVMinecraft20250528154939.mkv",
+        "nb_streams": 4,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.000000",
+        "duration": "748.367000",
+        "size": "1061697264",
+        "bit_rate": "11349482",
+        "probe_score": 100,
+        "tags": {
+            "ZERO_TIME": "1748432979740655",
+            "ENCODER": "Lavf61.7.100"
+        }
+    }
+}
+
+[Info | 4:02:08 PM | 26] Output FPS: 60
+[Info | 4:02:08 PM | 26] Output Video Bitrate (Mbps) : 11.349482
+[Info | 4:02:08 PM | 26] Output Video Length (in seconds): 748.331
+[Info | 4:02:09 PM | 26] Session duration: 748.331
+[Info | 4:02:09 PM | 26] Input FPS: 51.3745564304616
+[Info | 4:02:09 PM | 26] Complete session. Output File: C:\Medal\Clips\Minecraft\MedalTVMinecraft20250528154939.mkv
+[Info | 4:02:09 PM | 26] ActiveGame does not have additional context tags.
+[Info | 4:02:09 PM | 26] Context: MinecraftClientName Default
+[Info | 4:02:09 PM | 26] Context: MinecraftUsername EliteProFast
+[Info | 4:02:09 PM | 26] Recording session stopped
+[Info | 4:02:09 PM | 26] [Game Status]: capture/stopped - Minecraft[hAXdelx2t]
+[Info | 4:02:09 PM | 26] Stopping performance monitor.
+[Debug | 4:02:09 PM | 13] [Scope] [16:02:09.166245] [0045DC] stopping pipeline
+[Debug | 4:02:09 PM | 13] [Scope] [16:02:09.166319] [0045DC] pipeline stop issued
+[Debug | 4:02:09 PM | 13] [Scope] [16:02:09.166323] [0045DC] pipeline joining user action thread
+[Debug | 4:02:09 PM | 13] [Scope] [16:02:09.166336] [000470] pipeline stopping processing user actions
+[Debug | 4:02:09 PM | 13] [Scope] [16:02:09.166722] [0045DC] pipeline joined user action thread
+[Debug | 4:02:09 PM | 5] capture/stopped reply "ok"
+[Debug | 4:02:09 PM | 5] StopRecordingSession reply "{}"
+[Info | 4:02:09 PM | 26] Disposed Pipeline
+[Info | 4:02:09 PM | 26] ----[ESM State]: SelectTarget----
+[Info | 4:02:09 PM | 26] [SelectTarget] Considering switching target after recording stopped
+[Debug | 4:02:09 PM | 26] Considering recording with 0 hint targets and 0 avoid targets
+[Debug | 4:02:09 PM | 26] No viable targets available
+[Debug | 4:02:09 PM | 26] [EventProcessor] [<-] StopRecording ElapsedTime: 1097ms
+[Debug | 4:02:09 PM | 9] game/stopped reply "ok"
+[Debug | 4:02:09 PM | 10] Checking window:  (1181530, ApplicationFrameTitleBarWindow)
+[Debug | 4:02:09 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:02:09 PM | 10] Checking window:  (7341988, ApplicationFrameInputSinkWindow)
+[Info | 4:02:09 PM | 34] javaw exited.
+[Debug | 4:02:09 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:02:09 PM | 34] Closing window on process exit: Window[591338, hAXdelx2t[Minecraft], GLFW30, "", [0,0 + 0x0], javaw[4204][DEAD]]
+[Info | 4:02:09 PM | 34] Game process javaw for Minecraft exited with code 0, hook attempted: no
+[Debug | 4:02:10 PM | 6] Checking window: SKlauncher 3.2.12 build.519 (23922474, GlassWndClass-GlassWindowClass-3)
+[Debug | 4:02:10 PM | 6] Checking window under process javaw against 78 games with LTs 5, 1, 3
+[Info | 4:04:35 PM | 6] Starting periodic game DB update check
+[Info | 4:04:35 PM | 6] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:04:35 PM | 6] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:04:35 PM | 6] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:04:35 PM | 6] Periodic game DB update check: no update available
+[Info | 4:04:37 PM | 34] Queue processing running. Events processed: 28
+[Debug | 4:06:41 PM | 34] Checking window:  (984558, ApplicationFrameTitleBarWindow)
+[Debug | 4:06:41 PM | 34] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:06:41 PM | 34] Checking window:  (5703172, ApplicationFrameInputSinkWindow)
+[Debug | 4:06:41 PM | 34] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:08:13 PM | 6] Checking window:  (133502, ApplicationFrameTitleBarWindow)
+[Debug | 4:08:13 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:08:13 PM | 6] Checking window:  (1050570, ApplicationFrameInputSinkWindow)
+[Debug | 4:08:13 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 4:09:37 PM | 35] Queue processing running. Events processed: 28
+[Debug | 4:10:57 PM | 34] Checking window:  (1508820, ApplicationFrameTitleBarWindow)
+[Debug | 4:10:57 PM | 34] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:10:57 PM | 34] Checking window:  (1115978, ApplicationFrameInputSinkWindow)
+[Debug | 4:10:57 PM | 34] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 4:14:37 PM | 19] Queue processing running. Events processed: 28
+[Debug | 4:14:53 PM | 16] Checking window:  (722166, ApplicationFrameTitleBarWindow)
+[Debug | 4:14:53 PM | 16] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:14:53 PM | 16] Checking window:  (1246146, ApplicationFrameInputSinkWindow)
+[Debug | 4:14:53 PM | 16] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 4:19:35 PM | 34] Starting periodic game DB update check
+[Info | 4:19:35 PM | 34] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:19:35 PM | 34] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:19:35 PM | 34] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:19:35 PM | 34] Periodic game DB update check: no update available
+[Info | 4:19:37 PM | 6] Queue processing running. Events processed: 28
+[Info | 4:34:35 PM | 19] 2 logs of- Queue processing running. Events processed: 28
+[Info | 4:34:35 PM | 19] Starting periodic game DB update check
+[Info | 4:34:35 PM | 19] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:34:35 PM | 19] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:34:35 PM | 19] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:34:35 PM | 19] Periodic game DB update check: no update available
+[Info | 4:34:38 PM | 34] Queue processing running. Events processed: 28
+[Info | 4:49:35 PM | 16] 2 logs of- Queue processing running. Events processed: 28
+[Info | 4:49:35 PM | 16] Starting periodic game DB update check
+[Info | 4:49:35 PM | 16] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 4:49:35 PM | 16] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:49:35 PM | 16] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 4:49:35 PM | 16] Periodic game DB update check: no update available
+[Info | 4:49:38 PM | 34] Queue processing running. Events processed: 28
+[Debug | 4:59:16 PM | 10] 1 logs of- Queue processing running. Events processed: 28
+[Debug | 4:59:16 PM | 10] Checking window:  (2492602, ApplicationFrameTitleBarWindow)
+[Debug | 4:59:16 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 4:59:17 PM | 10] Checking window:  (461112, ApplicationFrameInputSinkWindow)
+[Debug | 4:59:17 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 4:59:38 PM | 6] Queue processing running. Events processed: 28
+[Info | 5:04:35 PM | 16] Starting periodic game DB update check
+[Info | 5:04:35 PM | 16] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 5:04:35 PM | 16] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:04:35 PM | 16] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:04:35 PM | 16] Periodic game DB update check: no update available
+[Info | 5:04:38 PM | 6] Queue processing running. Events processed: 28
+[Info | 5:19:35 PM | 35] 2 logs of- Queue processing running. Events processed: 28
+[Info | 5:19:35 PM | 35] Starting periodic game DB update check
+[Info | 5:19:35 PM | 35] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 5:19:35 PM | 35] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:19:35 PM | 35] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:19:35 PM | 35] Periodic game DB update check: no update available
+[Info | 5:19:38 PM | 10] Queue processing running. Events processed: 28
+[Info | 5:34:35 PM | 6] 2 logs of- Queue processing running. Events processed: 28
+[Info | 5:34:35 PM | 6] Starting periodic game DB update check
+[Info | 5:34:35 PM | 6] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 5:34:35 PM | 6] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:34:35 PM | 6] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:34:35 PM | 6] Periodic game DB update check: no update available
+[Info | 5:34:38 PM | 16] Queue processing running. Events processed: 28
+[Debug | 5:36:04 PM | 10] Checking window:  (1378156, ApplicationFrameTitleBarWindow)
+[Debug | 5:36:04 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:36:04 PM | 10] Checking window:  (15140718, ApplicationFrameInputSinkWindow)
+[Debug | 5:36:04 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:38:45 PM | 6] Checking window:  (1509336, ApplicationFrameTitleBarWindow)
+[Debug | 5:38:45 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:38:45 PM | 6] Checking window:  (7407594, ApplicationFrameInputSinkWindow)
+[Debug | 5:38:45 PM | 6] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 5:39:38 PM | 35] Queue processing running. Events processed: 28
+[Debug | 5:47:07 PM | 19] 1 logs of- Queue processing running. Events processed: 28
+[Debug | 5:47:07 PM | 19] Checking window:  (657886, ApplicationFrameTitleBarWindow)
+[Debug | 5:47:07 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:47:07 PM | 19] Checking window:  (985498, ApplicationFrameInputSinkWindow)
+[Debug | 5:47:07 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:47:08 PM | 10] Checking window:  (1639956, ApplicationFrameWindow)
+[Debug | 5:47:08 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:47:08 PM | 10] Checking window:  (592456, ApplicationFrameTitleBarWindow)
+[Debug | 5:47:08 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 5:47:08 PM | 10] Checking window:  (657990, ApplicationFrameInputSinkWindow)
+[Debug | 5:47:08 PM | 10] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 5:49:35 PM | 6] Starting periodic game DB update check
+[Info | 5:49:35 PM | 6] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 5:49:35 PM | 6] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:49:35 PM | 6] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 5:49:35 PM | 6] Periodic game DB update check: no update available
+[Info | 5:49:38 PM | 34] Queue processing running. Events processed: 28
+[Debug | 5:54:02 PM | 13] [Scope] [17:54:02.926373] [002C0C] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 5:54:02 PM | 13] [Scope] [17:54:02.940094] [002C0C] WASAPI capture device enum: found 1 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:54:03 PM | 34] [ESM Event] - ConfigChanged
+[Debug | 5:54:03 PM | 34] Config change: AudioInputLayout (Global)
+[Debug | 5:54:03 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 5:54:03 PM | 26] Handling config change while waiting to select target: AudioInputLayout (Global)
+[Debug | 5:54:03 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 1ms
+[Debug | 5:54:03 PM | 13] [Scope] [17:54:03.967841] [0018A4] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 5:54:03 PM | 34] Sending available audio devices Speakers (Realtek High Definition Audio), VA2719 Series (NVIDIA High Definition Audio)
+[Debug | 5:54:03 PM | 36] SendAvailableAudioDevices reply {"success":true}
+[Debug | 5:54:03 PM | 13] [Scope] [17:54:03.980280] [0018A4] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 5:54:03 PM | 34] Sending selected audio output devices Auto
+[Debug | 5:54:03 PM | 36] SendSelectedAudioDevices reply {"success":true}
+[Debug | 5:54:03 PM | 13] [Scope] [17:54:03.988861] [0018A4] WASAPI capture device enum: found 1 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:54:03 PM | 34] Sending available mic devices Microphone (GENERAL WEBCAM)
+[Debug | 5:54:03 PM | 36] SendAvailableMicDevices reply {"success":true}
+[Debug | 5:54:03 PM | 13] [Scope] [17:54:03.999099] [0018A4] WASAPI capture device enum: found 1 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:54:03 PM | 34] Sending selected mic device Auto
+[Debug | 5:54:04 PM | 36] SendSelectedMicDevice reply {"success":true}
+[Info | 5:54:40 PM | 34] Queue processing running. Events processed: 29
+[Debug | 5:55:42 PM | 13] [Scope] [17:55:42.930581] [005660] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 5:55:43 PM | 13] [Scope] [17:55:43.036561] [005660] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:55:44 PM | 16] [ESM Event] - ConfigChanged
+[Debug | 5:55:44 PM | 16] Config change: AudioInputLayout (Global)
+[Debug | 5:55:44 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 5:55:44 PM | 26] Handling config change while waiting to select target: AudioInputLayout (Global)
+[Debug | 5:55:44 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 1ms
+[Debug | 5:55:44 PM | 13] [Scope] [17:55:44.050146] [002D9C] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 5:55:44 PM | 16] Sending available audio devices Speakers (Realtek High Definition Audio), VA2719 Series (NVIDIA High Definition Audio)
+[Debug | 5:55:44 PM | 36] SendAvailableAudioDevices reply {"success":true}
+[Debug | 5:55:44 PM | 13] [Scope] [17:55:44.061934] [002D9C] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 5:55:44 PM | 16] Sending selected audio output devices Auto
+[Debug | 5:55:44 PM | 36] SendSelectedAudioDevices reply {"success":true}
+[Debug | 5:55:44 PM | 13] [Scope] [17:55:44.071417] [002D9C] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:55:44 PM | 16] Sending available mic devices Microphone (GENERAL WEBCAM), Microphone (Realtek High Definition Audio)
+[Debug | 5:55:44 PM | 36] SendAvailableMicDevices reply {"success":true}
+[Debug | 5:55:44 PM | 13] [Scope] [17:55:44.080382] [002D9C] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 5:55:44 PM | 16] Sending selected mic device Auto
+[Debug | 5:55:44 PM | 36] SendSelectedMicDevice reply {"success":true}
+[Info | 5:59:40 PM | 35] Queue processing running. Events processed: 30
+[Info | 6:04:37 PM | 19] Starting periodic game DB update check
+[Info | 6:04:37 PM | 19] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 6:04:37 PM | 19] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 6:04:37 PM | 19] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 6:04:37 PM | 19] Periodic game DB update check: no update available
+[Info | 6:04:40 PM | 6] Queue processing running. Events processed: 30
+[Debug | 6:18:24 PM | 13] 2 logs of- Queue processing running. Events processed: 30
+[Debug | 6:18:24 PM | 13] [Scope] [18:18:24.036260] [0006F4] WASAPI loopback device enum: found 1 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 6:18:24 PM | 13] [Scope] [18:18:24.051906] [0006F4] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 6:18:25 PM | 35] [ESM Event] - ConfigChanged
+[Debug | 6:18:25 PM | 35] Config change: AudioInputLayout (Global)
+[Debug | 6:18:25 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 6:18:25 PM | 26] Handling config change while waiting to select target: AudioInputLayout (Global)
+[Debug | 6:18:25 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 0ms
+[Info | 6:18:25 PM | 35] Sending available audio devices Speakers (Realtek High Definition Audio)
+[Debug | 6:18:25 PM | 13] [Scope] [18:18:25.060841] [00570C] WASAPI loopback device enum: found 1 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 6:18:25 PM | 67] SendAvailableAudioDevices reply {"success":true}
+[Debug | 6:18:25 PM | 13] [Scope] [18:18:25.068681] [00570C] WASAPI loopback device enum: found 1 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 6:18:25 PM | 35] Sending selected audio output devices Auto
+[Debug | 6:18:25 PM | 67] SendSelectedAudioDevices reply {"success":true}
+[Info | 6:18:25 PM | 35] Sending available mic devices Microphone (GENERAL WEBCAM), Microphone (Realtek High Definition Audio)
+[Debug | 6:18:25 PM | 13] [Scope] [18:18:25.078483] [00570C] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 6:18:25 PM | 67] SendAvailableMicDevices reply {"success":true}
+[Debug | 6:18:25 PM | 13] [Scope] [18:18:25.087020] [00570C] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 6:18:25 PM | 35] Sending selected mic device Auto
+[Debug | 6:18:25 PM | 67] SendSelectedMicDevice reply {"success":true}
+[Info | 6:19:37 PM | 35] Starting periodic game DB update check
+[Info | 6:19:37 PM | 35] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 6:19:37 PM | 35] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 6:19:37 PM | 35] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 6:19:37 PM | 35] Periodic game DB update check: no update available
+[Info | 6:19:41 PM | 10] Queue processing running. Events processed: 31
+[Warning | 6:38:40 PM | 35] Polling has been going on for too long. Allowing new poll. Oldest request: job/queue at 5/28/2025 6:20:17 PM
+[Debug | 6:38:45 PM | 35] Slow window scan: completed (50 handles) after 4124.4ms
+[Debug | 6:38:45 PM | 35]     window handles: 4103.7ms, 50 results
+[Debug | 6:38:45 PM | 35]     window infos:   21.2ms, 50 results
+[Debug | 6:38:45 PM | 35]     window checks:  0.2ms
+[Debug | 6:38:46 PM | 13] [Scope] [18:38:46.565237] [00502C] WASAPI loopback device enum: found 1 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 6:38:46 PM | 13] [Scope] [18:38:46.575562] [00502C] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Debug | 6:38:46 PM | 13] [Scope] [18:38:46.948338] [00502C] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Debug | 6:38:46 PM | 13] [Scope] [18:38:46.958726] [00502C] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 6:38:47 PM | 10] [ESM Event] - ConfigChanged
+[Debug | 6:38:47 PM | 10] Config change: AudioInputLayout (Global)
+[Debug | 6:38:47 PM | 26] [EventProcessor] [->] ConfigChanged
+[Debug | 6:38:47 PM | 26] Handling config change while waiting to select target: AudioInputLayout (Global)
+[Debug | 6:38:47 PM | 26] [EventProcessor] [<-] ConfigChanged ElapsedTime: 0ms
+[Debug | 6:38:47 PM | 13] [Scope] [18:38:47.970298] [0052A4] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 6:38:47 PM | 10] Sending available audio devices Speakers (Realtek High Definition Audio), VA2719 Series (NVIDIA High Definition Audio)
+[Debug | 6:38:47 PM | 49] SendAvailableAudioDevices reply {"success":true}
+[Debug | 6:38:47 PM | 13] [Scope] [18:38:47.980950] [0052A4] WASAPI loopback device enum: found 2 devices, default: Speakers (Realtek High Definition Audio) ({0.0.0.00000000}.{6f10e693-e299-4e49-982f-086f4003cd5c})
+[Info | 6:38:47 PM | 10] Sending selected audio output devices Auto
+[Debug | 6:38:47 PM | 49] SendSelectedAudioDevices reply {"success":true}
+[Debug | 6:38:47 PM | 13] [Scope] [18:38:47.990910] [0052A4] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 6:38:47 PM | 10] Sending available mic devices Microphone (GENERAL WEBCAM), Microphone (Realtek High Definition Audio)
+[Debug | 6:38:47 PM | 49] SendAvailableMicDevices reply {"success":true}
+[Debug | 6:38:48 PM | 13] [Scope] [18:38:48.000324] [0052A4] WASAPI capture device enum: found 2 devices, default: Microphone (GENERAL WEBCAM) ({0.0.1.00000000}.{8929e7bb-67f1-49a2-8ae6-c97b9599ce6e})
+[Info | 6:38:48 PM | 10] Sending selected mic device Auto
+[Debug | 6:38:48 PM | 49] SendSelectedMicDevice reply {"success":true}
+[Info | 6:39:01 PM | 34] Queue processing running. Events processed: 32
+[Info | 6:52:57 PM | 34] 2 logs of- Queue processing running. Events processed: 32
+[Info | 6:52:57 PM | 34] Starting periodic game DB update check
+[Info | 6:52:57 PM | 34] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 6:52:57 PM | 34] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 6:52:57 PM | 34] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 6:52:57 PM | 34] Periodic game DB update check: no update available
+[Info | 6:54:01 PM | 34] Queue processing running. Events processed: 32
+[Debug | 7:01:38 PM | 19] 1 logs of- Queue processing running. Events processed: 32
+[Debug | 7:01:38 PM | 19] Checking window:  (1049750, ApplicationFrameTitleBarWindow)
+[Debug | 7:01:38 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:01:38 PM | 19] Checking window:  (592070, ApplicationFrameInputSinkWindow)
+[Debug | 7:01:38 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:01:40 PM | 19] Checking window: PopupHost (2296384, Xaml_WindowedPopupClass)
+[Debug | 7:01:40 PM | 19] Checking window under process WinStore.App against 1 games with LTs 6
+[Debug | 7:01:40 PM | 19] Checking window:  (2361112, ApplicationFrameWindow)
+[Debug | 7:01:40 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:01:40 PM | 19] Checking window:  (854206, ApplicationFrameTitleBarWindow)
+[Debug | 7:01:40 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:01:41 PM | 19] Checking window:  (3409058, ApplicationFrameInputSinkWindow)
+[Debug | 7:01:41 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 7:04:01 PM | 10] Queue processing running. Events processed: 32
+[Info | 7:07:57 PM | 35] Starting periodic game DB update check
+[Info | 7:07:57 PM | 35] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 7:07:57 PM | 35] Remote Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 7:07:57 PM | 35] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 7:07:57 PM | 35] Periodic game DB update check: no update available
+[Info | 7:09:01 PM | 35] Queue processing running. Events processed: 32
+[Info | 7:22:57 PM | 34] 2 logs of- Queue processing running. Events processed: 32
+[Info | 7:22:57 PM | 34] Starting periodic game DB update check
+[Info | 7:22:57 PM | 34] Checking for new Game Info DB version from https://cdn.medal.tv/asset/games-db/production/version.json
+[Info | 7:22:57 PM | 34] Remote Info: {"Version":"2.1227","Command":"none","Environment":"production"}
+[Info | 7:22:57 PM | 34] Local Info: {"Version":"2.1225","Command":"none","Environment":"production"}
+[Info | 7:22:57 PM | 34] Downloading new game database from https://cdn.medal.tv/asset/games-db/production/MedalGameInfo-2.1227.db
+[Debug | 7:22:57 PM | 34] Going to switch to new game info DB from C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalGameInfo.db
+[Debug | 7:22:57 PM | 34] Acquired game info DB write lock
+[Debug | 7:22:58 PM | 34] Successfully switched to new game info DB
+[Debug | 7:22:58 PM | 34] Released game info DB write lock
+[Info | 7:22:58 PM | 34] Game database updated. Version: {"Version":"2.1227","Command":"none","Environment":"production"}
+[Info | 7:22:58 PM | 34] GameDB: C:\Users\alish\AppData\Local\Medal\recorder-3.1020.0\MedalGameInfo.db
+[Info | 7:22:58 PM | 34] Periodic game DB update check: update attempted and succeeded
+[Debug | 7:22:59 PM | 19] Checking window:  (2361112, ApplicationFrameWindow)
+[Debug | 7:22:59 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:22:59 PM | 19] Checking window:  (854206, ApplicationFrameTitleBarWindow)
+[Debug | 7:22:59 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:22:59 PM | 19] Checking window:  (3409058, ApplicationFrameInputSinkWindow)
+[Debug | 7:22:59 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:22:59 PM | 19] Checking window:  (592456, ApplicationFrameTitleBarWindow)
+[Debug | 7:22:59 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:22:59 PM | 19] Checking window:  (657990, ApplicationFrameInputSinkWindow)
+[Debug | 7:22:59 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:23:00 PM | 19] Checking window:  (1376282, ApplicationFrameTitleBarWindow)
+[Debug | 7:23:00 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:23:00 PM | 19] Checking window:  (131772, ApplicationFrameInputSinkWindow)
+[Debug | 7:23:00 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:23:00 PM | 19] Checking window:  (131394, ApplicationFrameTitleBarWindow)
+[Debug | 7:23:00 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Debug | 7:23:00 PM | 19] Checking window:  (1246668, ApplicationFrameInputSinkWindow)
+[Debug | 7:23:00 PM | 19] Checking window under process ApplicationFrameHost against 31 games with LTs 6, 3, 1
+[Info | 7:24:01 PM | 10] Queue processing running. Events processed: 32

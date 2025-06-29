@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>English Reading System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    nav {
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      background: #10b981;
+      color: #fff;
+      box-shadow: 0 2px 8px #10b98122;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 54px;
+    }
+    nav a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1em;
+      text-decoration: none;
+      padding: 0 24px;
+      transition: background 0.2s;
+    }
+    #storiesBtn {
+      margin-left: auto;
+      margin-right: 24px;
+      padding: 8px 22px;
+      font-size: 1em;
+      font-weight: 600;
+      background: #6366f1;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px #6366f133;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .container {
+      margin-top: 80px;
+      max-width: 600px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px #6366f133;
+      padding: 32px 24px 40px 24px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      color: #6366f1;
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 18px;
+      letter-spacing: 1px;
+    }
+    #about {
+      color: #333;
+      font-size: 1.15rem;
+      margin-bottom: 24px;
+      line-height: 1.7;
+    }
+    /* Modal styles */
+    #storiesModal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.32);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+    }
+    #storiesModal > div {
+      background: #fff;
+      max-width: 90vw;
+      width: 480px;
+      max-height: 80vh;
+      overflow-y: auto;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px #6366f155;
+      padding: 32px 18px 24px 18px;
+      position: relative;
+    }
+    #storiesModal h2 {
+      color: #6366f1;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+    #storiesList {
+      padding-left: 0;
+      list-style: none;
+      margin: 0;
+    }
+    #storiesList li {
+      margin-bottom: 8px;
+    }
+    #storiesList a {
+      color: #6366f1;
+      text-decoration: underline;
+      font-size: 1.08em;
+    }
+    #storyContentModal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.32);
+      z-index: 2100;
+      align-items: center;
+      justify-content: center;
+    }
+    #storyContentModal > div {
+      background: #fff;
+      max-width: 90vw;
+      width: 480px;
+      max-height: 80vh;
+      overflow-y: auto;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px #6366f155;
+      padding: 32px 18px 24px 18px;
+      position: relative;
+    }
+    #storyContentModal h2 {
+      color: #6366f1;
+      font-size: 1.3em;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+    #storyText {
+      color: #333;
+      font-size: 1.08em;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Country Name Hunt</a>
+    <a href="logo-guess.html">Logo Guess Game</a>
+    <a href="maths-learning-system.html">Maths Learning</a>
+    <a href="english-reading-system.html" style="background:rgba(255,255,255,0.12);border-radius:12px;">English Reading</a>
+    <button id="storiesBtn" style="margin-left:auto;margin-right:24px;padding:8px 22px;font-size:1em;font-weight:600;background:#6366f1;color:#fff;border:none;border-radius:10px;box-shadow:0 2px 8px #6366f133;cursor:pointer;transition:background 0.2s;">Stories</button>
+  </nav>
+  <div class="container">
+    <h1>About English Reading System</h1>
+    <div id="about">
+      <p>
+        The English Reading System is designed to help learners of all ages improve their reading skills in English. Whether you are a beginner or looking to enhance your fluency, this system provides interactive stories, comprehension questions, and vocabulary practice to make reading enjoyable and effective.
+      </p>
+      <ul style="text-align:left;max-width:500px;margin:0 auto 18px auto;">
+        <li>Read short stories and passages tailored to your level.</li>
+        <li>Answer comprehension questions to test your understanding.</li>
+        <li>Learn new words and phrases with vocabulary exercises.</li>
+        <li>Track your progress and earn coins for correct answers!</li>
+      </ul>
+      <p>
+        Start your journey to better English reading today!
+      </p>
+    </div>
+    <!-- Future: Add reading activities and interactive content here -->
+  </div>
+  <div id="storiesModal">
+    <div>
+      <button onclick="closeStoriesModal()" style="position:absolute;top:12px;right:18px;font-size:1.5em;background:none;border:none;color:#6366f1;cursor:pointer;">&times;</button>
+      <h2>Stories</h2>
+      <div id="storiesList"></div>
+    </div>
+  </div>
+  <div id="storyContentModal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.32);z-index:2100;align-items:center;justify-content:center;">
+    <div style="background:#fff;max-width:90vw;width:480px;max-height:80vh;overflow-y:auto;border-radius:18px;box-shadow:0 8px 32px #6366f155;padding:32px 18px 24px 18px;position:relative;">
+      <button onclick="closeStoryContentModal()" style="position:absolute;top:12px;right:18px;font-size:1.5em;background:none;border:none;color:#6366f1;cursor:pointer;">&times;</button>
+      <h2 id="storyTitle" style="color:#6366f1;font-size:1.3em;font-weight:700;margin-bottom:18px;"></h2>
+      <div id="storyText" style="color:#333;font-size:1.08em;line-height:1.7;"></div>
+    </div>
+  </div>
+  <script>
+function openStoriesModal() {
+  document.getElementById('storiesModal').style.display = 'flex';
+  const list = document.getElementById('storiesList');
+  if (!list.dataset.loaded) {
+    let html = '<ul style="padding-left:0;list-style:none;margin:0;">';
+    for (let i = 1; i <= 10; i++) {
+      html += `<li style='margin-bottom:8px;'><a href="#" class='story-link' data-story='${i}' style='color:#6366f1;text-decoration:underline;font-size:1.08em;'>Story ${i}</a></li>`;
+    }
+    html += '</ul>';
+    list.innerHTML = html;
+    list.dataset.loaded = '1';
+  }
+  // Attach click handlers for all story links
+  setTimeout(() => {
+    document.querySelectorAll('.story-link').forEach(link => {
+      link.onclick = function(e) {
+        e.preventDefault();
+        openStoryContentModal(this.dataset.story);
+      };
+    });
+  }, 0);
+}
+function closeStoriesModal() {
+  document.getElementById('storiesModal').style.display = 'none';
+}
+function openStoryContentModal(storyNum) {
+  closeStoriesModal();
+  document.getElementById('storyContentModal').style.display = 'flex';
+  document.getElementById('storyTitle').textContent = `Story ${storyNum}`;
+  document.getElementById('storyText').innerHTML = getStoryText(storyNum);
+}
+function closeStoryContentModal() {
+  document.getElementById('storyContentModal').style.display = 'none';
+  // Optionally reopen stories modal
+  openStoriesModal();
+}
+function getStoryText(num) {
+  if (num == 1) {
+    return `<b>🎈The Lost Balloon🎈</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+One sunny afternoon, a little boy named Sami went to the park with a big red balloon tied to his wrist. He laughed and ran around as the balloon bounced happily in the wind.<br><br>
+Suddenly, a strong breeze blew, and snap! — the string broke. The balloon floated up, up, up into the sky!<br><br>
+“Oh no!” cried Sami, watching it drift away.<br><br>
+A kind girl named Laila saw him and said, “Don’t worry. Let’s chase it!”<br><br>
+They ran together, through the trees and over the grass, following the red balloon as it floated gently above them.<br><br>
+At last, the balloon landed softly in a tree. Laila climbed up carefully and brought it down.<br><br>
+“Here you go!” she smiled.<br><br>
+“Thank you!” said Sami. “You saved my balloon — and now you’re my friend too!”<br><br>
+And from that day on, they played in the park together every afternoon, laughing with the balloon between them.`;
+  }
+  if (num == 2) {
+    return `<b>🏞️The Secret Cave of the Mountain</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+In a quiet village near a tall mountain, lived a curious girl named Zayna. She loved exploring nature, climbing trees, and chasing butterflies. But one thing always caught her eye — the mysterious mountain that stood behind the village.<br><br>
+“Never go near it,” the elders warned. “It’s dangerous.”<br><br>
+But Zayna’s curiosity was stronger than fear.<br><br>
+One afternoon, while following a deer into the forest, Zayna stumbled upon a hidden path. The trees grew thicker, the wind whispered secrets, and suddenly — there it was — a dark cave hidden behind a curtain of vines.<br><br>
+Zayna stepped inside slowly. The walls sparkled with crystals, and a soft humming sound echoed inside. At the very end of the cave, she found an old chest covered in moss.<br><br>
+She opened it and gasped.<br><br>
+Inside were glowing stones, a map with strange markings, and a note that read:<br>
+"To the one brave enough to find this — protect the village. You are now the Guardian of the Mountain."<br><br>
+From that day forward, Zayna became the protector of her village, and the cave remained her secret — a place of magic, courage, and destiny.`;
+  }
+  if (num == 3) {
+    return `<b>🐾The Cat Who Wanted to Fly</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story3.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+In the heart of a busy city, lived a small gray cat named Miso. Miso was no ordinary cat—he had a big dream. He wanted to fly like the pigeons he watched from the rooftop every morning.<br><br>
+He would sit for hours, watching them flap their wings and soar through the sky. “If only I had wings,” he sighed.<br><br>
+One day, Miso found a box filled with feathers, glue, and string in a nearby alley. With determination in his eyes, he carefully stuck the feathers to his arms, tied the string across his back, and stood proudly.<br><br>
+“I’m ready!” he meowed.<br><br>
+He climbed to the highest rooftop, ran as fast as he could, and leapt off—WOOOSH!<br><br>
+…And fell right into a pile of soft laundry.<br><br>
+The birds above chirped with laughter, but one pigeon fluttered down beside him. “You don’t need wings to be amazing,” the pigeon said. “You’re already special.”<br><br>
+From that day on, Miso stopped trying to fly. Instead, he became friends with the birds and learned to explore the city in his own clever way — climbing, leaping, and adventuring like no other cat could.`;
+  }
+  if (num == 4) {
+    return `<b>🌟 The Magic Paintbrush</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story4.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+Long ago, in a small village, lived a boy named Kai who loved to paint. But Kai didn’t have any colors—only a plain brush and blank paper.<br><br>
+One day, an old man gave Kai a special paintbrush and said, “This brush can bring your paintings to life, but use it wisely.”<br><br>
+Kai was amazed. He painted a bowl of rice, and suddenly, real rice appeared! He painted a tree, and it grew tall and strong.<br><br>
+But one greedy man wanted the brush for himself. Kai had to be clever. He painted a big cage and trapped the greedy man inside.<br><br>
+From that day, Kai used his magic brush to help his village, painting food, trees, and happiness for everyone.`;
+  }
+  if (num == 5) {
+    return `<b>🐉 The Brave Little Dragon</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story5.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+In a faraway land, there was a small dragon named Ember who was afraid of flying. All the other dragons soared high in the sky, but Ember stayed close to the ground.<br><br>
+One day, a big storm threatened the village below. Ember knew he had to be brave to help.<br><br>
+Taking a deep breath, he flapped his tiny wings and soared into the sky for the first time.<br><br>
+With courage and determination, Ember helped guide the villagers to safety, becoming a hero.<br><br>
+From that day on, Ember wasn’t afraid anymore — he flew proudly among the clouds.`;
+  }
+  if (num == 6) {
+    return `<b>🦉 The Wise Owl and the Lost Fox</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story6.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+One quiet night, a little fox got lost in the forest. Scared and alone, he wandered under the tall trees.<br><br>
+Suddenly, a wise old owl appeared. “Don’t be afraid,” said the owl. “Follow me, and I will guide you home.”<br><br>
+The fox followed the owl’s soft hoots through the dark woods until he saw the lights of his den.<br><br>
+Grateful and safe, the fox thanked the owl, and from that night on, they became best friends.<br><br>
+The forest was no longer a scary place, but a place of friendship and trust.`;
+  }
+  if (num == 7) {
+    return `<b>🌻 The Little Gardener’s Gift</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story7.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+In a small village, a girl named Lina loved to plant flowers. Every day, she watered her garden with care.<br><br>
+One morning, she found a tiny seed glowing with a golden light. Lina planted it in the richest soil.<br><br>
+Soon, a beautiful sunflower grew taller than any other, shining brightly and bringing joy to everyone.<br><br>
+The villagers said Lina’s garden was magical, and her kindness made the flowers bloom even more.<br><br>
+Lina learned that love and care can make the world a brighter place.`;
+  }
+  if (num == 8) {
+    return `<b>🐢 The Slow and Steady Turtle</b><br><br>
+<audio controls style='width:100%;margin-bottom:16px;'>
+  <source src="story-audio/story8.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br>
+Once upon a time, a turtle named Taro wanted to win the forest race. All the animals laughed because he was so slow.<br><br>
+But Taro didn’t give up. He practiced every day, moving step by step.<br><br>
+On the race day, the fast animals rushed ahead but soon got tired or distracted.<br><br>
+Taro kept going steadily and won the race.<br><br>
+Everyone cheered, learning that patience and persistence can lead to success.`;
+  }
+}
+document.getElementById('storiesBtn').onclick = openStoriesModal;
+  </script>
+</body>
+</html>
