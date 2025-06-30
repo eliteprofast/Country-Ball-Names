@@ -159,6 +159,8 @@
     <a href="english-reading-system.html" style="background:rgba(255,255,255,0.12);border-radius:12px;">English Reading</a>
     <button id="storiesBtn" style="margin-left:auto;margin-right:24px;padding:8px 22px;font-size:1em;font-weight:600;background:#6366f1;color:#fff;border:none;border-radius:10px;box-shadow:0 2px 8px #6366f133;cursor:pointer;transition:background 0.2s;">Stories</button>
   </nav>
+  <div id="greeting" style="margin-top:70px;font-size:1.2em;font-weight:600;color:#6366f1;"></div>
+  <div id="coinDisplay" style="position:fixed;top:10px;right:24px;z-index:1100;font-size:18px;color:#f59e42;font-weight:600;letter-spacing:0.5px;background:#fff8;backdrop-filter:blur(2px);padding:6px 18px 6px 14px;border-radius:18px;box-shadow:0 2px 8px #10b98122;">Coins: <span id="coinCount">0</span></div>
   <div class="container">
     <h1>About English Reading System</h1>
     <div id="about">
@@ -195,14 +197,23 @@
 function openStoriesModal() {
   document.getElementById('storiesModal').style.display = 'flex';
   const list = document.getElementById('storiesList');
+  // Load read stories from localStorage
+  let readStories = JSON.parse(localStorage.getItem('readStories') || '[]');
   if (!list.dataset.loaded) {
     let html = '<ul style="padding-left:0;list-style:none;margin:0;">';
     for (let i = 1; i <= 10; i++) {
-      html += `<li style='margin-bottom:8px;'><a href="#" class='story-link' data-story='${i}' style='color:#6366f1;text-decoration:underline;font-size:1.08em;'>Story ${i}</a></li>`;
+      let check = readStories.includes(i) ? '✅ ' : '';
+      html += `<li style='margin-bottom:8px;'><a href="#" class='story-link' data-story='${i}' style='color:#6366f1;text-decoration:underline;font-size:1.08em;'>${check}Story ${i}</a></li>`;
     }
     html += '</ul>';
     list.innerHTML = html;
     list.dataset.loaded = '1';
+  } else {
+    // Update checkmarks if already loaded
+    document.querySelectorAll('.story-link').forEach(link => {
+      let num = parseInt(link.dataset.story);
+      link.innerHTML = (readStories.includes(num) ? '✅ ' : '') + `Story ${num}`;
+    });
   }
   // Attach click handlers for all story links
   setTimeout(() => {
@@ -222,6 +233,22 @@ function openStoryContentModal(storyNum) {
   document.getElementById('storyContentModal').style.display = 'flex';
   document.getElementById('storyTitle').textContent = `Story ${storyNum}`;
   document.getElementById('storyText').innerHTML = getStoryText(storyNum);
+  // Mark as read and update coins
+  let readStories = JSON.parse(localStorage.getItem('readStories') || '[]');
+  storyNum = parseInt(storyNum);
+  if (!readStories.includes(storyNum)) {
+    readStories.push(storyNum);
+    localStorage.setItem('readStories', JSON.stringify(readStories));
+    // Add coin for new story
+    let coins = parseInt(localStorage.getItem('coins') || '0');
+    coins++;
+    localStorage.setItem('coins', coins);
+    updateCoinDisplay();
+  }
+  // Update checkmarks in story list
+  if (document.getElementById('storiesList').dataset.loaded) {
+    document.getElementById('storiesList').dataset.loaded = '';
+  }
 }
 function closeStoryContentModal() {
   document.getElementById('storyContentModal').style.display = 'none';
@@ -374,6 +401,30 @@ She no longer needed to rewind time… because she had learned how to use her ti
   }
 }
 document.getElementById('storiesBtn').onclick = openStoriesModal;
+
+function updateCoinDisplay() {
+  let coins = parseInt(localStorage.getItem('coins') || '0');
+  let el = document.getElementById('coinCount');
+  if (el) el.textContent = coins;
+}
+
+function askName() {
+  let name = localStorage.getItem('username');
+  if (!name) {
+    name = prompt('What is your name?');
+    if (name) localStorage.setItem('username', name);
+  }
+  return name || '';
+}
+
+function showGreeting() {
+  let name = askName();
+  let greet = document.getElementById('greeting');
+  if (greet) greet.textContent = name ? `Welcome, ${name}!` : '';
+}
+
+showGreeting();
+updateCoinDisplay();
   </script>
 </body>
 </html>
