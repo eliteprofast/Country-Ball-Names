@@ -49,6 +49,19 @@
 </head>
 <body>
 
+  <nav style="width:100vw;position:fixed;top:0;left:0;z-index:1000;background:#10b981;color:#fff;box-shadow:0 2px 8px #10b98122;display:flex;align-items:center;justify-content:center;height:54px;">
+    <a href="index.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Country Name Hunt</a>
+    <a href="logo-guess.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Logo Guess Game</a>
+    <a href="maths-learning-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Maths Learning Game</a>
+    <a href="english-reading-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">English Reading</a>
+    <a href="Rock-Paper-Scissors.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Rock Paper Scissors</a>
+  </nav>
+  <div style="height:54px;"></div>
+
+  <div id="coinDisplayTopLeft" style="position:fixed;top:24px;left:24px;z-index:2000;font-size:18px;color:#f59e42;font-weight:600;letter-spacing:0.5px;background:#fff8;backdrop-filter:blur(2px);padding:6px 18px 6px 14px;border-radius:18px;box-shadow:0 2px 8px #10b98122;">
+    Coins: <span id="coinCountTopLeft">0</span>
+  </div>
+
   <h1>🎮 Rock, Paper, Scissors</h1>
   <p>Choose your move:</p>
 
@@ -62,10 +75,32 @@
   <script>
     let playerScore = 0;
     let computerScore = 0;
+    let lastComputerChoice = null;
+    // Coin logic
+    let coins = Number(localStorage.getItem('coins') || 0);
+
+    function updateCoinsDisplay() {
+      var coinCountTopLeft = document.getElementById('coinCountTopLeft');
+      if (coinCountTopLeft) {
+        coinCountTopLeft.textContent = coins;
+      }
+      localStorage.setItem('coins', coins);
+    }
+
+    function getRandomComputerChoice() {
+      const choices = ['rock', 'paper', 'scissors'];
+      let availableChoices = choices;
+      if (lastComputerChoice !== null) {
+        // Remove last choice to avoid repeat
+        availableChoices = choices.filter(choice => choice !== lastComputerChoice);
+      }
+      const pick = availableChoices[Math.floor(Math.random() * availableChoices.length)];
+      lastComputerChoice = pick;
+      return pick;
+    }
 
     function play(playerChoice) {
-      const choices = ['rock', 'paper', 'scissors'];
-      const computerChoice = choices[Math.floor(Math.random() * 3)];
+      const computerChoice = getRandomComputerChoice();
 
       let result = '';
       if (playerChoice === computerChoice) {
@@ -77,6 +112,8 @@
       ) {
         result = "You win!";
         playerScore++;
+        coins++;
+        updateCoinsDisplay();
       } else {
         result = "You lose!";
         computerScore++;
@@ -98,6 +135,11 @@
         resultDiv.style.opacity = 0;
       }, 2000);
     }
+
+    // On page load, sync the coin display
+    window.addEventListener('DOMContentLoaded', function () {
+      updateCoinsDisplay();
+    });
   </script>
 
 </body>
