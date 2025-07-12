@@ -44,7 +44,18 @@
     </style>
 </head>
 
-<body>
+<body class="bg-light d-flex flex-column min-vh-100">
+  <nav style="width:100vw;position:fixed;top:0;left:0;z-index:1000;background:#10b981;color:#fff;box-shadow:0 2px 8px #10b98122;display:flex;align-items:center;justify-content:center;height:54px;">
+    <a href="index.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Country Name Hunt</a>
+    <a href="logo-guess.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Logo Guess Game</a>
+    <a href="maths-learning-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Maths Learning Game</a>
+    <a href="english-reading-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">English Reading</a>
+    <a href="Rock-Paper-Scissors.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Rock Paper Scissors</a>
+  </nav>
+  <div id="coinDisplayTopLeft" style="position:fixed;top:64px;left:24px;z-index:2000;font-size:18px;color:#f59e42;font-weight:600;letter-spacing:0.5px;background:#fff8;backdrop-filter:blur(2px);padding:6px 18px 6px 14px;border-radius:18px;box-shadow:0 2px 8px #10b98122;">
+    Coins: <span id="coinCountTopLeft">0</span>
+  </div>
+  <div style="height:54px;"></div>
     <button id="stickerLibraryBtn"
         style="position:absolute;top:18px;right:18px;background:#fffbe6;color:#10b981;font-weight:bold;border:2px solid #10b981;border-radius:18px;padding:8px 18px;box-shadow:0 2px 8px #f59e4222;cursor:pointer;z-index:10;">Your-Sticker-Library</button>
 
@@ -107,6 +118,11 @@
         function updateCoins() {
             document.getElementById('coinCount').textContent = coins;
             localStorage.setItem('mathCoins', coins);
+            // Also update the top left coin display if it exists
+            var coinCountTopLeft = document.getElementById('coinCountTopLeft');
+            if (coinCountTopLeft) {
+                coinCountTopLeft.textContent = coins;
+            }
         }
 
         function generateQuestion() {
@@ -304,6 +320,13 @@
 
 
 
+        // On page load, sync the top left coin display
+        window.addEventListener('DOMContentLoaded', function () {
+            var coinCountTopLeft = document.getElementById('coinCountTopLeft');
+            if (coinCountTopLeft) {
+                coinCountTopLeft.textContent = coins;
+            }
+        });
         generateQuestion();
     </script>
 </body>

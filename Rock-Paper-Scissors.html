@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock, Paper, Scissors</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #eef2f3;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #333;
+    }
+
+    button {
+      font-size: 18px;
+      margin: 10px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #result {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: bold;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+
+    #score {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎮 Rock, Paper, Scissors</h1>
+  <p>Choose your move:</p>
+
+  <button onclick="play('rock')">🪨 Rock</button>
+  <button onclick="play('paper')">📄 Paper</button>
+  <button onclick="play('scissors')">✂️ Scissors</button>
+
+  <div id="result"></div>
+  <div id="score">You: 0 | Computer: 0</div>
+
+  <script>
+    let playerScore = 0;
+    let computerScore = 0;
+
+    function play(playerChoice) {
+      const choices = ['rock', 'paper', 'scissors'];
+      const computerChoice = choices[Math.floor(Math.random() * 3)];
+
+      let result = '';
+      if (playerChoice === computerChoice) {
+        result = "It's a tie!";
+      } else if (
+        (playerChoice === 'rock' && computerChoice === 'scissors') ||
+        (playerChoice === 'paper' && computerChoice === 'rock') ||
+        (playerChoice === 'scissors' && computerChoice === 'paper')
+      ) {
+        result = "You win!";
+        playerScore++;
+      } else {
+        result = "You lose!";
+        computerScore++;
+      }
+
+      const resultDiv = document.getElementById('result');
+      resultDiv.style.opacity = 1;
+      resultDiv.innerHTML = `
+        You chose <strong>${playerChoice}</strong><br>
+        Computer chose <strong>${computerChoice}</strong><br>
+        <span>${result}</span>
+      `;
+
+      // Update score
+      document.getElementById('score').innerText = `You: ${playerScore} | Computer: ${computerScore}`;
+
+      // Fade out after 2 seconds
+      setTimeout(() => {
+        resultDiv.style.opacity = 0;
+      }, 2000);
+    }
+  </script>
+
+</body>
+</html>
