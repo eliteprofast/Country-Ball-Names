@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dragon Type - Typing Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    nav {
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      background: #10b981;
+      color: #fff;
+      box-shadow: 0 2px 8px #10b98122;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 54px;
+    }
+    nav a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1em;
+      text-decoration: none;
+      padding: 0 24px;
+      transition: background 0.2s;
+    }
+    .container {
+      margin-top: 80px;
+      max-width: 700px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px #6366f133;
+      padding: 32px 24px 40px 24px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      color: #6366f1;
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 18px;
+      letter-spacing: 1px;
+    }
+    #storyText {
+      font-size: 1.18em;
+      color: #333;
+      background: #f8fafc;
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 18px;
+      min-height: 80px;
+      text-align: left;
+      line-height: 1.7;
+      letter-spacing: 0.2px;
+      user-select: none;
+    }
+    #typingInput {
+      width: 100%;
+      font-size: 1.18em;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1.5px solid #b3b3b3;
+      outline: none;
+      margin-bottom: 18px;
+      box-sizing: border-box;
+    }
+    #typingInput:focus {
+      border: 1.5px solid #6366f1;
+      box-shadow: 0 0 0 2px #6366f133;
+    }
+    #result {
+      font-size: 1.1em;
+      font-weight: 600;
+      margin-bottom: 12px;
+      min-height: 24px;
+    }
+    #nextBtn {
+      background: #10b981;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 28px;
+      font-size: 1.1em;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 12px auto 0 auto;
+      box-shadow: 0 2px 8px #10b98122;
+      display: block;
+      outline: none;
+      position: relative;
+      z-index: 10;
+    }
+    #nextBtn:active {
+      background: #059669;
+    }
+    #nextBtn:focus {
+      box-shadow: 0 0 0 3px #10b98166;
+    }
+    #nextBtn:hover {
+      background: #059669;
+      box-shadow: 0 4px 16px #10b98133;
+    }
+    #nextBtn.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #nextBtn:active {
+      background: #059669;
+    }
+
+    #startTimerBtn {
+      display:none;
+      margin-left:18px;
+      padding:10px 28px;
+      font-size:1.1em;
+      border-radius:8px;
+      background:#6366f1;
+      color:#fff;
+      font-weight:700;
+      border:none;
+      box-shadow:0 2px 8px #6366f133;
+      cursor:pointer;
+      transition: background 0.2s, opacity 0.3s, box-shadow 0.2s;
+      opacity: 0;
+      pointer-events: none;
+      outline: none;
+    }
+    #startTimerBtn.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #startTimerBtn:active {
+      background: #4338ca;
+    }
+    #startTimerBtn:focus {
+      box-shadow: 0 0 0 3px #6366f199;
+    }
+    #startTimerBtn:hover {
+      background: #4338ca;
+      box-shadow: 0 4px 16px #6366f133;
+    }
+    #startTimerBtn.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #startTimerBtn:active {
+      background: #4338ca;
+    }
+    #progress {
+      margin-bottom: 10px;
+      color: #6366f1;
+      font-size: 1em;
+      font-weight: 500;
+    }
+    .correct {
+      color: #10b981;
+    }
+    .incorrect {
+      color: #ef4444;
+      background: #fee2e2;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Country Name Hunt</a>
+    <a href="logo-guess.html">Logo Guess Game</a>
+    <a href="maths-learning-system.html">Maths Learning Game</a>
+    <a href="english-reading-system.html">English Reading</a>
+    <a href="Rock-Paper-Scissors.html">Rock Paper Scissors</a>
+    <a href="DragonType.html" style="background:rgba(255,255,255,0.12);border-radius:12px;">Dragon Type</a>
+  </nav>
+  <div style="height:54px;"></div>
+  <div style="margin-bottom:18px;">
+    <label for="bgColorSelect" style="font-weight:600;color:#6366f1;">Background:</label>
+    <select id="bgColorSelect" style="font-size:1em;padding:4px 10px;border-radius:6px;margin-left:8px;">
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="purple">Purple</option>
+      <option value="pink">Pink</option>
+      <option value="red">Red</option>
+      <option value="orange">Orange</option>
+      <option value="gray">Gray</option>
+      <option value="black">Black</option>
+      <option value="white">White</option>
+      <option value="gradient">Gradient</option>   
+    </select>
+  </div>
+  <div id="modeOptions" style="margin:32px auto 0 auto;max-width:700px;text-align:center;">
+    <label style="font-weight:600;color:#6366f1;margin-right:12px;">Mode:</label>
+    <span id="wordsSettings" style="display:inline-block;margin-left:18px;">
+      <label for="wordsCountInput" style="font-weight:500;color:#6366f1;">Words:</label>
+      <input id="wordsCountInput" type="number" min="1" max="50" value="1" style="width:50px;font-size:1em;padding:2px 6px;border-radius:5px;border:1px solid #b3b3b3;">
+    </span>
+  </div>
+  <div class="container">
+    <h1>Dragon Type - Typing Game</h1>
+    <div id="progress"></div>
+    <div id="storyText"></div>
+    <input id="typingInput" type="text" placeholder="Start typing here..." autocomplete="off" autofocus />
+    <div id="result"></div>
+    <button id="nextBtn" style="display:block;">Next</button>
+    <div id="wpmNotification" style="position:fixed;top:20px;right:30px;z-index:3000;min-width:120px;padding:12px 24px;background:#6366f1;color:#fff;font-weight:700;font-size:1.1em;border-radius:12px;box-shadow:0 2px 8px #6366f133;display:none;transition:opacity 0.4s;opacity:0;"></div>
+    <div id="accuracyNotification" style="position:fixed;top:60px;right:30px;z-index:3000;min-width:120px;padding:10px 22px;background:#10b981;color:#fff;font-weight:600;font-size:1em;border-radius:10px;box-shadow:0 2px 8px #10b98133;display:none;transition:opacity 0.4s;opacity:0;"></div>
+  </div>
+  <button id="refreshBtn" style="position:fixed;left:24px;bottom:24px;z-index:2000;padding:12px 28px;font-size:1.1em;font-weight:700;background:#6366f1;color:#fff;border:none;border-radius:14px;box-shadow:0 2px 8px #6366f133;cursor:pointer;">⟳ Refresh</button>
+  <script>
+    // ...existing code...
+
+    // Enter key triggers Next and shows WPM/accuracy
+    document.getElementById('typingInput').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        const input = this.value;
+        const target = currentStory;
+        const cleanInput = removePunctuationAndCase(input);
+        const cleanTarget = removePunctuationAndCase(target);
+        if (cleanInput.length === cleanTarget.length && cleanInput.length > 0) {
+          showResultAndNext();
+          e.preventDefault();
+        }
+      }
+    });
+    // Background color switcher
+    const select = document.getElementById('bgColorSelect');
+    // Restore saved color
+    const savedColor = localStorage.getItem('dragonTypeBgColor');
+    const savedCustom = localStorage.getItem('dragonTypeBgCustom');
+    if (savedColor) {
+      select.value = savedColor;
+      applyBgColor(savedColor, savedCustom);
+    }
+    select.addEventListener('change', function() {
+      localStorage.setItem('dragonTypeBgColor', this.value);
+      if (this.value === 'custom') {
+        let color = prompt('Enter a CSS color or gradient (e.g., #123456 or linear-gradient(...)):', savedCustom || '');
+        if (color) {
+          localStorage.setItem('dragonTypeBgCustom', color);
+          applyBgColor('custom', color);
+        }
+      } else {
+        applyBgColor(this.value);
+      }
+    });
+    function applyBgColor(value, custom) {
+      switch (value) {
+        case 'yellow':
+          document.body.style.background = 'linear-gradient(135deg, #fffbe0 0%, #fffde7 100%)';
+          break;
+        case 'green':
+          document.body.style.background = 'linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%)';
+          break;
+        case 'blue':
+          document.body.style.background = 'linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%)';
+          break;
+        case 'purple':
+          document.body.style.background = 'linear-gradient(135deg, #ede9fe 0%, #c7d2fe 100%)';
+          break;
+        case 'pink':
+          document.body.style.background = 'linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%)';
+          break;
+        case 'red':
+          document.body.style.background = 'linear-gradient(135deg, #fee2e2 0%, #fecaca 100%)';
+          break;
+        case 'orange':
+          document.body.style.background = 'linear-gradient(135deg, #ffedd5 0%, #fdba74 100%)';
+          break;
+        case 'gray':
+          document.body.style.background = 'linear-gradient(135deg, #f3f4f6 0%, #d1d5db 100%)';
+          break;
+        case 'black':
+          document.body.style.background = '#18181b';
+          break;
+        case 'white':
+          document.body.style.background = '#fff';
+          break;
+        case 'gradient':
+          document.body.style.background = 'linear-gradient(135deg, #f472b6 0%, #6366f1 50%, #10b981 100%)';
+          break;
+        case 'custom':
+          if (custom) {
+            document.body.style.background = custom;
+          }
+          break;
+      }
+    }
+
+    // Example stories/poems. You can add as many as you want, or fetch from an API for unlimited content.
+    // Local fallback stories
+    const localStories = [
+      "The quick brown fox jumps over the lazy dog.",
+      "Once upon a time, in a land far away, there lived a dragon who loved to read.",
+      "Roses are red, violets are blue, typing is fun, and so are you!",
+      "In the heart of the forest, the wind whispered secrets to the trees.",
+      "To be, or not to be, that is the question.",
+      "A journey of a thousand miles begins with a single step.",
+      "Twinkle, twinkle, little star, how I wonder what you are.",
+      "The rain in Spain stays mainly in the plain.",
+      "Practice makes perfect, and patience brings reward.",
+      "Coding is like poetry, every line has a rhythm."
+      // ... (add more if desired)
+    ];
+
+    let currentStory = '';
+let wordsCount = 1;
+let wordsList = [];
+let wordIndex = 0;
+let startTime = null;
+
+    async function showStory() {
+      document.getElementById('typingInput').value = '';
+      document.getElementById('typingInput').disabled = false;
+      // Do not clear result here, let it show for a moment after completion
+      document.getElementById('progress').textContent = '';
+      document.getElementById('typingInput').focus();
+      // Always show at least one word
+      wordsList = [];
+      wordIndex = 0;
+      let n = Math.max(1, wordsCount);
+      for (let i = 0; i < n; i++) {
+        // eslint-disable-next-line no-await-in-loop
+        wordsList.push(await fetchRandomWord());
+      }
+      currentStory = wordsList.join(' ');
+      document.getElementById('storyText').innerHTML = highlightText(currentStory, '');
+      updateWordsProgress();
+      // Enable Next button if input is empty (for first word)
+      const nextBtn = document.getElementById('nextBtn');
+      nextBtn.disabled = true;
+      nextBtn.style.visibility = 'hidden';
+      startTime = Date.now();
+    }
+
+    function updateWordsProgress() {
+      if (wordsList.length > 1) {
+        if (wordsCount >= 2) {
+          const shown = Math.min(wordIndex + wordsCount, wordsList.length);
+          document.getElementById('progress').textContent = `Words ${wordIndex + 1}-${shown} of ${wordsList.length}`;
+        } else {
+          document.getElementById('progress').textContent = `Word ${wordIndex + 1} of ${wordsList.length}`;
+        }
+      } else {
+        document.getElementById('progress').textContent = '';
+      }
+    }
+
+    // Fetch a random word from an API, fallback to local
+    async function fetchRandomWord() {
+      try {
+        const res = await fetch('https://random-word-api.herokuapp.com/word');
+        if (res.ok) {
+          const data = await res.json();
+          return data[0];
+        }
+      } catch (e) {}
+      // Fallback to local words
+      const localWords = ["dragon", "type", "keyboard", "adventure", "magic", "forest", "castle", "quest", "legend", "hero", "story", "fire", "wind", "sky", "moon", "star", "river", "mountain", "dream", "wisdom"];
+      return localWords[Math.floor(Math.random() * localWords.length)];
+    }
+
+    // Fetch a random story from an API, fallback to local
+    async function fetchRandomStory() {
+      try {
+        // Example API: Quotable (quotes), can be replaced with a story API
+        const res = await fetch('https://api.quotable.io/random');
+        if (res.ok) {
+          const data = await res.json();
+          return data.content;
+        }
+      } catch (e) {}
+      // Fallback to local stories
+      return localStories[Math.floor(Math.random() * localStories.length)];
+    }
+
+    // Remove punctuation helper
+    function removePunctuationAndCase(str) {
+      return str
+        .replace(/[.,!?;:'"\-—()\[\]{}<>`~@#$%^&*_+=|\\/]/g, '')
+        .replace(/\s+/g, ' ')
+        .toLowerCase()
+        .trim();
+    }
+
+    function highlightText(text, input) {
+      // Remove punctuation and make lowercase for comparison and display
+      const cleanText = removePunctuationAndCase(text);
+      const cleanInput = removePunctuationAndCase(input);
+      let out = '';
+      for (let i = 0; i < cleanText.length; i++) {
+        if (i < cleanInput.length) {
+          if (cleanText[i] === cleanInput[i]) {
+            out += `<span class='correct'>${cleanText[i]}</span>`;
+          } else {
+            out += `<span class='incorrect'>${cleanText[i]}</span>`;
+          }
+        } else {
+          out += cleanText[i];
+        }
+      }
+      return out;
+    }
+
+    const nextBtn = document.getElementById('nextBtn');
+nextBtn.addEventListener('click', function() {
+  showResultAndNext();
+});
+// Show WPM and accuracy below input after each completion
+function showResultAndNext() {
+  const input = document.getElementById('typingInput').value;
+  const target = currentStory;
+  const now = Date.now();
+  let wpm = 0;
+  let accuracy = 100;
+  if (startTime) {
+    const elapsed = (now - startTime) / 1000 / 60; // minutes
+    const wordCount = removePunctuationAndCase(target).split(' ').filter(Boolean).length;
+    if (elapsed > 0) {
+      wpm = Math.round(wordCount / elapsed);
+    } else {
+      wpm = wordCount;
+    }
+    if (!isFinite(wpm) || isNaN(wpm)) wpm = wordCount;
+  }
+  accuracy = calculateAccuracy(input, target);
+  document.getElementById('result').innerHTML = `<span style="color:#6366f1;font-weight:700;">WPM:</span> ${wpm} &nbsp; <span style="color:#10b981;font-weight:700;">Accuracy:</span> ${accuracy}%`;
+  setTimeout(() => {
+    document.getElementById('result').textContent = '';
+  }, 1500);
+  nextStory();
+}
+
+    document.getElementById('typingInput').addEventListener('input', function() {
+      const input = this.value;
+      const target = currentStory;
+      document.getElementById('storyText').innerHTML = highlightText(target, input);
+      // Multi-word mode, show N at a time if wordsCount >= 2
+      const cleanInput = removePunctuationAndCase(input);
+      const cleanTarget = removePunctuationAndCase(target);
+      // Ignore mistakes: as long as input length matches target, allow Next
+      if (cleanInput.length === cleanTarget.length && cleanInput.length > 0) {
+        nextBtn.disabled = false;
+        nextBtn.style.visibility = 'visible';
+      } else {
+        nextBtn.disabled = true;
+        nextBtn.style.visibility = 'hidden';
+      }
+      document.getElementById('result').textContent = '';
+      updateWordsProgress();
+    });
+    // Show WPM notification at top right
+    function showWPMNotification(wpm) {
+      const notif = document.getElementById('wpmNotification');
+      notif.textContent = `WPM: ${wpm}`;
+      notif.style.display = 'block';
+      setTimeout(() => { notif.style.opacity = '1'; }, 10);
+      setTimeout(() => {
+        notif.style.opacity = '0';
+        setTimeout(() => { notif.style.display = 'none'; }, 500);
+      }, 2500);
+    }
+
+    // Show accuracy notification below WPM
+    function showAccuracyNotification(accuracy) {
+      const notif = document.getElementById('accuracyNotification');
+      notif.textContent = `Accuracy: ${accuracy}%`;
+      notif.style.display = 'block';
+      setTimeout(() => { notif.style.opacity = '1'; }, 10);
+      setTimeout(() => {
+        notif.style.opacity = '0';
+        setTimeout(() => { notif.style.display = 'none'; }, 500);
+      }, 2500);
+    }
+
+    // Calculate accuracy as percentage of correct chars in input vs target
+    function calculateAccuracy(input, target) {
+      const cleanInput = removePunctuationAndCase(input);
+      const cleanTarget = removePunctuationAndCase(target);
+      let correct = 0;
+      for (let i = 0; i < cleanTarget.length; i++) {
+        if (cleanInput[i] === cleanTarget[i]) correct++;
+      }
+      const acc = cleanTarget.length > 0 ? Math.round((correct / cleanTarget.length) * 100) : 100;
+      return acc;
+    }
+
+    async function nextStory() {
+      currentStory = '';
+      await showStory();
+    }
+
+    document.getElementById('wordsCountInput').addEventListener('input', function() {
+      wordsCount = Math.max(1, Math.min(50, parseInt(this.value) || 1));
+      nextStory();
+    });
+
+    // Initialize wordsCount from input
+    wordsCount = Math.max(1, Math.min(50, parseInt(document.getElementById('wordsCountInput').value) || 1));
+
+    // Start with a random story
+    currentStory = '';
+    showStory();
+
+    document.getElementById('refreshBtn').addEventListener('click', function() {
+      location.reload();
+    });
+  </script>
+</body>
+</html>
