@@ -6,170 +6,146 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
+      background: #000 !important;
+      color: #a259f7 !important;
+      font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'monospace' !important;
       min-height: 100vh;
       margin: 0;
       padding: 0;
-      text-align: center;
-    }
-    nav {
-      width: 100vw;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-      background: #10b981;
-      color: #fff;
-      box-shadow: 0 2px 8px #10b98122;
       display: flex;
-      align-items: center;
+      flex-direction: column;
       justify-content: center;
-      height: 54px;
+      align-items: center;
+      height: 100vh;
     }
-    nav a {
-      color: #fff;
-      font-weight: bold;
-      font-size: 1.1em;
-      text-decoration: none;
-      padding: 0 24px;
-      transition: background 0.2s;
+    #bgColorSelect, #modeOptions, #refreshBtn, #wpmNotification, #accuracyNotification {
+      display: none !important;
     }
     .container {
-      margin-top: 80px;
-      max-width: 700px;
-      background: #fff;
-      border-radius: 18px;
-      box-shadow: 0 6px 32px #6366f133;
-      padding: 32px 24px 40px 24px;
-      margin-left: auto;
-      margin-right: auto;
+      background: none !important;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      max-width: none !important;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     h1 {
-      color: #6366f1;
-      font-size: 2.2rem;
-      font-weight: 800;
-      margin-bottom: 18px;
-      letter-spacing: 1px;
+      color: #a259f7 !important;
+      font-size: 1.2em !important;
+      font-family: inherit !important;
+      font-weight: 700;
+      margin-bottom: 24px;
+      letter-spacing: 2px;
+      text-transform: lowercase;
+      text-align: center;
+    }
+    #progress {
+      color: #a259f7 !important;
+      font-size: 1em;
+      font-family: inherit;
+      margin-bottom: 24px;
+      text-align: center;
     }
     #storyText {
-      font-size: 1.18em;
-      color: #333;
-      background: #f8fafc;
-      border-radius: 10px;
-      padding: 18px;
-      margin-bottom: 18px;
-      min-height: 80px;
-      text-align: left;
-      line-height: 1.7;
-      letter-spacing: 0.2px;
+      font-size: 2.5em !important;
+      color: #a259f7 !important;
+      background: none !important;
+      border-radius: 0 !important;
+      padding: 0 !important;
+      margin-bottom: 40px !important;
+      min-height: 0 !important;
+      text-align: center !important;
+      line-height: 1.2;
+      letter-spacing: 2px;
+      font-family: inherit;
       user-select: none;
     }
     #typingInput {
-      width: 100%;
-      font-size: 1.18em;
-      padding: 12px;
-      border-radius: 8px;
-      border: 1.5px solid #b3b3b3;
-      outline: none;
-      margin-bottom: 18px;
-      box-sizing: border-box;
+      width: 60vw !important;
+      max-width: 700px;
+      font-size: 2.5em !important;
+      padding: 0.1em 0.2em !important;
+      border: none !important;
+      border-bottom: 2px solid #a259f7 !important;
+      background: transparent !important;
+      color: #a259f7 !important;
+      outline: none !important;
+      margin-bottom: 32px !important;
+      font-family: inherit !important;
+      text-align: center;
+      box-shadow: none !important;
+      border-radius: 0 !important;
     }
     #typingInput:focus {
-      border: 1.5px solid #6366f1;
-      box-shadow: 0 0 0 2px #6366f133;
+      border-bottom: 2px solid #fff !important;
+      color: #fff !important;
     }
     #result {
-      font-size: 1.1em;
-      font-weight: 600;
-      margin-bottom: 12px;
-      min-height: 24px;
+      font-size: 1.5em !important;
+      font-weight: 700;
+      color: #a259f7 !important;
+      min-height: 32px;
+      margin-bottom: 24px;
+      text-align: center;
+      font-family: inherit;
     }
     #nextBtn {
-      background: #10b981;
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      padding: 10px 28px;
-      font-size: 1.1em;
+      background: none !important;
+      color: #a259f7 !important;
+      border: 2px solid #a259f7 !important;
+      border-radius: 0 !important;
+      padding: 0.5em 2em !important;
+      font-size: 1.5em !important;
+      font-family: inherit !important;
       font-weight: 700;
       cursor: pointer;
-      margin: 12px auto 0 auto;
-      box-shadow: 0 2px 8px #10b98122;
+      margin: 0 auto 0 auto !important;
+      box-shadow: none !important;
+      outline: none !important;
+      transition: background 0.2s, color 0.2s;
       display: block;
-      outline: none;
-      position: relative;
       z-index: 10;
     }
-    #nextBtn:active {
-      background: #059669;
-    }
-    #nextBtn:focus {
-      box-shadow: 0 0 0 3px #10b98166;
-    }
-    #nextBtn:hover {
-      background: #059669;
-      box-shadow: 0 4px 16px #10b98133;
-    }
-    #nextBtn.visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #nextBtn:active {
-      background: #059669;
-    }
-
-    #startTimerBtn {
-      display:none;
-      margin-left:18px;
-      padding:10px 28px;
-      font-size:1.1em;
-      border-radius:8px;
-      background:#6366f1;
-      color:#fff;
-      font-weight:700;
-      border:none;
-      box-shadow:0 2px 8px #6366f133;
-      cursor:pointer;
-      transition: background 0.2s, opacity 0.3s, box-shadow 0.2s;
-      opacity: 0;
-      pointer-events: none;
-      outline: none;
-    }
-    #startTimerBtn.visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #startTimerBtn:active {
-      background: #4338ca;
-    }
-    #startTimerBtn:focus {
-      box-shadow: 0 0 0 3px #6366f199;
-    }
-    #startTimerBtn:hover {
-      background: #4338ca;
-      box-shadow: 0 4px 16px #6366f133;
-    }
-    #startTimerBtn.visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #startTimerBtn:active {
-      background: #4338ca;
-    }
-    #progress {
-      margin-bottom: 10px;
-      color: #6366f1;
-      font-size: 1em;
-      font-weight: 500;
+    #nextBtn:focus, #nextBtn:hover {
+      background: #a259f7 !important;
+      color: #000 !important;
+      border-color: #fff !important;
     }
     .correct {
-      color: #10b981;
+      color: #fff !important;
+      font-weight: bold;
     }
     .incorrect {
-      color: #ef4444;
-      background: #fee2e2;
-      border-radius: 4px;
+      color: #a259f7 !important;
+      background: none !important;
+      border-radius: 0 !important;
+      text-decoration: underline wavy #a259f7;
+    }
+    .current-correct {
+      color: #fff !important;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .current-incorrect {
+      color: #ff3c7d !important;
+      font-weight: bold;
+      text-decoration: underline wavy #ff3c7d;
+    }
+    .current-rest {
+      color: #bdbdbd !important;
+      opacity: 0.5;
+    }
+    .other-word {
+      color: #a259f7 !important;
+      font-family: inherit;
+      opacity: 1;
+      margin: 0 0.25em;
+      letter-spacing: 2px;
     }
   </style>
 </head>
@@ -396,19 +372,30 @@ let startedTyping = false;
     }
 
     function highlightText(text, input) {
-      // Remove punctuation and make lowercase for comparison and display
-      const cleanText = removePunctuationAndCase(text);
-      const cleanInput = removePunctuationAndCase(input);
+      // Split into words for per-word highlighting
+      const words = text.split(' ');
+      const inputWords = input.split(' ');
       let out = '';
-      for (let i = 0; i < cleanText.length; i++) {
-        if (i < cleanInput.length) {
-          if (cleanText[i] === cleanInput[i]) {
-            out += `<span class='correct'>${cleanText[i]}</span>`;
-          } else {
-            out += `<span class='incorrect'>${cleanText[i]}</span>`;
+      for (let w = 0; w < words.length; w++) {
+        const word = words[w];
+        const inputWord = inputWords[w] || '';
+        if (w > 0) out += '  ';
+        if (w === inputWords.length - 1) {
+          // Current word: highlight letter by letter
+          for (let i = 0; i < word.length; i++) {
+            if (i < inputWord.length) {
+              if (word[i] === inputWord[i]) {
+                out += `<span class='current-correct'>${word[i]}</span>`;
+              } else {
+                out += `<span class='current-incorrect'>${word[i]}</span>`;
+              }
+            } else {
+              out += `<span class='current-rest'>${word[i]}</span>`;
+            }
           }
         } else {
-          out += cleanText[i];
+          // Previous/next words: all purple
+          out += `<span class='other-word'>${word}</span>`;
         }
       }
       return out;
