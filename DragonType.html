@@ -318,6 +318,7 @@ let wordsCount = 1;
 let wordsList = [];
 let wordIndex = 0;
 let startTime = null;
+let startedTyping = false;
 
     async function showStory() {
       document.getElementById('typingInput').value = '';
@@ -340,7 +341,8 @@ let startTime = null;
       const nextBtn = document.getElementById('nextBtn');
       nextBtn.disabled = true;
       nextBtn.style.visibility = 'hidden';
-      startTime = Date.now();
+      startTime = null;
+      startedTyping = false;
     }
 
     function updateWordsProgress() {
@@ -426,8 +428,11 @@ function showResultAndNext() {
   if (startTime) {
     const elapsed = (now - startTime) / 1000 / 60; // minutes
     const wordCount = removePunctuationAndCase(target).split(' ').filter(Boolean).length;
-    if (elapsed > 0) {
-      wpm = Math.round(wordCount / elapsed);
+    // If elapsed is less than 2 seconds, show a minimum WPM
+    if (elapsed < (2 / 60)) {
+      wpm = Math.max(60, Math.floor(wordCount / Math.max(elapsed, 0.01)));
+    } else if (elapsed > 0) {
+      wpm = Math.floor(wordCount / elapsed);
     } else {
       wpm = wordCount;
     }
@@ -458,6 +463,11 @@ function showResultAndNext() {
       }
       document.getElementById('result').textContent = '';
       updateWordsProgress();
+      // Start timer on first keypress (first non-empty input)
+      if (!startedTyping && input.length === 1) {
+        startTime = Date.now();
+        startedTyping = true;
+      }
     });
     // Show WPM notification at top right
     function showWPMNotification(wpm) {
