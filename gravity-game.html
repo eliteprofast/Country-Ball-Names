@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jetpack Cooldown Game</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+      font-family: 'Courier New', monospace;
+    }
+
+    #score, #keybinds, #jetpackMsg {
+      position: absolute;
+      color: #0f0;
+      font-size: 18px;
+      text-shadow: 0 0 5px lime;
+    }
+
+    #score {
+      top: 10px;
+      left: 10px;
+    }
+
+    #keybinds {
+      top: 50px;
+      left: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border: 1px solid lime;
+      border-radius: 8px;
+      width: 200px;
+    }
+
+    #jetpackMsg {
+      top: 10px;
+      left: 300px;
+      color: red;
+      font-weight: bold;
+      font-size: 20px;
+      text-shadow: 0 0 5px red;
+    }
+
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="score">Score: 0</div>
+  <div id="keybinds">
+    <b>Keybinds</b><br>
+    A - Move Left<br>
+    D - Move Right<br>
+    Space - Jump<br>
+    J - Jetpack<br>
+    K - Speed Boost
+  </div>
+  <div id="jetpackMsg"></div>
+  <canvas id="game"></canvas>
+
+  <script>
+    const canvas = document.getElementById('game');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let score = 0;
+    let keys = {};
+    let jumpCount = 0;
+    let lastPlatformX = 0;
+
+    const jetpackMsgEl = document.getElementById('jetpackMsg');
+
+    const player = {
+      x: 100,
+      y: 100,
+      width: 30,
+      height: 30,
+      dx: 0,
+      dy: 0,
+      speed: 5,
+      baseSpeed: 5,
+      jumpPower: 14,
+      gravity: 0.6,
+      grounded: false,
+      jetpack: false,
+      speedBoost: false
+    };
+
+    let jetpackActive = false;
+    let jetpackTimer = 0;
+    let jetpackCooldown = 0;
+    let jetpackCooldownSecs = 10;
+
+    let speedBoostTimer = 0;
+    let speedBoostCooldown = 0;
+
+    let platforms = [];
+
+    function createPlatform(x, y, width = 200, height = 20) {
+      return { x, y, width, height };
+    }
+
+    function resetGame() {
+      player.x = 100;
+      player.y = canvas.height - 150;
+      player.dy = 0;
+      player.dx = 0;
+      player.grounded = false;
+      jumpCount = 0;
+      platforms = [];
+
+      platforms.push(createPlatform(-1000, canvas.height - 40, 3000, 40));
+      lastPlatformX = 500;
+
+      for (let i = 0; i < 10; i++) addNewPlatform();
+
+      score = 0;
+      updateScore();
+    }
+
+    function addNewPlatform() {
+      let y = canvas.height - 200 - Math.random() * 250;
+      let width = 150 + Math.random() * 100;
+      let x = lastPlatformX + 200 + Math.random() * 200;
+      platforms.push(createPlatform(x, y, width));
+      lastPlatformX = x;
+    }
+
+    function updateScore() {
+      document.getElementById('score').textContent = 'Score: ' + score;
+    }
+
+    function drawStars() {
+      ctx.fillStyle = 'black';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < 200; i++) {
+        ctx.fillStyle = 'white';
+        ctx.fillRect(Math.random() * canvas.width, Math.random() * canvas.height, 1, 1);
+      }
+    }
+
+    function drawPlayer() {
+      ctx.fillStyle = '#0ff';
+      ctx.fillRect(player.x, player.y, player.width, player.height);
+    }
+
+    function drawRect(obj) {
+      ctx.fillStyle = '#888';
+      ctx.fillRect(obj.x, obj.y, obj.width, obj.height);
+    }
+
+    function gameLoop() {
+      update();
+      drawWorld();
+      requestAnimationFrame(gameLoop);
+    }
+
+    function update() {
+      player.dy += player.gravity;
+      player.grounded = false;
+
+      if (keys['a']) player.dx = -player.speed;
+      else if (keys['d']) player.dx = player.speed;
+      else player.dx = 0;
+
+      if (keys[' ']) {
+        if (jumpCount < 2) {
+          player.dy = -player.jumpPower;
+          jumpCount++;
+        }
+      }
+
+      if (keys['j']) {
+        if (jetpackCooldown <= 0 && !jetpackActive) {
+          jetpackActive = true;
+          jetpackTimer = 100;
+          jetpackCooldown = 600;
+          jetpackMsgEl.textContent = ''; // clear message
+        } else if (!jetpackActive && jetpackCooldown > 0) {
+          let secondsLeft = Math.ceil(jetpackCooldown / 60);
+          jetpackMsgEl.textContent = `Jetpack is recharging! Available in ${secondsLeft}s`;
+        }
+      }
+
+      if (jetpackActive && jetpackTimer > 0) {
+        player.dy = -6;
+        jetpackTimer--;
+      } else {
+        jetpackActive = false;
+      }
+
+      if (jetpackCooldown > 0) {
+        jetpackCooldown--;
+        if (jetpackCooldown === 0) {
+          jetpackMsgEl.textContent = '';
+        }
+      }
+
+      if (keys['k'] && speedBoostCooldown <= 0 && !player.speedBoost) {
+        player.speedBoost = true;
+        player.speed = player.baseSpeed * 2;
+        speedBoostTimer = 300;
+        speedBoostCooldown = 800;
+      }
+
+      if (player.speedBoost && speedBoostTimer > 0) {
+        speedBoostTimer--;
+      } else {
+        player.speedBoost = false;
+        player.speed = player.baseSpeed;
+      }
+
+      if (speedBoostCooldown > 0) speedBoostCooldown--;
+
+      player.x += player.dx;
+      player.y += player.dy;
+
+      for (let plat of platforms) {
+        if (
+          player.x < plat.x + plat.width &&
+          player.x + player.width > plat.x &&
+          player.y + player.height < plat.y + 10 &&
+          player.y + player.height + player.dy >= plat.y
+        ) {
+          player.y = plat.y - player.height;
+          player.dy = 0;
+          player.grounded = true;
+          jumpCount = 0;
+          score++;
+          updateScore();
+        }
+      }
+
+      platforms = platforms.filter(p => p.x + p.width > player.x - canvas.width / 2 - 500);
+      while (lastPlatformX < player.x + canvas.width) {
+        addNewPlatform();
+      }
+
+      if (player.y > canvas.height + 300) resetGame();
+    }
+
+    function drawWorld() {
+      ctx.save();
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawStars();
+      ctx.translate(-player.x + canvas.width / 2 - player.width / 2, 0);
+      drawPlayer();
+      for (let plat of platforms) drawRect(plat);
+      ctx.restore();
+    }
+
+    window.addEventListener('keydown', (e) => keys[e.key.toLowerCase()] = true);
+    window.addEventListener('keyup', (e) => keys[e.key.toLowerCase()] = false);
+
+    resetGame();
+    gameLoop();
+  </script>
+</body>
+</html>
