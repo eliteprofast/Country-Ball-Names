@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Minecraft - Build, Rate & Repeat</title>
+  <style>
+    body {
+      margin: 0;
+      background: #87ceeb;
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+      margin: auto;
+      background: #87ceeb;
+      cursor: pointer;
+      border: 2px solid #333;
+    }
+    .controls {
+      text-align: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    select, button, label {
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+    #timerDisplay {
+      font-size: 20px;
+      font-weight: bold;
+      color: red;
+      padding-left: 15px;
+    }
+    #ratingDisplay {
+      font-size: 22px;
+      font-weight: bold;
+      color: green;
+      margin-top: 15px;
+      height: 28px; /* reserve space */
+    }
+  </style>
+</head>
+
+<body>
+  <nav style="width:100vw;position:fixed;top:0;left:0;z-index:1000;background:#10b981;color:#fff;box-shadow:0 2px 8px #10b98122;display:flex;align-items:center;justify-content:center;height:54px;">
+    <a href="index.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Country Name Hunt</a>
+    <a href="logo-guess.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Logo Guess Game</a>
+    <a href="maths-learning-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Maths Learning Game</a>
+    <a href="english-reading-system.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">English Reading</a>
+    <a href="Rock-Paper-Scissors.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Rock Paper Scissors</a>
+    <a href="DragonType.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Dragon Type</a>
+    <a href="gravity-game.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Gravity Game</a>
+    <a href="Mini-Blocks-game.html" style="color:#fff;font-weight:bold;font-size:1.1em;text-decoration:none;padding:0 24px;transition:background 0.2s;">Mini Blocks Game</a>
+  </nav>
+  <div style="height:54px;"></div>
+
+<div class="controls">
+  <label for="colorPicker">🎨 Block Color:</label>
+  <select id="colorPicker"></select>
+
+  <label>
+    <input type="checkbox" id="deleteMode" />
+    🧱 Delete Block Mode
+  </label>
+
+  <button id="clearButton">🧹 Delete All Blocks</button>
+
+  <div id="timerDisplay">⏱ Build Time: 60s</div>
+</div>
+
+<div id="ratingDisplay" style="text-align:center;"></div>
+
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+
+<script>
+  const canvas = document.getElementById("gameCanvas");
+  const ctx = canvas.getContext("2d");
+  const colorPicker = document.getElementById("colorPicker");
+  const deleteMode = document.getElementById("deleteMode");
+  const clearButton = document.getElementById("clearButton");
+  const timerDisplay = document.getElementById("timerDisplay");
+  const ratingDisplay = document.getElementById("ratingDisplay");
+
+  const blockSize = 40;
+  const blocks = [];
+
+  let buildingEnabled = true;
+  let buildTime = 60;
+  let timer = null;
+
+  const allColors = [
+    "Red","Green","Blue","Yellow","Purple","Orange","Pink","Brown",
+    "Black","White","Gray","Cyan","Magenta","Lime","Navy","Teal","Olive",
+    "Maroon","Gold","Coral","Tomato","SkyBlue","Tan","SlateGray"
+  ];
+
+  // Populate color picker
+  allColors.forEach(color => {
+    const option = document.createElement("option");
+    option.value = color;
+    option.textContent = color;
+    colorPicker.appendChild(option);
+  });
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    blocks.forEach(block => {
+      ctx.fillStyle = block.color;
+      ctx.fillRect(block.x, block.y, blockSize, blockSize);
+      ctx.strokeStyle = "#000";
+      ctx.strokeRect(block.x, block.y, blockSize, blockSize);
+    });
+
+    ctx.strokeStyle = "rgba(0,0,0,0.1)";
+    for (let x = 0; x < canvas.width; x += blockSize) {
+      for (let y = 0; y < canvas.height; y += blockSize) {
+        ctx.strokeRect(x, y, blockSize, blockSize);
+      }
+    }
+  }
+
+  canvas.addEventListener("click", e => {
+    if (!buildingEnabled) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const x = Math.floor((e.clientX - rect.left) / blockSize) * blockSize;
+    const y = Math.floor((e.clientY - rect.top) / blockSize) * blockSize;
+
+    const index = blocks.findIndex(b => b.x === x && b.y === y);
+
+    if (deleteMode.checked) {
+      if (index !== -1) {
+        blocks.splice(index, 1);
+        draw();
+      }
+    } else {
+      if (index === -1) {
+        blocks.push({ x, y, color: colorPicker.value });
+        draw();
+      }
+    }
+  });
+
+  clearButton.addEventListener("click", () => {
+    if (!buildingEnabled) return;
+    blocks.length = 0;
+    draw();
+  });
+
+  function rateBuild() {
+    const count = blocks.length;
+    ratingDisplay.textContent = `Build Rating: You placed ${count} block${count !== 1 ? 's' : ''}!`;
+
+    // After 4 seconds, clear build & restart timer
+    setTimeout(() => {
+      ratingDisplay.textContent = "";
+      blocks.length = 0;
+      draw();
+      startBuildCycle();
+    }, 4000);
+  }
+
+  function startBuildCycle() {
+    buildingEnabled = true;
+    buildTime = 60;
+    timerDisplay.textContent = `⏱ Build Time: ${buildTime}s`;
+
+    timer = setInterval(() => {
+      buildTime--;
+      timerDisplay.textContent = `⏱ Build Time: ${buildTime}s`;
+
+      if (buildTime <= 0) {
+        clearInterval(timer);
+        buildingEnabled = false;
+        timerDisplay.textContent = "⛔ Build time over!";
+
+        // Show "Build time over!" for 4 sec, then rate build
+        setTimeout(() => {
+          timerDisplay.textContent = "";
+          rateBuild();
+        }, 4000);
+      }
+    }, 1000);
+  }
+
+  draw();
+  startBuildCycle();
+</script>
+
+</body>
+</html>
